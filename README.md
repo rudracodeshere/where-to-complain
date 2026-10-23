@@ -23,7 +23,7 @@ The queue of planned pages is in [QUEUE.md](QUEUE.md). Release notes are in [CHA
 
 ## Analytics status
 
-GoatCounter (free, no cookies) is live. Dashboard: https://where-to-complain.goatcounter.com (account email: Boss's; login needs Boss). The snippet is in the layout in build.py, so every new page gets it. Google Search Console is still a TODO for Boss: submit `https://rudracodeshere.github.io/where-to-complain/sitemap.xml`.
+GoatCounter (free, no cookies) is live. Dashboard: https://where-to-complain.goatcounter.com (account email: Boss's; login needs Boss). The snippet is in the layout in build.py, so every new page gets it. Google Search Console: verified (HTML file google26140f3f31e49c14.html, kept by build.py). Sitemap submitted 2026-10-23.
 
 ## Project layout
 
