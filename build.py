@@ -113,7 +113,7 @@ def layout(*, title, desc, canon_path, body, depth, jsonld=None, noindex=False, 
 <p>{E(SITE['name'])} is an independent, free guide. {E(DISCLAIMER)}</p>
 <p><a href="{r}about/">About &amp; disclaimer</a> · <a href="{r}sitemap.xml">Sitemap</a> · <a href="{E(SITE['repo_url'])}">Source on GitHub</a></p>
 </div></footer>
-<script data-goatcounter="https://where-to-complain.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script data-goatcounter="https://where-to-complain.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>
 """
