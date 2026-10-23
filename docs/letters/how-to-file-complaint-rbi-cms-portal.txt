@@ -1,0 +1,32 @@
+[Your full name]
+[Your address]
+[Mobile number] | [Email]
+Date: [dd/mm/yyyy]
+
+To,
+The Customer Service / Grievance Officer
+[Name of bank / NBFC / wallet / credit information company]
+[Branch or address / email from the entity's official complaint page]
+
+Subject: Complaint about [short problem, e.g. wrong debit / loan charges / service failure]. Account/Card/Loan no. [last 4 digits or reference only]
+
+Sir/Madam,
+
+1. I hold [account / card / loan / wallet] no. [last 4 digits or reference]. 
+
+2. On [date], [describe what happened in 3 to 6 lines: the transaction or service, amount, reference numbers].
+
+3. I [contacted you earlier on [date], reference [____] / am contacting you for the first time]. [Describe any reply you received.]
+
+4. This caused me [financial loss of Rs. ____ / inconvenience: describe briefly].
+
+5. I request you to [reverse the amount / correct the record / give a written explanation / other relief].
+
+6. Please acknowledge this complaint with a complaint number and send me a written reply. If I do not receive a satisfactory reply within the time allowed, I will approach the RBI Ombudsman under the Reserve Bank - Integrated Ombudsman Scheme, 2026.
+
+Enclosures: [statements, screenshots, earlier replies]
+
+Yours faithfully,
+[Signature]
+[Name]
+

@@ -1,0 +1,41 @@
+[Your full name]
+[Your address with PIN code]
+[Mobile number] | [Email]
+Date: [dd/mm/yyyy]
+
+To,
+The Insurance Ombudsman
+Office of the Insurance Ombudsman, [centre name]
+[Address or email of the office that covers your area, from the official list]
+
+Subject: Complaint under Rule 14 of the Insurance Ombudsman Rules, 2017 against [insurer name]. Policy no. [____]
+
+Sir/Madam,
+
+1. Complainant: [name], [address], [mobile], [email]. I am the [policyholder / insured / legal heir / nominee / assignee].
+
+2. Insurer complained against: [insurer name], branch/office [name and city].
+
+3. Policy details: Policy no. [____], type [health / other], period [from] to [to], sum insured Rs. [____].
+
+4. Facts: [Write the story in date order in 5 to 10 lines: treatment or event, claim made, insurer's decision and reason.]
+
+5. Loss caused to me: [amount claimed or payable Rs. ____, plus other loss if any]. The amount involved does not exceed Rs. 50 lakh.
+
+6. Relief sought: [for example, payment of Rs. ____ with interest as admissible / reconsideration of the claim].
+
+7. Prior representation to the insurer: I complained in writing to the insurer on [date] (copy enclosed). The insurer [rejected my complaint on [date] / did not reply within one month / replied on [date] and I am not satisfied with the reply]. This complaint is made within one year of that date.
+
+8. I declare that the same matter is not pending before, and has not been decided by, any court, consumer forum or arbitrator.
+
+Enclosures:
+1. Copy of my written complaint to the insurer
+2. Insurer's rejection or reply letter, if any
+3. Copy of the policy
+4. KYC particulars
+5. [Claim documents, bills, discharge summary]
+6. [Photograph, if you are filing online]
+
+[Signature]
+[Name]
+

@@ -1,0 +1,168 @@
+{
+ "slug": "health-insurance-claim-rejected",
+ "order": 1,
+ "sector": "insurance",
+ "also_in": [
+  "regulators"
+ ],
+ "title": "Health insurance claim rejected: what to do, in order",
+ "h1": "Health insurance claim rejected: what to do",
+ "description": "Health claim rejected or short-paid in India? The escalation order: insurer grievance officer, IRDAI Bima Bharosa, Insurance Ombudsman, with deadlines and a free letter.",
+ "audience": "For policyholders in India whose health insurance claim was rejected, short-paid or delayed",
+ "verified": "2026-10-23",
+ "primary_source": "https://irdai.gov.in/en/document-detail?documentId=5625747",
+ "verified_emails": [
+  "complaints@irdai.gov.in"
+ ],
+ "sources": [
+  {
+   "label": "IRDAI, Master Circular on Protection of Policyholders' Interests, 5 September 2024 (claims, 14-day complaint resolution, 15-day health settlement)",
+   "url": "https://irdai.gov.in/en/document-detail?documentId=5625747",
+   "checked": "2026-10-23"
+  },
+  {
+   "label": "IRDAI, Master Circular on Health Insurance Business, 29 May 2024 (cashless timelines, repudiation details, 60-month moratorium)",
+   "url": "https://irdai.gov.in/en/document-detail?documentId=4942918",
+   "checked": "2026-10-23"
+  },
+  {
+   "label": "IRDAI Bima Bharosa: IRDAI Grievance Call Centre and postal address",
+   "url": "https://bimabharosa.irdai.gov.in/Home/CallCenter",
+   "checked": "2026-10-23"
+  },
+  {
+   "label": "IRDAI Bima Bharosa: FAQ (IRDAI complaints email)",
+   "url": "https://bimabharosa.irdai.gov.in/Home/FAQ",
+   "checked": "2026-10-23"
+  },
+  {
+   "label": "IRDAI Bima Bharosa: Our Process (when to approach the Ombudsman)",
+   "url": "https://bimabharosa.irdai.gov.in/Home/OurProcess",
+   "checked": "2026-10-23"
+  },
+  {
+   "label": "IRDAI: List of Grievance Redressal Officers (GROs) of insurers",
+   "url": "https://irdai.gov.in/list-of-gros",
+   "checked": "2026-10-23"
+  },
+  {
+   "label": "Council for Insurance Ombudsmen: FAQs",
+   "url": "https://cioins.co.in/Faqs",
+   "checked": "2026-10-23"
+  },
+  {
+   "label": "Insurance Ombudsman Rules, 2017 (as amended till 9 November 2023), rules 13 to 17",
+   "url": "https://cioins.co.in/notification/Insurance%20Ombudsman%20Rules,%202017(%20as%20amended%20till%2009.11.2023).pdf",
+   "checked": "2026-10-23"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "answer",
+   "items": [
+    "<strong>Get the rejection in writing.</strong> For a rejection or part-payment, IRDAI's health circular says the insurer must give you full details with reference to the specific terms and conditions of the policy.",
+    "<strong>Write to the insurer's Grievance Redressal Officer (GRO)</strong> and keep the acknowledgement. IRDAI's circular says you must get an acknowledgement immediately and a resolution within <strong>14 days</strong>.",
+    "<strong>Not resolved, or you disagree?</strong> Escalate to IRDAI through Bima Bharosa (or call 155255).",
+    "<strong>Insurance Ombudsman:</strong> free, no lawyer needed. You can file once the insurer has rejected your complaint, has not replied for <strong>one month</strong>, or you are not satisfied with its reply. File within <strong>one year</strong> of that point. Claims up to ₹50 lakh.",
+    "<strong>One catch:</strong> the Ombudsman cannot take a dispute that is pending before, or already decided by, a court, consumer forum or arbitrator. Decide the order before you file anywhere else."
+   ]
+  },
+  {
+   "type": "steps",
+   "title": "Step-by-step: who to contact and by when",
+   "rows": [
+    {
+     "who": "<strong>Insurer or its TPA</strong>: ask for the rejection or deduction reasons in writing",
+     "contact": "Use the claims contact on your policy documents or the insurer's website. Not copied here because it differs by insurer.",
+     "deadline": "For non-cashless claims, IRDAI's circular says settlement within 15 days of submission of claim. Cashless: decision within 1 hour of the request; final discharge authorisation within 3 hours."
+    },
+    {
+     "who": "<strong>Insurer's Grievance Redressal Officer (GRO)</strong>: written complaint, use the letter template below",
+     "contact": "GRO name, email and address as listed by IRDAI: <a href=\"https://irdai.gov.in/list-of-gros\" rel=\"noopener\">https://irdai.gov.in/list-of-gros</a>. Council for Insurance Ombudsmen also lists GROs: <a href=\"https://cioins.co.in/GROLife\" rel=\"noopener\">life insurers</a>, <a href=\"https://cioins.co.in/GRONonLife\" rel=\"noopener\">general and health insurers</a>.",
+     "deadline": "Insurer must acknowledge immediately and resolve within 14 days, with reasons and reference to the policy terms if it does not accept the complaint (IRDAI circular, 5 Sep 2024)."
+    },
+    {
+     "who": "<strong>IRDAI Grievance Cell</strong> through Bima Bharosa",
+     "contact": "Online: <a href=\"https://bimabharosa.irdai.gov.in/\" rel=\"noopener\">https://bimabharosa.irdai.gov.in/</a>. Toll-free 155255 or 1800 4254 732. Email: <a href=\"mailto:complaints@irdai.gov.in\">complaints@irdai.gov.in</a>. By post: Insurance Regulatory and Development Authority of India, Consumer Affairs Department – Grievance Redressal Cell, Sy.No.115/1, Financial District, Nanakramguda, Gachibowli, Hyderabad - 500 032. (Source: <a href=\"https://bimabharosa.irdai.gov.in/Home/CallCenter\" rel=\"noopener\">Bima Bharosa call centre page</a> and <a href=\"https://bimabharosa.irdai.gov.in/Home/FAQ\" rel=\"noopener\">FAQ</a>.)",
+     "deadline": "Register on Bima Bharosa first. Its process page says that if the complaint is not attended to within 15 days of registration, or the insurer's resolution is not satisfactory, you may approach the Insurance Ombudsman. (The IRDAI circular says 14 days for the insurer to resolve; the portal page says 15 days for you to wait. Plan on the longer one.)"
+    },
+    {
+     "who": "<strong>Insurance Ombudsman</strong> for your area",
+     "contact": "Online: <a href=\"https://cioins.co.in/Complaint/Online\" rel=\"noopener\">https://cioins.co.in/Complaint/Online</a>. Or by email or signed letter to the office covering your area. Find it on our <a href=\"../insurance-ombudsman-offices-by-state/\">Ombudsman offices by state</a> page, or on <a href=\"https://cioins.co.in/Ombudsman\" rel=\"noopener\">the official list</a>.",
+     "deadline": "File within 1 year of: the insurer rejecting your complaint, or its decision you are not satisfied with, or one month after you sent your written complaint with no reply (Rules, rule 14). Award within 3 months of receiving all your requirements; insurer must comply within 30 days of the award."
+    },
+    {
+     "who": "<strong>Courts and consumer commissions</strong> (outside this ladder)",
+     "contact": "Not covered in this guide. The Council for Insurance Ombudsmen FAQ says that if you are unhappy with the Ombudsman's decision you may take recourse to the normal process of law.",
+     "deadline": "Not stated by the official pages used here. Ask a lawyer or the consumer commission about limitation before relying on any date."
+    }
+   ]
+  },
+  {
+   "type": "problems",
+   "items": [
+    {
+     "title": "The hospital says the cashless request was denied or delayed",
+     "html": "<p>IRDAI's Master Circular on Health Insurance Business (29 May 2024) says an insurer must decide on a cashless authorisation request immediately, and in any case within <strong>one hour</strong> of receiving it. The final authorisation for discharge must be given within <strong>three hours</strong> of the hospital's request, and the policyholder must not be made to wait to be discharged. If the delay goes beyond three hours, any additional amount the hospital charges is to be borne by the insurer from shareholders' funds.</p><p>What to do: ask the hospital's insurance desk for the time-stamped request and the insurer's written reply. If you pay and claim by reimbursement instead, keep every bill and say in your complaint that the cashless request was denied or delayed and when.</p>"
+    },
+    {
+     "title": "Rejected because a document was missing or the claim was reported late",
+     "html": "<p>IRDAI's Master Circular on Protection of Policyholders' Interests (5 September 2024) says: <em>\"No claim shall be rejected or closed for want of documents or for delayed intimation of claim.\"</em> The health circular also says that once a claim is intimated, insurers and TPAs must collect the required documents from the hospital, and the policyholder is not required to submit them.</p><p>What to do: quote that line in your complaint, give the dates you intimated the claim and sent documents, and ask the insurer to decide on the merits.</p>"
+    },
+    {
+     "title": "Rejected for non-disclosure, misrepresentation or a pre-existing condition",
+     "html": "<p>The health circular says no health policy or claim can be contested on grounds of non-disclosure or misrepresentation, except for established fraud, after <strong>60 months of continuous coverage</strong> (the moratorium period). Credits accrued under ported or migrated policies count towards the 60 months.</p><p>If you are inside 60 months, the insurer may still examine disclosure. Whether its reason is fair is exactly what the Ombudsman looks at, and we cannot predict the result. In your letter, state what you disclosed in the proposal form, on what date, and ask for the exact policy clause relied on.</p>"
+    },
+    {
+     "title": "Claim part-paid: deductions you do not understand",
+     "html": "<p>Under the Ombudsman Rules, a partial or total repudiation of a claim is a ground for complaint. IRDAI's health circular says that where a claim is repudiated or disallowed partially, details must be sent with full reference to the specific terms and conditions of the policy document. Ask for the clause behind each deduction (room rent, co-pay, sub-limits, non-payable items) and compare it with your policy schedule.</p>"
+    },
+    {
+     "title": "The claim is approved but payment is late",
+     "html": "<p>The Protection of Policyholders' circular says non-cashless health claims are to be settled within 15 days from submission of claim, and that if a claim is not settled within the specified timelines, the claimant is entitled to interest at bank rate plus 2 percent from the date of receipt of intimation until payment, which the insurer must pay on its own. Delay in settlement beyond the specified time is also a listed ground for an Ombudsman complaint. Mention the dates in your letter.</p>"
+    },
+    {
+     "title": "The insurer has not replied at all",
+     "html": "<p>Keep proof that you sent your written complaint (email sent item, courier receipt, portal acknowledgement). If one month passes with no reply, the Ombudsman Rules let you file with the Ombudsman. You can also register on Bima Bharosa, which sends the complaint to the insurer and the IRDAI record at the same time.</p>"
+    },
+    {
+     "title": "It is a group or employer policy",
+     "html": "<p>According to the Ombudsman FAQ, only individual policyholders, sole proprietors and micro enterprises on personal lines are eligible. A member covered under a master or group policy, or their legal heir or nominee, can approach the Ombudsman if the claim is payable to the individual as beneficiary. Companies, partnership firms, trusts and societies cannot.</p>"
+    },
+    {
+     "title": "What the Ombudsman cannot do",
+     "html": "<p>The Council for Insurance Ombudsmen FAQ says the Ombudsman cannot award ex-gratia payment, there is no provision to engage a lawyer, and no compensation above ₹50 lakh (including relevant expenses) can be awarded. There is no fee to file.</p>"
+    }
+   ]
+  },
+  {
+   "type": "section",
+   "title": "Regulator step: IRDAI and the Ombudsman",
+   "id": "regulator",
+   "html": "<p><strong>IRDAI (Bima Bharosa)</strong> monitors insurers' compliance. You register on the portal, the complaint flows to the insurer and to IRDAI, and you can see the insurer's response and IRDAI's remarks. If you are not satisfied with the insurer's answer, the portal says you can escalate for IRDAI to review a possible violation of regulations. Bima Bharosa does not ask for any payment; be careful with callers or sites that ask for money to speed up a claim.</p><p><strong>Insurance Ombudsman</strong> is the step that can order payment. Your complaint must be in writing, signed or sent by email or the CIO website, and must state your name and address, the insurer's branch or office complained against, the facts with documents, the nature and extent of your loss, and the relief you want (rule 14). Documents the CIO FAQ lists: a copy of your complaint to the insurer, KYC particulars, a photograph for online registration, the insurer's rejection letter, the policy copy and any other relevant documents. Complaints can be made to the office whose area covers either the insurer's branch you dealt with or your residence.</p><p>You can track an online complaint at <a href=\"https://cioins.co.in/Complaint/Track\" rel=\"noopener\">https://cioins.co.in/Complaint/Track</a>.</p>"
+  },
+  {
+   "type": "notice",
+   "html": "<strong>Check before you rely on this:</strong> in 2025 the government published a draft amendment to the Insurance Ombudsman Rules (for public comment). As of 23 October 2026 the Council for Insurance Ombudsmen website still publishes the Rules as amended till 9 November 2023, and this page follows those. If the Rules change, the deadlines above may change."
+  }
+ ],
+ "templates": [
+  {
+   "title": "Free letter template 1: complaint to the insurer's Grievance Redressal Officer",
+   "text": "[Your full name]\n[Your address]\n[Mobile number] | [Email]\nDate: [dd/mm/yyyy]\n\nTo,\nThe Grievance Redressal Officer\n[Insurer name]\n[GRO address or email, from your policy document, the insurer's website or the IRDAI list of GROs]\n\nSubject: Complaint against [rejection / part-payment / delay] of health insurance claim. Policy no. [____], Claim no. [____]\n\nSir/Madam,\n\n1. I am the [policyholder / insured person / nominee] under the above policy, valid from [date] to [date], issued in the name of [name].\n\n2. On [date], I [was admitted to / was treated at] [hospital name, city] for [treatment]. I submitted a [cashless request / reimbursement claim] on [date], reference [____].\n\n3. On [date], your company [or its TPA, name] [rejected my claim / paid only Rs. ____ of Rs. ____ claimed]. The reason given was: \"[type the reason exactly as written]\". A copy of that communication is enclosed.\n\n4. I do not agree with this decision because: [explain in 2 to 4 short lines, for example: the treatment is covered under clause ____ of the policy; the condition was disclosed in the proposal form dated ____; the document was submitted on ____].\n\n[Keep the next paragraph only if it applies] IRDAI's Master Circular on Protection of Policyholders' Interests dated 5 September 2024 says that no claim shall be rejected or closed for want of documents or for delayed intimation of claim.\n\n[Keep the next paragraph only if it applies] IRDAI's Master Circular on Health Insurance Business dated 29 May 2024 says that where a claim is repudiated or partly disallowed, full details must be given with reference to the specific terms and conditions of the policy document. Your communication does not give the clause relied upon.\n\n[Keep the next paragraph only if it applies] My claim was not settled within the timelines specified by IRDAI. Please also pay the interest due.\n\n5. I request you to [pay the claim amount of Rs. ____ / reconsider the claim / give me the clause-wise reasons for each deduction].\n\n6. Please acknowledge this complaint immediately and send me your resolution within 14 days, as required by IRDAI. If I do not receive a satisfactory reply, I will take this up with IRDAI through Bima Bharosa and with the Insurance Ombudsman.\n\nEnclosures:\n1. Policy schedule / policy copy\n2. Claim form and documents submitted\n3. Rejection / settlement letter dated [date]\n4. [Hospital discharge summary and bills]\n\nYours faithfully,\n[Signature]\n[Name]\n",
+   "intro_html": "Free to copy. Send it by email and keep the sent copy, or by courier and keep the receipt. Replace everything in [square brackets] and delete paragraphs that do not apply."
+  },
+  {
+   "title": "Free letter template 2: complaint to the Insurance Ombudsman",
+   "text": "[Your full name]\n[Your address with PIN code]\n[Mobile number] | [Email]\nDate: [dd/mm/yyyy]\n\nTo,\nThe Insurance Ombudsman\nOffice of the Insurance Ombudsman, [centre name]\n[Address or email of the office that covers your area, from the official list]\n\nSubject: Complaint under Rule 14 of the Insurance Ombudsman Rules, 2017 against [insurer name]. Policy no. [____]\n\nSir/Madam,\n\n1. Complainant: [name], [address], [mobile], [email]. I am the [policyholder / insured / legal heir / nominee / assignee].\n\n2. Insurer complained against: [insurer name], branch/office [name and city].\n\n3. Policy details: Policy no. [____], type [health / other], period [from] to [to], sum insured Rs. [____].\n\n4. Facts: [Write the story in date order in 5 to 10 lines: treatment or event, claim made, insurer's decision and reason.]\n\n5. Loss caused to me: [amount claimed or payable Rs. ____, plus other loss if any]. The amount involved does not exceed Rs. 50 lakh.\n\n6. Relief sought: [for example, payment of Rs. ____ with interest as admissible / reconsideration of the claim].\n\n7. Prior representation to the insurer: I complained in writing to the insurer on [date] (copy enclosed). The insurer [rejected my complaint on [date] / did not reply within one month / replied on [date] and I am not satisfied with the reply]. This complaint is made within one year of that date.\n\n8. I declare that the same matter is not pending before, and has not been decided by, any court, consumer forum or arbitrator.\n\nEnclosures:\n1. Copy of my written complaint to the insurer\n2. Insurer's rejection or reply letter, if any\n3. Copy of the policy\n4. KYC particulars\n5. [Claim documents, bills, discharge summary]\n6. [Photograph, if you are filing online]\n\n[Signature]\n[Name]\n",
+   "intro_html": "Free to copy. The Rules say the complaint must state your name and address, the insurer's branch complained against, the facts with documents, the loss and the relief sought. You can also file online at the official CIO portal and paste the same text."
+  }
+ ],
+ "related": [
+  "insurance-ombudsman-offices-by-state",
+  "how-to-file-complaint-rbi-cms-portal",
+  "insurance",
+  "regulators"
+ ],
+ "resources_html": ""
+}

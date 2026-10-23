@@ -1,0 +1,313 @@
+{
+ "slug": "insurance-ombudsman-offices-by-state",
+ "order": 2,
+ "sector": "insurance",
+ "also_in": [
+  "regulators"
+ ],
+ "title": "Insurance Ombudsman offices: which one covers your state",
+ "h1": "Insurance Ombudsman offices: which one covers your state",
+ "description": "All 18 Insurance Ombudsman centres in India: address, phone, email and areas covered, with a state-by-state lookup, copied from the official CIO site.",
+ "audience": "For anyone who needs to send an insurance complaint to the right Ombudsman office",
+ "verified": "2026-10-23",
+ "primary_source": "https://cioins.co.in/Ombudsman",
+ "verified_emails": [],
+ "sources": [
+  {
+   "label": "Council for Insurance Ombudsmen: Contact details of Ombudsman centres",
+   "url": "https://cioins.co.in/Ombudsman",
+   "checked": "2026-10-23"
+  },
+  {
+   "label": "Council for Insurance Ombudsmen: FAQs",
+   "url": "https://cioins.co.in/Faqs",
+   "checked": "2026-10-23"
+  },
+  {
+   "label": "Council for Insurance Ombudsmen: online complaint portal",
+   "url": "https://cioins.co.in/Complaint/Online",
+   "checked": "2026-10-23"
+  },
+  {
+   "label": "Insurance Ombudsman Rules, 2017 (as amended till 9 November 2023), rule 14",
+   "url": "https://cioins.co.in/notification/Insurance%20Ombudsman%20Rules,%202017(%20as%20amended%20till%2009.11.2023).pdf",
+   "checked": "2026-10-23"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "answer",
+   "items": [
+    "Find your state or union territory in the lookup table below, then use the office row in the full list for the address, phone and email.",
+    "Four places are split between offices: <strong>Haryana</strong> (four districts go to Delhi), <strong>Maharashtra</strong> (Pune, Mumbai or Thane by area), <strong>Uttar Pradesh</strong> (Lucknow or Noida by district) and <strong>Puducherry</strong> (Chennai, Hyderabad or Kochi by area).",
+    "Under Rule 14, you may file with the office that covers <em>either</em> the insurer's branch you dealt with <em>or</em> your own residence.",
+    "Complain to the insurer in writing first. The Ombudsman will not take the complaint otherwise. Then file within one year (details on the <a href=\"../health-insurance-claim-rejected/\">claim rejection guide</a>).",
+    "You can also file online at the official portal (link below)."
+   ]
+  },
+  {
+   "type": "steps",
+   "title": "Step-by-step: filing with the right office",
+   "rows": [
+    {
+     "who": "<strong>You</strong>: work out which office covers you",
+     "contact": "Use the state lookup and the full list on this page, or the official list at <a href=\"https://cioins.co.in/Ombudsman\" rel=\"noopener\">https://cioins.co.in/Ombudsman</a>",
+     "deadline": "No deadline for this step"
+    },
+    {
+     "who": "<strong>The insurer</strong>: send a written complaint first and keep proof",
+     "contact": "Insurer's Grievance Redressal Officer. See the <a href=\"../health-insurance-claim-rejected/\">claim rejection guide</a> for how.",
+     "deadline": "Wait for the reply. If no reply for one month, you may go to the Ombudsman."
+    },
+    {
+     "who": "<strong>Insurance Ombudsman office</strong>: complaint by signed letter, email, or the online portal",
+     "contact": "Online: <a href=\"https://cioins.co.in/Complaint/Online\" rel=\"noopener\">https://cioins.co.in/Complaint/Online</a>. Otherwise use the email or postal address in the table below.",
+     "deadline": "Within 1 year of the insurer's rejection or unsatisfactory reply, or of the end of the one-month wait (Rules, rule 14)"
+    },
+    {
+     "who": "<strong>You</strong>: track and respond",
+     "contact": "<a href=\"https://cioins.co.in/Complaint/Track\" rel=\"noopener\">https://cioins.co.in/Complaint/Track</a>",
+     "deadline": "Award is due within 3 months of the Ombudsman receiving all requirements from you (Rules, rule 17)"
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "id": "lookup",
+   "title": "Lookup: state or union territory to office",
+   "headers": [
+    "State or union territory",
+    "Office",
+    "Note"
+   ],
+   "rows": [
+    [
+     "Andaman &amp; Nicobar Islands",
+     "Kolkata",
+     ""
+    ],
+    [
+     "Andhra Pradesh",
+     "Hyderabad",
+     ""
+    ],
+    [
+     "Arunachal Pradesh",
+     "Guwahati",
+     ""
+    ],
+    [
+     "Assam",
+     "Guwahati",
+     ""
+    ],
+    [
+     "Bihar",
+     "Patna",
+     ""
+    ],
+    [
+     "Chandigarh",
+     "Chandigarh",
+     ""
+    ],
+    [
+     "Chhattisgarh",
+     "Bhopal",
+     ""
+    ],
+    [
+     "Dadra &amp; Nagar Haveli, Daman and Diu",
+     "Ahmedabad",
+     "Listed on the official page as published."
+    ],
+    [
+     "Delhi",
+     "Delhi",
+     ""
+    ],
+    [
+     "Goa",
+     "Pune",
+     ""
+    ],
+    [
+     "Gujarat",
+     "Ahmedabad",
+     ""
+    ],
+    [
+     "Haryana",
+     "Chandigarh",
+     "Except Gurugram, Faridabad, Sonepat and Bahadurgarh, which are covered by the Delhi office."
+    ],
+    [
+     "Himachal Pradesh",
+     "Chandigarh",
+     ""
+    ],
+    [
+     "Jammu &amp; Kashmir",
+     "Chandigarh",
+     ""
+    ],
+    [
+     "Jharkhand",
+     "Patna",
+     ""
+    ],
+    [
+     "Karnataka",
+     "Bengaluru",
+     ""
+    ],
+    [
+     "Kerala",
+     "Kochi",
+     ""
+    ],
+    [
+     "Ladakh",
+     "Chandigarh",
+     ""
+    ],
+    [
+     "Lakshadweep",
+     "Kochi",
+     ""
+    ],
+    [
+     "Madhya Pradesh",
+     "Bhopal",
+     ""
+    ],
+    [
+     "Maharashtra",
+     "Pune, Mumbai or Thane",
+     "Thane: Navi Mumbai, Thane, Raigad and Palghar districts, and Mumbai wards M/East, M/West, N, S and T. Mumbai: the rest of the Mumbai Metropolitan Region (not Navi Mumbai). Pune: rest of Maharashtra. Read the exact wording in the full list below."
+    ],
+    [
+     "Manipur",
+     "Guwahati",
+     ""
+    ],
+    [
+     "Meghalaya",
+     "Guwahati",
+     ""
+    ],
+    [
+     "Mizoram",
+     "Guwahati",
+     ""
+    ],
+    [
+     "Nagaland",
+     "Guwahati",
+     ""
+    ],
+    [
+     "Odisha",
+     "Bhubaneswar",
+     ""
+    ],
+    [
+     "Puducherry",
+     "Chennai, Hyderabad or Kochi",
+     "Chennai: Puducherry town and Karaikal. Hyderabad: Yanam. Kochi: Mahe."
+    ],
+    [
+     "Punjab",
+     "Chandigarh",
+     ""
+    ],
+    [
+     "Rajasthan",
+     "Jaipur",
+     ""
+    ],
+    [
+     "Sikkim",
+     "Kolkata",
+     ""
+    ],
+    [
+     "Tamil Nadu",
+     "Chennai",
+     ""
+    ],
+    [
+     "Telangana",
+     "Hyderabad",
+     ""
+    ],
+    [
+     "Tripura",
+     "Guwahati",
+     ""
+    ],
+    [
+     "Uttar Pradesh",
+     "Lucknow or Noida",
+     "By district. Each office's list of districts is in the full table below. If your district is in neither list, the official page does not say; ask either office by email."
+    ],
+    [
+     "Uttarakhand",
+     "Noida",
+     ""
+    ],
+    [
+     "West Bengal",
+     "Kolkata",
+     ""
+    ]
+   ]
+  },
+  {
+   "type": "offices",
+   "id": "offices",
+   "title": "All 18 Insurance Ombudsman centres",
+   "file": "ombudsman_offices.json"
+  },
+  {
+   "type": "problems",
+   "title": "Common problems",
+   "items": [
+    {
+     "title": "I live in one state and bought the policy in another",
+     "html": "<p>Rule 14 lets you file with the Ombudsman whose area covers the insurer's branch or office complained against <em>or</em> your residential address. Either can work; use the one that suits you.</p>"
+    },
+    {
+     "title": "My district is not in the Uttar Pradesh lists",
+     "html": "<p>The official page names districts for Lucknow and Noida only in the lists shown above, some with spellings that differ from current names (for example \"Allahabad\", \"Gorkhpur\"). We have copied them as published and do not guess. If you cannot find your district, email one of the two offices and ask which one covers you.</p>"
+    },
+    {
+     "title": "The official site seems to disagree with itself",
+     "html": "<p>On 23 October 2026 the Council for Insurance Ombudsmen site showed these differences. We followed the contact list that is shown by default and the Rules and FAQ text, and recommend you confirm by email before sending original documents.</p><ul><li>The Ombudsman page contains a second, older-looking copy of the centre list with different addresses and phone numbers for several offices (for example Bhopal, Chandigarh, Kochi and Kolkata). We used the list that is displayed by default.</li><li>The home page shows \"17 Centers\" and says the Ombudsman entertains complaints where the amount is less than ₹30 lakh (the same page also says compensation sought should not exceed ₹50 lakh), while the Ombudsman list shows 18 centres and the Rules and FAQ say ₹50 lakh. We used 18 and ₹50 lakh.</li><li>Names of Ombudsmen differ between the two lists, so we have not published officer names.</li></ul>"
+    },
+    {
+     "title": "Can I just file online?",
+     "html": "<p>Yes. The Rules provide for online submission and tracking, and the CIO FAQ says to use \"Register complaint\" under \"Complaint Online\" on its website. For an online complaint the FAQ lists a photograph among the documents.</p>"
+    }
+   ]
+  },
+  {
+   "type": "notice",
+   "html": "<strong>Phone numbers and addresses change.</strong> The table is copied as published on 23 October 2026. If a call goes unanswered, send an email and keep the sent copy. If the email bounces, check the official page again before you post anything."
+  }
+ ],
+ "templates": [
+  {
+   "title": "Free email template: cover email to the Ombudsman office",
+   "text": "Subject: Complaint against [insurer name], policy no. [____], by [your name]\n\nTo: [office email from the table above]\n\nSir/Madam,\n\nPlease find attached my complaint under Rule 14 of the Insurance Ombudsman Rules, 2017 against [insurer name], branch [name, city].\n\nMy address is [full address with PIN code] ([state/district]), which I understand falls under your jurisdiction. The insurer's branch concerned is in [city, state]. If this matter belongs to a different Ombudsman office, please tell me which one and I will re-send it.\n\nI made a written complaint to the insurer on [date]. The insurer [rejected it on [date] / has not replied for more than one month / replied on [date] and I am not satisfied]. Copies are attached.\n\nAttachments:\n1. Complaint letter (signed)\n2. My written complaint to the insurer and proof of sending\n3. Insurer's reply or rejection letter, if any\n4. Policy copy\n5. KYC particulars\n6. Claim documents\n\nMobile: [number]\n[Name]\n",
+   "intro_html": "Free to copy. Attach the complaint letter from the <a href=\"../health-insurance-claim-rejected/#template-2\">claim rejection guide</a>."
+  }
+ ],
+ "related": [
+  "health-insurance-claim-rejected",
+  "how-to-file-complaint-rbi-cms-portal",
+  "insurance",
+  "regulators"
+ ],
+ "resources_html": ""
+}

@@ -1,0 +1,42 @@
+[Your full name]
+[Your address]
+[Mobile number] | [Email]
+Date: [dd/mm/yyyy]
+
+To,
+The Grievance Redressal Officer
+[Insurer name]
+[GRO address or email, from your policy document, the insurer's website or the IRDAI list of GROs]
+
+Subject: Complaint against [rejection / part-payment / delay] of health insurance claim. Policy no. [____], Claim no. [____]
+
+Sir/Madam,
+
+1. I am the [policyholder / insured person / nominee] under the above policy, valid from [date] to [date], issued in the name of [name].
+
+2. On [date], I [was admitted to / was treated at] [hospital name, city] for [treatment]. I submitted a [cashless request / reimbursement claim] on [date], reference [____].
+
+3. On [date], your company [or its TPA, name] [rejected my claim / paid only Rs. ____ of Rs. ____ claimed]. The reason given was: "[type the reason exactly as written]". A copy of that communication is enclosed.
+
+4. I do not agree with this decision because: [explain in 2 to 4 short lines, for example: the treatment is covered under clause ____ of the policy; the condition was disclosed in the proposal form dated ____; the document was submitted on ____].
+
+[Keep the next paragraph only if it applies] IRDAI's Master Circular on Protection of Policyholders' Interests dated 5 September 2024 says that no claim shall be rejected or closed for want of documents or for delayed intimation of claim.
+
+[Keep the next paragraph only if it applies] IRDAI's Master Circular on Health Insurance Business dated 29 May 2024 says that where a claim is repudiated or partly disallowed, full details must be given with reference to the specific terms and conditions of the policy document. Your communication does not give the clause relied upon.
+
+[Keep the next paragraph only if it applies] My claim was not settled within the timelines specified by IRDAI. Please also pay the interest due.
+
+5. I request you to [pay the claim amount of Rs. ____ / reconsider the claim / give me the clause-wise reasons for each deduction].
+
+6. Please acknowledge this complaint immediately and send me your resolution within 14 days, as required by IRDAI. If I do not receive a satisfactory reply, I will take this up with IRDAI through Bima Bharosa and with the Insurance Ombudsman.
+
+Enclosures:
+1. Policy schedule / policy copy
+2. Claim form and documents submitted
+3. Rejection / settlement letter dated [date]
+4. [Hospital discharge summary and bills]
+
+Yours faithfully,
+[Signature]
+[Name]
+

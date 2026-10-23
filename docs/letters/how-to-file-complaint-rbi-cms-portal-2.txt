@@ -1,0 +1,16 @@
+Complainant: [name], [mobile], [email], [full postal address]
+Entity complained against: [name], branch/location [____]
+Entity's complaint no.: [____]   Date I complained: [dd/mm/yyyy]
+Entity's reply (date and summary): [____ / no reply received]
+Account/card/loan reference: [last 4 digits or reference only]
+Transaction date, amount and reference no.: [____]
+
+Facts:
+1. [Date]: [what happened]
+2. [Date]: [what I did, including the date I complained to the entity]
+3. [Date]: [what the entity replied, or that 30 days passed without reply]
+
+Loss or inconvenience: [amount and description]
+Relief sought: [what you want the Ombudsman to direct]
+Documents attached: [list]
+

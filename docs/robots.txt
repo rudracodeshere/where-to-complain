@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rudracodeshere.github.io/where-to-complain/sitemap.xml
