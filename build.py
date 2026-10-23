@@ -414,6 +414,7 @@ def main():
     write("404.html", render_404())
     write(".nojekyll", "")
     write("robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {BASE}sitemap.xml\n")
+    write("google26140f3f31e49c14.html", "google-site-verification: google26140f3f31e49c14.html")
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     today = date.today().isoformat()
     for u, lm in urls:
