@@ -9,7 +9,7 @@ Source of the list: `/workspace/boring-realty/picks/01-escalation-ladder-directo
 |---|--------|------|------|-------|
 | 1 | done | Health insurance claim rejected: what to do | `health-insurance-claim-rejected` | Published 2026-10-23 |
 | 2 | done | Insurance Ombudsman offices: which one covers your state | `insurance-ombudsman-offices-by-state` | Published 2026-10-23 |
-| 3 | todo | Star Health: grievance officer, escalation ladder, claim-rejected template | `star-health-complaint-escalation` | Must copy GRO details from Star Health's own grievance page and the IRDAI GRO list. |
+| 3 | done | Star Health: grievance officer, escalation ladder, claim-rejected template | `star-health-complaint-escalation` | Published 2026-10-24: https://rudracodeshere.github.io/where-to-complain/star-health-complaint-escalation/ . GRO details from starhealth.in grievance page + IRDAI/CIO GRO lists (they differ on the GRO email; both shown). |
 | 4 | todo | Care Health: cashless denied / claim rejected ladder + template | `care-health-complaint-escalation` | Same method as #3. |
 | 5 | todo | HDFC Bank: escalation matrix and nodal officer, then RBI CMS (what to attach) | `hdfc-bank-complaint-escalation` | Copy matrix only from hdfcbank.com's own page; link RBI CMS page. |
 | 6 | done | How to file a complaint on the RBI CMS portal | `how-to-file-complaint-rbi-cms-portal` | Published 2026-10-23. Follows RB-IOS 2026 (30-day wait, 90-day window). |

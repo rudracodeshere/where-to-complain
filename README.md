@@ -7,7 +7,7 @@ A free, no-JavaScript, no-tracker static directory of Indian complaint escalatio
 
 **Who it helps:** people in India whose insurance claim was rejected, whose bank or lender did not resolve a complaint, and anyone who needs to know which ombudsman office covers them.
 
-## Pages (as of 2026-10-23)
+## Pages (as of 2026-10-24)
 
 | Page | URL |
 |------|-----|
@@ -15,6 +15,7 @@ A free, no-JavaScript, no-tracker static directory of Indian complaint escalatio
 | Health insurance claim rejected: what to do | https://rudracodeshere.github.io/where-to-complain/health-insurance-claim-rejected/ |
 | Insurance Ombudsman offices: which one covers your state | https://rudracodeshere.github.io/where-to-complain/insurance-ombudsman-offices-by-state/ |
 | How to file a complaint on the RBI CMS portal | https://rudracodeshere.github.io/where-to-complain/how-to-file-complaint-rbi-cms-portal/ |
+| Star Health complaint escalation: GRO, IRDAI, Ombudsman, letter | https://rudracodeshere.github.io/where-to-complain/star-health-complaint-escalation/ |
 | Hubs: Insurance, Banks, Regulators | `/insurance/`, `/banks/`, `/regulators/` |
 | About and disclaimer | `/about/` |
 | Sitemap, robots | `/sitemap.xml`, `/robots.txt` |
