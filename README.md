@@ -32,7 +32,7 @@ build.py                  generator (Python 3, standard library only)
 site.json                 site name, base URL, sector list
 data/pages/NN-slug.json   one file per content page
 data/ombudsman_offices.json  data used by the "offices" block
-tools/fetch_text.py       helper: fetch an official page as readable text (needs python3 + requests/bs4)
+tools/fetch_text.py       helper: fetch an official page as readable text (python3 + curl; usage: python3 tools/fetch_text.py URL)
 docs/                     generated site, served by GitHub Pages (commit it)
 QUEUE.md                  todo/done list of pages
 ```
