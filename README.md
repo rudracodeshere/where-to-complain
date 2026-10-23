@@ -23,7 +23,7 @@ The queue of planned pages is in [QUEUE.md](QUEUE.md). Release notes are in [CHA
 
 ## Analytics status
 
-**None yet.** The site has no analytics. TODO for Boss: free GoatCounter or Google Search Console both need Boss's own sign-in. Nothing has been created for either. If Search Console is set up, submit `https://rudracodeshere.github.io/where-to-complain/sitemap.xml`.
+GoatCounter (free, no cookies) is live. Dashboard: https://where-to-complain.goatcounter.com (account email: Boss's; login needs Boss). The snippet is in the layout in build.py, so every new page gets it. Google Search Console is still a TODO for Boss: submit `https://rudracodeshere.github.io/where-to-complain/sitemap.xml`.
 
 ## Project layout
 

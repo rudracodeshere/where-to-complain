@@ -113,6 +113,7 @@ def layout(*, title, desc, canon_path, body, depth, jsonld=None, noindex=False, 
 <p>{E(SITE['name'])} is an independent, free guide. {E(DISCLAIMER)}</p>
 <p><a href="{r}about/">About &amp; disclaimer</a> · <a href="{r}sitemap.xml">Sitemap</a> · <a href="{E(SITE['repo_url'])}">Source on GitHub</a></p>
 </div></footer>
+<script data-goatcounter="https://where-to-complain.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
 """
@@ -290,7 +291,7 @@ def render_about():
 <li>Every contact detail, address, timeline and limit is read from an official regulator or government page and linked on the page with the date we checked it.</li>
 <li>If something is not published officially, or the official page could not be opened when we checked, the page says so and points to the official portal. We do not fill gaps from forums, news articles or third-party copies.</li>
 <li>Letter templates are our own wording, free to copy. They contain only blanks for you to fill in.</li>
-<li>We do not publish anyone's personal complaint or story, and we do not collect your data. This site has no forms, no scripts, no ads and no analytics.</li>
+<li>We do not publish anyone's personal complaint or story, and we do not collect your data. This site has no forms and no ads. It uses GoatCounter, a privacy-friendly counter that sets no cookies, only to count page visits.</li>
 </ul>
 <h2>Disclaimer</h2>
 <p>{E(DISCLAIMER)}</p>
