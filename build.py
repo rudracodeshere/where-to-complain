@@ -21,8 +21,18 @@ BASE_PATH = "/" + BASE.split("/", 3)[3]  # e.g. /where-to-complain/
 E = html.escape
 DISCLAIMER = ("This page is general information to help you find the right official channel. It is not legal, "
               "financial or insurance advice, and it is not affiliated with any regulator, insurer, bank or "
-              "company. Rules and contact details change; always confirm on the official source linked below "
-              "before you act. If your case is complex or the amount is large, talk to a qualified professional.")
+              "company. Rules and contact details change, so always confirm with the official body before you act. "
+              "Each guide links its official sources with the date we checked them. If your case is complex or the "
+              "amount is large, talk to a qualified professional.")
+FOOTER_NOTE = "General information only, not legal advice. Not affiliated with any regulator or company."
+ORG_ID = BASE + "#organization"
+WEB_ID = BASE + "#website"
+ISSUES = SITE["repo_url"] + "/issues"
+ORG_NODE = {"@type": "Organization", "@id": ORG_ID, "name": SITE["name"], "url": BASE,
+            "logo": {"@type": "ImageObject", "url": BASE + "logo.png", "width": 512, "height": 512},
+            "publishingPrinciples": BASE + "how-we-check-facts/", "sameAs": [SITE["repo_url"]]}
+WEBSITE_NODE = {"@type": "WebSite", "@id": WEB_ID, "name": SITE["name"], "url": BASE,
+                "description": SITE["tagline"], "inLanguage": "en-IN", "publisher": {"@id": ORG_ID}}
 
 CSS = (ROOT / "style.css").read_text(encoding="utf-8")
 
@@ -38,18 +48,22 @@ def fmt_date(iso):
     y, m, d = map(int, iso.split("-"))
     return date(y, m, d).strftime("%-d %B %Y")
 
-def layout(*, title, desc, canon_path, body, depth, jsonld=None, noindex=False, crumbs=None, current=None):
+def layout(*, title, desc, canon_path, body, depth, jsonld=None, noindex=False, crumbs=None, current=None, canonical=True):
     r = rel(depth)
     canon = BASE + canon_path
     cur = lambda slug: ' aria-current="page"' if slug == current else ""
     nav = "".join(f'<a href="{r}{s["slug"]}/"{cur(s["slug"])}>{E(s["name"])}</a>' for s in SITE["sectors"] if s["slug"] in LIVE_SECTORS)
-    jsonld = list(jsonld or [])
+    # One JSON-LD @graph per page: the Organization and WebSite nodes, then the page's own nodes,
+    # linked by @id so engines read them as one publisher, one site and one page.
+    graph = [ORG_NODE, WEBSITE_NODE] + [{k: v for k, v in d.items() if k != "@context"} for d in (jsonld or [])]
     if crumbs:  # BreadcrumbList always mirrors the visible breadcrumb trail
-        jsonld.append({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        graph.append({"@type": "BreadcrumbList", "@id": canon + "#breadcrumb", "itemListElement": [
             {"@type": "ListItem", "position": i + 1, "name": t, "item": BASE + (u if u is not None else canon_path)}
             for i, (t, u) in enumerate(crumbs)]})
-    ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ""
+    ld = "" if noindex else ('<script type="application/ld+json">'
+          + json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False) + "</script>")
     robots = '<meta name="robots" content="noindex">' if noindex else ""
+    canon_tag = f'<link rel="canonical" href="{E(canon)}">' if canonical else ""
     cr = ""
     if crumbs:
         cr = '<nav class="crumbs" aria-label="Breadcrumb"><ol>' + "".join(
@@ -63,21 +77,30 @@ def layout(*, title, desc, canon_path, body, depth, jsonld=None, noindex=False, 
 <meta name="color-scheme" content="light dark">
 <title>{E(title)}</title>
 <meta name="description" content="{E(desc)}">
-<link rel="canonical" href="{E(canon)}">
+{canon_tag}
 {robots}
-<link rel="icon" href="data:,">
+<link rel="icon" href="{r}favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{r}logo.png">
 <link rel="stylesheet" href="{r}style.css">
 <meta property="og:title" content="{E(title)}">
 <meta property="og:description" content="{E(desc)}">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="{E(SITE['name'])}">
 <meta property="og:url" content="{E(canon)}">
+<meta property="og:image" content="{BASE}og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Where to Complain: who to write to, in what order, by when">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{E(title)}">
+<meta name="twitter:description" content="{E(desc)}">
+<meta name="twitter:image" content="{BASE}og.png">
 {ld}
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site"><div class="wrap">
-<a class="brand" href="{r}">{E(SITE['name'])}</a>
+<a class="brand" href="{r or './'}">{E(SITE['name'])}</a>
 <nav aria-label="Main">{nav}<a href="{r}about/"{cur("about")}>About</a></nav>
 </div></header>
 <main class="wrap" id="main">
@@ -85,8 +108,8 @@ def layout(*, title, desc, canon_path, body, depth, jsonld=None, noindex=False, 
 {body}
 </main>
 <footer class="site"><div class="wrap">
-<p>{E(SITE['name'])} is an independent, free guide. {E(DISCLAIMER)}</p>
-<p><a href="{r}about/">About &amp; disclaimer</a> · <a href="{r}sitemap.xml">Sitemap</a> · <a href="{E(SITE['repo_url'])}">Source on GitHub</a></p>
+<p>{E(SITE['name'])} is an independent, free guide. {E(FOOTER_NOTE)}</p>
+<p><a href="{r}about/">About &amp; disclaimer</a> · <a href="{r}how-we-check-facts/">How we check facts</a> · <a href="{r}privacy/">Privacy</a> · <a href="{E(ISSUES)}">Report an error</a> · <a href="{r}sitemap.xml">Sitemap</a> · <a href="{E(SITE['repo_url'])}">Source on GitHub</a></p>
 </div></footer>
 <script data-goatcounter="https://where-to-complain.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
@@ -98,7 +121,7 @@ def layout(*, title, desc, canon_path, body, depth, jsonld=None, noindex=False, 
 def link_sources(sources):
     li = ""
     for s in sources:
-        li += (f'<li>{E(s["label"])} — <a href="{E(s["url"])}" rel="noopener">{E(s["url"])}</a> '
+        li += (f'<li>{E(s["label"])}: <a href="{E(s["url"])}" rel="noopener">{E(s["url"])}</a> '
                f'(checked {fmt_date(s["checked"])})</li>')
     return f'<ul class="sources">{li}</ul>'
 
@@ -225,16 +248,17 @@ def render_page(page):
             f'source: <a href="{E(page["primary_source"])}" rel="noopener">{E(page["primary_source"])}</a></strong></p>'
             f'<details open><summary>All official sources used</summary>{link_sources(page["sources"])}</details>'
             f'<p><strong>Disclaimer.</strong> {E(DISCLAIMER)}</p></section>')
+    url = BASE + page["slug"] + "/"
     ld = [{
-        "@context": "https://schema.org", "@type": "Article", "headline": page["h1"],
-        "description": page["description"], "inLanguage": "en-IN",
+        "@type": "Article", "@id": url + "#article", "headline": page["h1"],
+        "description": page["description"], "inLanguage": "en-IN", "image": BASE + "og.png",
         "dateModified": page["verified"], "datePublished": page.get("published", page["verified"]),
-        "mainEntityOfPage": BASE + page["slug"] + "/",
-        "author": {"@type": "Organization", "name": SITE["name"], "url": BASE + "about/"},
-        "publisher": {"@type": "Organization", "name": SITE["name"], "url": BASE + "about/"}
+        "mainEntityOfPage": url, "isPartOf": {"@id": WEB_ID},
+        "author": {"@type": "Organization", "@id": ORG_ID, "name": SITE["name"], "url": BASE},
+        "publisher": {"@id": ORG_ID}
     }]
     if page.get("faq"):
-        ld.append({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+        ld.append({"@type": "FAQPage", "@id": url + "#faq", "isPartOf": {"@id": WEB_ID}, "mainEntity": [
             {"@type": "Question", "name": f["q"], "acceptedAnswer": {"@type": "Answer", "text": f["a"]}} for f in page["faq"]]})
     return layout(title=page["title"], desc=page["description"], canon_path=page["slug"] + "/",
                   body=body, depth=depth, jsonld=ld, current=page["sector"],
@@ -250,7 +274,7 @@ def render_hub(sec):
     extra = HUB_EXTRA.get(sec["slug"], "")
     body = (f'<h1>{E(sec["name"])}: where to complain</h1><p>{E(sec["blurb"])}</p>'
             f'<ul class="cards">{items}</ul>{extra}'
-            f'<p class="soon">More {E(sec["name"].lower())} guides are added regularly. See the <a href="{r}about/">about page</a> for how pages are checked.</p>'
+            f'<p class="soon">More {E(sec["name"].lower())} guides are added regularly. See <a href="{r}how-we-check-facts/">how we check facts</a>.</p>'
             f'<section class="verified"><p><strong>Disclaimer.</strong> {E(DISCLAIMER)}</p></section>')
     desc = HUB_DESC.get(sec["slug"], f'{sec["name"]} complaints in India: step-by-step escalation guides with official contacts and deadlines.')
     return layout(title=f'{sec["name"]} complaints in India | {SITE["name"]}', desc=desc,
@@ -270,12 +294,12 @@ HUB_EXTRA = {
 <tr><th>Body</th><th>What it handles</th><th>Where to start (official)</th></tr>
 <tr><td>IRDAI (Insurance Regulatory and Development Authority of India)</td><td>Complaints about insurers and insurance intermediaries, after you have tried the insurer first</td><td><a href="https://bimabharosa.irdai.gov.in/" rel="noopener">Bima Bharosa portal</a>; toll-free 155255 or 1800 4254 732; <a href="mailto:complaints@irdai.gov.in">complaints@irdai.gov.in</a> (as published on the portal, checked 23 October 2026)</td></tr>
 <tr><td>Insurance Ombudsman (Council for Insurance Ombudsmen)</td><td>Free dispute resolution for individual policyholders, claims up to the limit in the Rules</td><td><a href="https://cioins.co.in/" rel="noopener">cioins.co.in</a></td></tr>
-<tr><td>RBI Ombudsman (Reserve Bank – Integrated Ombudsman Scheme, 2026)</td><td>Service deficiency by banks, NBFCs, non-bank prepaid wallet issuers and credit information companies covered by the Scheme</td><td><a href="https://cms.rbi.org.in" rel="noopener">cms.rbi.org.in</a>; contact centre 14448; <a href="mailto:crpc@rbi.org.in">crpc@rbi.org.in</a> (as published by RBI, checked 23 October 2026)</td></tr>
+<tr><td>RBI Ombudsman (Reserve Bank - Integrated Ombudsman Scheme, 2026)</td><td>Service deficiency by banks, NBFCs, non-bank prepaid wallet issuers and credit information companies covered by the Scheme</td><td><a href="https://cms.rbi.org.in" rel="noopener">cms.rbi.org.in</a>; contact centre 14448; <a href="mailto:crpc@rbi.org.in">crpc@rbi.org.in</a> (as published by RBI, checked 23 October 2026)</td></tr>
 </table></div>
 """
 }
 
-HOME_DESC = "Plain-English escalation ladders for Indian consumer complaints: who to write to, in what order, by when. Insurance and RBI banking guides with official sources."
+HOME_DESC = "Plain-English escalation ladders for Indian consumer complaints: who to write to, in what order, by when. Insurance and RBI bank guides with official sources."
 
 def render_home(pages_sorted):
     r = ""
@@ -290,18 +314,18 @@ def render_home(pages_sorted):
     body = (f'<h1>{E(SITE["name"])}: the order to escalate an Indian consumer complaint</h1>'
             f'<p>{E(SITE["tagline"])} Every page names the official body, gives its published contact, '
             f'states the deadline, and shows the source and the date we last checked it. Free letter templates included. '
-            f'No sign-up, no ads, no tracking.</p>'
+            f'No sign-up, no ads, no cookies. Visits are counted with GoatCounter, a privacy-friendly counter: '
+            f'see the <a href="privacy/">privacy page</a>.</p>'
             f'<h2>Browse by sector</h2><ul class="cards">{cards}</ul>'
             f'<h2>Guides</h2><ul>{latest}</ul>'
             f'<h2>How we keep it honest</h2><ul>'
             f'<li>Facts come only from official regulator or government pages, linked on each page with the date checked.</li>'
             f'<li>If a contact or deadline is not published officially, we say so instead of guessing.</li>'
-            f'<li>We do not collect or publish anyone\'s personal complaint or data.</li></ul>'
+            f'<li>We do not collect or publish anyone\'s personal complaint or data.</li>'
+            f'<li>Read <a href="how-we-check-facts/">how we check facts</a> and how to report an error.</li></ul>'
             f'<section class="verified"><p><strong>Disclaimer.</strong> {E(DISCLAIMER)}</p></section>')
-    ld = [{"@context": "https://schema.org", "@type": "WebSite", "name": SITE["name"], "url": BASE,
-           "description": SITE["tagline"], "inLanguage": "en-IN"}]
     return layout(title=f'{SITE["name"]}: India complaint escalation guides', desc=HOME_DESC,
-                  canon_path="", body=body, depth=0, jsonld=ld)
+                  canon_path="", body=body, depth=0)
 
 def render_about():
     body = f"""<h1>About {E(SITE['name'])} and disclaimer</h1>
@@ -313,22 +337,80 @@ def render_about():
 <li>Letter templates are our own wording, free to copy. They contain only blanks for you to fill in.</li>
 <li>We do not publish anyone's personal complaint or story, and we do not collect your data. This site has no forms and no ads. It uses GoatCounter, a privacy-friendly counter that sets no cookies, only to count page visits.</li>
 </ul>
+<p>The full method is on <a href="../how-we-check-facts/">how we check facts</a>. What the visit counter and the host record is on the <a href="../privacy/">privacy page</a>.</p>
 <h2>Disclaimer</h2>
 <p>{E(DISCLAIMER)}</p>
 <p>The site is not affiliated with, endorsed by, or an agent of IRDAI, the Reserve Bank of India, the Council for Insurance Ombudsmen, or any insurer, bank or other company. We cannot take up your complaint for you, and we never ask for passwords, OTPs, card numbers, KYC documents or money. Official ombudsman services in these guides are free of cost to complainants.</p>
 <h2>Found something out of date?</h2>
-<p>Please open an issue at <a href="{E(SITE['repo_url'])}/issues">{E(SITE['repo_url'])}/issues</a>. Always check the official source linked on the page first.</p>
+<p>Please open an issue at <a href="{E(ISSUES)}">{E(ISSUES)}</a>. Issues are public, so do not post personal details, policy numbers or documents. Always check the official source linked on the page first.</p>
 <h2>Affiliate links</h2>
 <p>There are none today. If any ever appear, they will be marked clearly on the page where they appear.</p>"""
     return layout(title=f"About and disclaimer | {SITE['name']}",
                   desc="How Where to Complain checks facts: official regulator sources only, a dated check on every page, no guessing. What the site is not, plus the disclaimer.",
                   canon_path="about/", body=body, depth=1, current="about", crumbs=[("Home", ""), ("About", None)])
 
+# Trust pages. Every statement here is either about how this site works or is taken from the
+# linked official page (checked date given). No personal names or emails: contact is GitHub issues.
+TRUST_CHECKED = "2026-10-24"
+
+def render_privacy():
+    c = fmt_date(TRUST_CHECKED)
+    body = f"""<h1>Privacy: what this site records</h1>
+<p class="lede">This site has no forms, no accounts and no ads, and it sets no cookies. Visits are counted with GoatCounter, a privacy-friendly counter, and the pages are hosted on GitHub Pages. Nothing you type into the deadline calculator leaves your browser.</p>
+<h2>What GoatCounter counts</h2>
+<p>According to the <a href="https://www.goatcounter.com/help/privacy" rel="noopener">GoatCounter privacy policy</a> (checked {c}):</p>
+<ul>
+<li>It stores counts of the page path, the referrer, the browser and operating system name and version, the country (worked out from the IP address), the language and the screen size.</li>
+<li>It does not store IP addresses, the full browser User-Agent or any tracking ID, and it stores nothing in your browser: no cookies and no localStorage.</li>
+<li>To tell a new visit from a repeat one, it keeps a record of the site, IP address and User-Agent in memory for up to 8 hours.</li>
+<li>It says it does not share this information with third parties.</li>
+</ul>
+<p>You can block the counter with any content blocker. The site works the same without it.</p>
+<h2>What the host records</h2>
+<p>The site is served by GitHub Pages. GitHub's documentation says that when a GitHub Pages site is visited, the visitor's IP address is logged and stored for security purposes (<a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages" rel="noopener">What is GitHub Pages?</a>, checked {c}). See the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub General Privacy Statement</a> for more.</p>
+<h2>What we never ask for</h2>
+<p>We never ask for your complaint details, policy or account numbers, passwords, OTPs, card numbers, KYC documents or money. The deadline calculator runs only in your browser. Official sites linked from our guides have their own privacy policies.</p>
+<h2>Questions or corrections</h2>
+<p>Open an issue at <a href="{E(ISSUES)}">{E(ISSUES)}</a>. Issues are public, so do not post personal details there.</p>
+<p>See also <a href="../how-we-check-facts/">how we check facts</a> and the <a href="../about/">about page</a>.</p>"""
+    return layout(title=f"Privacy | {SITE['name']}",
+                  desc="Privacy at Where to Complain: no cookies, no forms, no ads. What the GoatCounter visit counter and GitHub Pages hosting record, from their own policies.",
+                  canon_path="privacy/", body=body, depth=1, crumbs=[("Home", ""), ("Privacy", None)])
+
+def render_method():
+    body = f"""<h1>How we check facts</h1>
+<p class="lede">Every contact, deadline and limit on this site is copied from an official regulator, government or company page, linked on the guide with the date we checked it. If we cannot confirm a fact on an official page, we leave it out or say plainly that we could not confirm it.</p>
+<h2>Which sources we use</h2>
+<ul>
+<li>Regulators and their official portals, such as IRDAI and its Bima Bharosa portal, and the Reserve Bank of India and its complaint portal.</li>
+<li>Official schemes and rules, such as the Insurance Ombudsman Rules and the RBI Integrated Ombudsman Scheme, and the official ombudsman bodies.</li>
+<li>A company's own published grievance page, for that company's contacts.</li>
+</ul>
+<p>We do not take facts from forums, news stories, blogs, review sites or other directories.</p>
+<h2>How a fact gets onto a page</h2>
+<ol>
+<li>We open the official page and read the exact figure, address, phone number or deadline.</li>
+<li>We link that exact page on the guide and record the date we checked it.</li>
+<li>If two official pages disagree, we show both and say which page says what.</li>
+<li>If an official page could not be opened when we checked, the guide says so and points to the official portal instead of describing it from memory.</li>
+</ol>
+<p>Each guide shows a "Last checked" date under its title and lists every official source at the bottom.</p>
+<h2>How pages are written</h2>
+<p>Pages are researched and drafted with help from AI tools. Every deadline, amount and contact is then matched against the linked official source before it is published, and anything that cannot be matched is cut. Letter templates are our own wording, with blanks for you to fill in.</p>
+<h2>Corrections</h2>
+<p>If something is wrong or out of date, open an issue at <a href="{E(ISSUES)}">{E(ISSUES)}</a>. We check the official source, fix the page and update its "Last checked" date. Every change to the site is public in the <a href="{E(SITE['repo_url'])}/commits/main">commit history</a>. Issues are public, so do not post personal details there.</p>
+<h2>Independence</h2>
+<p>{E(SITE['name'])} is an independent project published from the public GitHub repository <a href="{E(SITE['repo_url'])}">{E(SITE['repo_url'].split('github.com/')[1])}</a>. It is not affiliated with any regulator, insurer, bank or company, and it has no affiliate links today. If any ever appear, they will be marked clearly. It is general information, not legal advice.</p>
+<p>See also the <a href="../privacy/">privacy page</a> and the <a href="../about/">about page</a>.</p>"""
+    return layout(title=f"How we check facts | {SITE['name']}",
+                  desc="How Where to Complain checks every contact and deadline: official sources only, a dated link for each fact, gaps stated plainly, and corrections via GitHub.",
+                  canon_path="how-we-check-facts/", body=body, depth=1, crumbs=[("Home", ""), ("How we check facts", None)])
+
 def render_404():
     body = (f'<h1>Page not found</h1><p>That page does not exist. Try the <a href="{BASE_PATH}">home page</a> '
             f'or the <a href="{BASE_PATH}insurance/">insurance</a> guides.</p>')
     html_ = layout(title=f"Page not found | {SITE['name']}", desc="Page not found.", canon_path="404.html",
-                   body=body, depth=0, noindex=True)
+                   body=body, depth=0, noindex=True, canonical=False)
     # 404 can be served from any depth: make local links absolute to the site path
     html_ = html_.replace('href="style.css"', f'href="{BASE_PATH}style.css"')
     html_ = re.sub(r'href="(?!https?:|mailto:|data:|/)([^"]*)"', lambda m: f'href="{BASE_PATH}{m.group(1)}"', html_)
@@ -356,14 +438,14 @@ def load_pages():
 def check_content():
     email_re = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
     for p in PAGES.values():
-        if not (50 <= len(p["description"]) <= 170):
-            die(f"{p['slug']}: description length {len(p['description'])} (want 50-170)")
+        if not (120 <= len(p["description"]) <= 160):
+            die(f"{p['slug']}: description length {len(p['description'])} (want 120-160)")
         if len(p["title"]) > 60:
             die(f"{p['slug']}: title too long ({len(p['title'])}, want 60 or less, main query first)")
         if not p.get("direct_answer"):
             die(f"{p['slug']}: no direct_answer (2-sentence answer shown under the H1)")
-        elif len(p["direct_answer"]) > 320:
-            die(f"{p['slug']}: direct_answer too long ({len(p['direct_answer'])}, want 320 or less)")
+        elif not (40 <= len(p["direct_answer"].split()) <= 60):
+            die(f"{p['slug']}: direct_answer is {len(p['direct_answer'].split())} words (answer-first: want 40-60, naming the body and the number or deadline)")
         if not (3 <= len(p.get("faq", [])) <= 5):
             die(f"{p['slug']}: faq needs 3 to 5 items, each from facts already on the page")
         q = p.get("question")
@@ -434,7 +516,12 @@ class _Page:
                 d = json.loads(m.group(1))
             except ValueError as e:
                 die(f"{self.rel}: JSON-LD does not parse: {e}"); continue
-            self.ld += d if isinstance(d, list) else [d]
+            if isinstance(d, dict) and "@graph" in d:
+                if d.get("@context") != "https://schema.org":
+                    die(f"{self.rel}: JSON-LD @graph missing @context https://schema.org")
+                self.ld += d["@graph"]
+            else:
+                die(f"{self.rel}: JSON-LD should be one object with @context and @graph")
         body = h.split("<body>", 1)[-1]
         self.visible = html.unescape(re.sub(r"<script.*?</script>|<[^>]+>", " ", body, flags=re.S))
         self.visible = re.sub(r"\s+", " ", self.visible)
@@ -468,8 +555,8 @@ def check_built():
             die(f"{p.rel}: indexable page missing from sitemap.xml")
         if len(p.title) > 60:
             die(f"{p.rel}: title is {len(p.title)} characters (want 60 or less)")
-        if not (120 <= len(p.desc) <= 170):
-            die(f"{p.rel}: meta description is {len(p.desc)} characters (want about 150-160)")
+        if not (120 <= len(p.desc) <= 160):
+            die(f"{p.rel}: meta description is {len(p.desc)} characters (want 120-160)")
         levels = [l for l, _ in p.headings]
         if levels.count(1) != 1:
             die(f"{p.rel}: has {levels.count(1)} H1 tags (want exactly 1)")
@@ -477,9 +564,20 @@ def check_built():
             if b > a + 1:
                 die(f"{p.rel}: heading jumps from H{a} to H{b}"); break
         types = {d.get("@type") for d in p.ld}
-        for d in p.ld:
-            if d.get("@context") != "https://schema.org":
-                die(f"{p.rel}: JSON-LD {d.get('@type')} missing @context https://schema.org")
+        ids = [d.get("@id") for d in p.ld]
+        if None in ids or len(ids) != len(set(ids)):
+            die(f"{p.rel}: every JSON-LD @graph node needs a unique @id")
+        known = set(ids)
+        for ref in re.findall(r'\{"@id": "([^"]+)"\}', json.dumps(p.ld)):
+            if ref not in known:
+                die(f"{p.rel}: JSON-LD reference {ref} has no node in the @graph")
+        if not {"Organization", "WebSite"} <= types:
+            die(f"{p.rel}: JSON-LD @graph needs the Organization and WebSite nodes")
+        if p.html.count('property="og:image"') != 1 or 'name="twitter:card" content="summary_large_image"' not in p.html:
+            die(f"{p.rel}: needs og:image and twitter:card summary_large_image")
+        m = re.search(r"[\u2013\u2014]", p.visible + p.title + p.desc)
+        if m:
+            die(f"{p.rel}: uses an en or em dash; use a hyphen, colon, comma or full stop")
         if p.url != BASE and "BreadcrumbList" not in types:
             die(f"{p.rel}: no BreadcrumbList JSON-LD")
         for d in p.ld:
@@ -564,7 +662,9 @@ def render_llms(pages_sorted):
     for s in SITE["sectors"]:
         if s["slug"] in LIVE_SECTORS:
             out.append(f"- [{s['name']}]({BASE}{s['slug']}/): {s['blurb']}")
-    out += ["", "## About", "", f"- [About and disclaimer]({BASE}about/): how facts are sourced and checked.",
+    out += ["", "## About", "", f"- [About and disclaimer]({BASE}about/): what the site is and is not.",
+            f"- [How we check facts]({BASE}how-we-check-facts/): official sources only, dated checks, corrections.",
+            f"- [Privacy]({BASE}privacy/): no cookies; what the visit counter and host record.",
             f"- [Sitemap]({BASE}sitemap.xml)", ""]
     return "\n".join(out)
 
@@ -613,6 +713,8 @@ def main():
     urls = [("", None)]
     write("index.html", render_home(pages_sorted))
     write("about/index.html", render_about()); urls.append(("about/", None))
+    write("how-we-check-facts/index.html", render_method()); urls.append(("how-we-check-facts/", None))
+    write("privacy/index.html", render_privacy()); urls.append(("privacy/", None))
     for s in SITE["sectors"]:
         if s["slug"] in LIVE_SECTORS:
             write(f'{s["slug"]}/index.html', render_hub(s)); urls.append((s["slug"] + "/", None))
@@ -621,8 +723,12 @@ def main():
     for fn, text in letters.items():
         write(f"letters/{fn}", text + "\n")
     write("style.css", CSS.strip() + "\n")
-    for js in sorted((ROOT / "assets").glob("*.js")):
+    for js in sorted((ROOT / "assets").glob("*.js")) + sorted((ROOT / "assets").glob("*.svg")):
         write(js.name, js.read_text(encoding="utf-8"))
+    for png in sorted((ROOT / "assets").glob("*.png")):  # og.png, logo.png (tools/make_images.py)
+        shutil.copyfile(png, DOCS / png.name)
+    if SITE.get("indexnow_key"):  # IndexNow key file; tools/indexnow.py pings with it
+        write(f'{SITE["indexnow_key"]}.txt', SITE["indexnow_key"])
     write("404.html", render_404())
     write(".nojekyll", "")
     write("robots.txt", render_robots())

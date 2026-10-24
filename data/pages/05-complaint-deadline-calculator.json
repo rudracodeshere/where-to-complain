@@ -16,7 +16,7 @@
     {"label": "Council for Insurance Ombudsmen: FAQs (one month, one year, Rs 50 lakh)", "url": "https://cioins.co.in/Faqs", "checked": "2026-10-24"},
     {"label": "IRDAI, Master Circular on Protection of Policyholders' Interests, 5 September 2024 (14-day complaint resolution)", "url": "https://irdai.gov.in/en/document-detail?documentId=5625747", "checked": "2026-10-24"},
     {"label": "IRDAI Bima Bharosa: Our Process (15 days, then the Ombudsman)", "url": "https://bimabharosa.irdai.gov.in/Home/OurProcess", "checked": "2026-10-24"},
-    {"label": "RBI, FAQs on the Reserve Bank – Integrated Ombudsman Scheme, 2026 (30-day wait, 90-day window)", "url": "https://www.rbi.org.in/commonperson/english/scripts/FAQs.aspx?Id=3407", "checked": "2026-10-24"}
+    {"label": "RBI, FAQs on the Reserve Bank - Integrated Ombudsman Scheme, 2026 (30-day wait, 90-day window)", "url": "https://www.rbi.org.in/commonperson/english/scripts/FAQs.aspx?Id=3407", "checked": "2026-10-24"}
   ],
   "direct_answer": "Insurance: go to the Insurance Ombudsman after a rejection, an unsatisfactory reply, or one month with no reply, and file within one year of that point. Banks: wait 30 days (unless you already have a reply you dislike), then file with the RBI Ombudsman within 90 days.",
   "question": {"q": "How do I work out my ombudsman deadline?", "a": "Insurance: file with the Ombudsman within one year of the insurer's rejection or reply, or of one month passing with no reply after it received your complaint. Banks: wait 30 days after the bank received your complaint, unless it has already replied, then file with the RBI Ombudsman within 90 days, or 90 days from its last reply if later."},

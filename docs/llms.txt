@@ -6,10 +6,10 @@ A free, independent guide for people in India whose complaint to an insurer, ban
 
 ## Guides
 
-- [Health insurance claim rejected: what to do](https://rudracodeshere.github.io/where-to-complain/health-insurance-claim-rejected/): Health claim rejected or short-paid in India? The escalation order: insurer grievance officer, IRDAI Bima Bharosa, Insurance Ombudsman, with deadlines and a free letter. Last checked 2026-10-23.
+- [Health insurance claim rejected: what to do](https://rudracodeshere.github.io/where-to-complain/health-insurance-claim-rejected/): Health claim rejected or short-paid in India? Escalate in order: insurer grievance officer, IRDAI Bima Bharosa, Insurance Ombudsman. Deadlines, free letter. Last checked 2026-10-23.
 - [Insurance Ombudsman offices: which one covers your state](https://rudracodeshere.github.io/where-to-complain/insurance-ombudsman-offices-by-state/): All 18 Insurance Ombudsman centres in India: address, phone, email and areas covered, with a state-by-state lookup, copied from the official CIO site. Last checked 2026-10-23.
-- [How to file an RBI Ombudsman complaint on the CMS portal](https://rudracodeshere.github.io/where-to-complain/how-to-file-complaint-rbi-cms-portal/): Bank, NBFC or wallet complaint unresolved? How to approach the RBI Ombudsman under the 2026 scheme: 30-day wait, 90-day window, CMS portal, email or post, and tracking. Last checked 2026-10-23.
-- [Star Health complaint escalation: step-by-step](https://rudracodeshere.github.io/where-to-complain/star-health-complaint-escalation/): Star Health claim rejected, cashless denied or no reply? The official order: customer care, Star Health GRO, IRDAI Bima Bharosa, Insurance Ombudsman, plus a free letter. Last checked 2026-10-24.
+- [How to file an RBI Ombudsman complaint on the CMS portal](https://rudracodeshere.github.io/where-to-complain/how-to-file-complaint-rbi-cms-portal/): Bank, NBFC or wallet complaint unresolved? Reach the RBI Ombudsman under the 2026 scheme: 30-day wait, 90-day window, CMS portal, email or post, and tracking. Last checked 2026-10-23.
+- [Star Health complaint escalation: step-by-step](https://rudracodeshere.github.io/where-to-complain/star-health-complaint-escalation/): Star Health claim rejected, cashless denied or no reply? The official order: customer care, its GRO, IRDAI Bima Bharosa, Insurance Ombudsman, and a free letter. Last checked 2026-10-24.
 - [Complaint deadline calculator: when to escalate and the last date to file](https://rudracodeshere.github.io/where-to-complain/complaint-deadline-calculator/): Free complaint deadline calculator for India: when you can go to the Insurance Ombudsman or RBI Ombudsman, and the last date to file, from official rules. Last checked 2026-10-24.
 
 ## Sector hubs
@@ -20,5 +20,7 @@ A free, independent guide for people in India whose complaint to an insurer, ban
 
 ## About
 
-- [About and disclaimer](https://rudracodeshere.github.io/where-to-complain/about/): how facts are sourced and checked.
+- [About and disclaimer](https://rudracodeshere.github.io/where-to-complain/about/): what the site is and is not.
+- [How we check facts](https://rudracodeshere.github.io/where-to-complain/how-we-check-facts/): official sources only, dated checks, corrections.
+- [Privacy](https://rudracodeshere.github.io/where-to-complain/privacy/): no cookies; what the visit counter and host record.
 - [Sitemap](https://rudracodeshere.github.io/where-to-complain/sitemap.xml)

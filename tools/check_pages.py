@@ -25,7 +25,7 @@ AI_WORDS = ["additionally", "align with", "bolstered", "crucial", "deep dive", "
             "garner", "interplay", "intricate", "meticulous", "pivotal", "showcase", "tapestry", "testament",
             "underscore", "vibrant", "seamless", "navigate the", "landscape", "in today's", "rest assured",
             "it's important to note", "it is important to note", "game-changer", "unlock"]
-HUB_SLUGS = {"", "about", "insurance", "banks", "regulators", "credit-cards", "telecom", "404.html"}
+HUB_SLUGS = {"privacy", "how-we-check-facts", "", "about", "insurance", "banks", "regulators", "credit-cards", "telecom", "404.html"}
 
 
 class Page(HTMLParser):

@@ -5,10 +5,31 @@
   "repo_url": "https://github.com/rudracodeshere/where-to-complain",
   "language": "en-IN",
   "sectors": [
-    {"slug": "insurance", "name": "Insurance", "blurb": "Health, life and motor claim rejections, insurer grievance officers, IRDAI and the Insurance Ombudsman."},
-    {"slug": "banks", "name": "Banks", "blurb": "Bank service complaints and the RBI Ombudsman."},
-    {"slug": "credit-cards", "name": "Credit cards", "blurb": "Card disputes, wrong charges and billing errors."},
-    {"slug": "telecom", "name": "Telecom", "blurb": "Mobile, broadband and DTH service complaints."},
-    {"slug": "regulators", "name": "Regulators", "blurb": "The official bodies behind each ladder: what each one handles and how to reach it."}
-  ]
+    {
+      "slug": "insurance",
+      "name": "Insurance",
+      "blurb": "Health, life and motor claim rejections, insurer grievance officers, IRDAI and the Insurance Ombudsman."
+    },
+    {
+      "slug": "banks",
+      "name": "Banks",
+      "blurb": "Bank service complaints and the RBI Ombudsman."
+    },
+    {
+      "slug": "credit-cards",
+      "name": "Credit cards",
+      "blurb": "Card disputes, wrong charges and billing errors."
+    },
+    {
+      "slug": "telecom",
+      "name": "Telecom",
+      "blurb": "Mobile, broadband and DTH service complaints."
+    },
+    {
+      "slug": "regulators",
+      "name": "Regulators",
+      "blurb": "The official bodies behind each ladder: what each one handles and how to reach it."
+    }
+  ],
+  "indexnow_key": "4066406673cd61bb8857980856451b0f"
 }
