@@ -11,6 +11,7 @@ A free, independent guide for people in India whose complaint to an insurer, ban
 - [How to file an RBI Ombudsman complaint on the CMS portal](https://rudracodeshere.github.io/where-to-complain/how-to-file-complaint-rbi-cms-portal/): Bank, NBFC or wallet complaint unresolved? Reach the RBI Ombudsman under the 2026 scheme: 30-day wait, 90-day window, CMS portal, email or post, and tracking. Last checked 2026-10-23.
 - [Star Health complaint escalation: step-by-step](https://rudracodeshere.github.io/where-to-complain/star-health-complaint-escalation/): Star Health claim rejected, cashless denied or no reply? The official order: customer care, its GRO, IRDAI Bima Bharosa, Insurance Ombudsman, and a free letter. Last checked 2026-10-24.
 - [Complaint deadline calculator: when to escalate and the last date to file](https://rudracodeshere.github.io/where-to-complain/complaint-deadline-calculator/): Free complaint deadline calculator for India: when you can go to the Insurance Ombudsman or RBI Ombudsman, and the last date to file, from official rules. Last checked 2026-10-24.
+- [Consumer court complaint online on e-Jagriti (formerly e-Daakhil): step by step](https://rudracodeshere.github.io/where-to-complain/consumer-court-complaint-e-jagriti/): File a consumer court complaint online on e-Jagriti, which replaced e-Daakhil: which commission, fees (nil up to ₹5 lakh), the 2-year limit and each step. Last checked 2026-10-25.
 
 ## Sector hubs
 

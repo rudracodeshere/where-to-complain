@@ -126,7 +126,7 @@
     },
     {
      "title": "There is already a case in court",
-     "html": "<p>A complaint about the same grievance that is pending before, or already settled or dealt with on merits by, a court, tribunal, arbitrator or other judicial or quasi-judicial forum is not maintainable. If a court case on the same cause of action is filed while RBI is examining your complaint, RBI may reject it. The FAQ says criminal proceedings or a police investigation in a criminal offence are not treated as the same grievance for this purpose.</p>"
+     "html": "<p>A complaint about the same grievance that is pending before, or already settled or dealt with on merits by, a court, tribunal, arbitrator or other judicial or quasi-judicial forum is not maintainable. If a court case on the same cause of action is filed while RBI is examining your complaint, RBI may reject it. The FAQ says criminal proceedings or a police investigation in a criminal offence are not treated as the same grievance for this purpose. If you choose a consumer commission instead, see our <a href=\"../consumer-court-complaint-e-jagriti/\">consumer court complaint on e-Jagriti</a> guide.</p>"
     },
     {
      "title": "Someone offers to file for me, for a fee",
@@ -167,6 +167,7 @@
  ],
  "related": [
   "complaint-deadline-calculator",
+  "consumer-court-complaint-e-jagriti",
   "health-insurance-claim-rejected",
   "insurance-ombudsman-offices-by-state",
   "banks",

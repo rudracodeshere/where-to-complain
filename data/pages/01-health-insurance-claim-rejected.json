@@ -59,6 +59,11 @@
    "label": "Insurance Ombudsman Rules, 2017 (as amended till 9 November 2023), rules 13 to 17",
    "url": "https://cioins.co.in/notification/Insurance%20Ombudsman%20Rules,%202017(%20as%20amended%20till%2009.11.2023).pdf",
    "checked": "2026-10-23"
+  },
+  {
+   "label": "Consumer Protection Act, 2019 (section 69: two-year limit for consumer complaints)",
+   "url": "https://consumeraffairs.gov.in/public/upload/files/CP%20Act%202019_1732700731.pdf",
+   "checked": "2026-10-25"
   }
  ],
  "blocks": [
@@ -99,7 +104,7 @@
     {
      "who": "<strong>Courts and consumer commissions</strong> (outside this ladder)",
      "contact": "Not covered in this guide. The Council for Insurance Ombudsmen FAQ says that if you are unhappy with the Ombudsman's decision you may take recourse to the normal process of law.",
-     "deadline": "Not stated by the official pages used here. Ask a lawyer or the consumer commission about limitation before relying on any date."
+     "deadline": "Not stated by the official pages used here. A consumer commission complaint must be filed within two years of the cause of action (Consumer Protection Act, 2019, section 69). Steps, fees and which commission: <a href=\"../consumer-court-complaint-e-jagriti/\">consumer court complaint on e-Jagriti</a>."
     }
    ]
   },
@@ -171,6 +176,7 @@
  ],
  "related": [
   "complaint-deadline-calculator",
+  "consumer-court-complaint-e-jagriti",
   "insurance-ombudsman-offices-by-state",
   "star-health-complaint-escalation",
   "how-to-file-complaint-rbi-cms-portal",

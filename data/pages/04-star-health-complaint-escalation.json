@@ -7,7 +7,10 @@
  "h1": "Star Health complaint escalation: step-by-step",
  "description": "Star Health claim rejected, cashless denied or no reply? The official order: customer care, its GRO, IRDAI Bima Bharosa, Insurance Ombudsman, and a free letter.",
  "direct_answer": "Raise a ticket with Star Health customer care, then escalate to its Grievance Redressal Officer (grievances@starhealth.in); complaints are decided within 14 days. Still unresolved? Go to IRDAI's Bima Bharosa (155255), then the Insurance Ombudsman: free, claims up to ₹50 lakh, within one year.",
- "question": {"q": "Where do I complain if Star Health rejects my claim?", "a": "Raise a ticket with Star Health customer care, then write to its Grievance Redressal Officer at grievances@starhealth.in; its Citizens' Charter says complaints are decided within 14 days. If it is still unresolved, go to IRDAI's Bima Bharosa (155255), then the Insurance Ombudsman, which is free, covers claims up to ₹50 lakh and must be approached within one year."},
+ "question": {
+  "q": "Where do I complain if Star Health rejects my claim?",
+  "a": "Raise a ticket with Star Health customer care, then write to its Grievance Redressal Officer at grievances@starhealth.in; its Citizens' Charter says complaints are decided within 14 days. If it is still unresolved, go to IRDAI's Bima Bharosa (155255), then the Insurance Ombudsman, which is free, covers claims up to ₹50 lakh and must be approached within one year."
+ },
  "audience": "For Star Health and Allied Insurance policyholders in India with a rejected, part-paid or delayed claim, a cashless denial, or a complaint with no reply",
  "verified": "2026-10-24",
  "primary_source": "https://www.starhealth.in/grievance-redressal/",
@@ -154,7 +157,7 @@
   {
    "type": "section",
    "title": "The regulator step: IRDAI and the Ombudsman",
-   "html": "<p>IRDAI does not decide individual claims. It records your complaint against Star Health on Bima Bharosa and follows it up with the insurer. The <strong>Insurance Ombudsman</strong> can pass a binding award on Star Health. It is free and you do not need a lawyer. You must have complained to Star Health in writing first, so attach your GRO letter and Star Health's reply. Bima Bharosa's FAQ also lists the IRDAI complaints email, <a href=\"mailto:complaints@irdai.gov.in\">complaints@irdai.gov.in</a>. The full Ombudsman rules, what to attach and how to choose between the Ombudsman and a consumer commission are on our <a href=\"../health-insurance-claim-rejected/\">health insurance claim rejected</a> page.</p>"
+   "html": "<p>IRDAI does not decide individual claims. It records your complaint against Star Health on Bima Bharosa and follows it up with the insurer. The <strong>Insurance Ombudsman</strong> can pass a binding award on Star Health. It is free and you do not need a lawyer. You must have complained to Star Health in writing first, so attach your GRO letter and Star Health's reply. Bima Bharosa's FAQ also lists the IRDAI complaints email, <a href=\"mailto:complaints@irdai.gov.in\">complaints@irdai.gov.in</a>. The full Ombudsman rules, what to attach and how to choose between the Ombudsman and a consumer commission are on our <a href=\"../health-insurance-claim-rejected/\">health insurance claim rejected</a> page. To file in a consumer commission instead, see our <a href=\"../consumer-court-complaint-e-jagriti/\">consumer court complaint on e-Jagriti</a> guide.</p>"
   },
   {
    "type": "notice",
@@ -170,6 +173,7 @@
  ],
  "related": [
   "complaint-deadline-calculator",
+  "consumer-court-complaint-e-jagriti",
   "health-insurance-claim-rejected",
   "insurance-ombudsman-offices-by-state",
   "insurance"

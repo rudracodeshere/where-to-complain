@@ -1,0 +1,271 @@
+{
+ "slug": "consumer-court-complaint-e-jagriti",
+ "order": 6,
+ "sector": "regulators",
+ "also_in": [
+  "insurance",
+  "banks"
+ ],
+ "title": "Consumer court complaint online: e-Jagriti step by step",
+ "h1": "Consumer court complaint online on e-Jagriti (formerly e-Daakhil): step by step",
+ "description": "File a consumer court complaint online on e-Jagriti, which replaced e-Daakhil: which commission, fees (nil up to ₹5 lakh), the 2-year limit and each step.",
+ "direct_answer": "File a consumer court complaint online on e-Jagriti (e-jagriti.gov.in), which replaced e-Daakhil on 1 January 2025. Use the District Commission if you paid up to ₹50 lakh, the State Commission up to ₹2 crore, and the National Commission above that. File within two years of the cause of action. The fee is nil up to ₹5 lakh.",
+ "question": {
+  "q": "How do I file a consumer court complaint online?",
+  "a": "Register on e-Jagriti with an OTP sent to your mobile and email, choose File New Case, then Consumer Complaint, enter the case details, upload your documents and submit to the right commission. The Consumer Protection Act, 2019 says the complaint must be filed within two years of the cause of action, and the fee is nil up to ₹5 lakh."
+ },
+ "audience": "For consumers in India who want to file a complaint in a District, State or National Consumer Disputes Redressal Commission (consumer court) online, after the company did not fix the problem",
+ "verified": "2026-10-25",
+ "primary_source": "https://e-jagriti.gov.in/",
+ "verified_emails": [],
+ "sources": [
+  {
+   "label": "e-Jagriti, the official consumer commission filing portal (Department of Consumer Affairs)",
+   "url": "https://e-jagriti.gov.in/",
+   "checked": "2026-10-25"
+  },
+  {
+   "label": "e-Jagriti help document: Onboarding (registration with OTP and ID proof), March 2025",
+   "url": "https://e-jagriti.gov.in/static/media/Onboarding_Tutorial.9e89535dbbd244dc2691.pdf",
+   "checked": "2026-10-25"
+  },
+  {
+   "label": "e-Jagriti help document: Consumer Complaint (CC) Filing, March 2025",
+   "url": "https://e-jagriti.gov.in/static/media/CC_Filing.34e0fc5dd03b1d864cab.pdf",
+   "checked": "2026-10-25"
+  },
+  {
+   "label": "e-Jagriti help document: Fee Submission for Your Complaint, March 2025",
+   "url": "https://e-jagriti.gov.in/static/media/Payment_Flow.c102b9be21387e321633.pdf",
+   "checked": "2026-10-25"
+  },
+  {
+   "label": "PIB, 17 August 2025: e-Jagriti launched 1 January 2025, integrates e-Daakhil, OCMS, NCDRC CMS and CONFONET",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2157241",
+   "checked": "2026-10-25"
+  },
+  {
+   "label": "Lok Sabha Unstarred Question 4255, answered 18 March 2026 (e-Daakhil, then e-Jagriti from 1 January 2025)",
+   "url": "https://fcainfoweb.nic.in/PMS/writereaddata/2026_LS_B_4255.pdf",
+   "checked": "2026-10-25"
+  },
+  {
+   "label": "PIB, 27 November 2024: e-Daakhil launched 7 September 2020 by the NCDRC",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2077857",
+   "checked": "2026-10-25"
+  },
+  {
+   "label": "Consumer Protection Act, 2019 (sections 2(7), 34 to 38, 41 and 69)",
+   "url": "https://consumeraffairs.gov.in/public/upload/files/CP%20Act%202019_1732700731.pdf",
+   "checked": "2026-10-25"
+  },
+  {
+   "label": "Consumer Protection (Jurisdiction of the District Commission, the State Commission and the National Commission) Rules, 2021, G.S.R. 912(E)",
+   "url": "https://consumeraffairs.gov.in/public/upload/files/232278_1732705181.pdf",
+   "checked": "2026-10-25"
+  },
+  {
+   "label": "Consumer Protection (Consumer Disputes Redressal Commissions) (Amendment) Rules, 2023, G.S.R. 606(E), 17 August 2023 (fee table)",
+   "url": "https://consumeraffairs.gov.in/public/upload/files/CDRC%20Amendment%20Rules%202023-1_1732707073.pdf",
+   "checked": "2026-10-25"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "answer",
+   "items": [
+    "<strong>Complain to the company first</strong> and keep its reply. For insurance and bank problems there are free regulator routes too: see the section on choosing below.",
+    "<strong>Pick the commission by what you paid:</strong> District Commission up to ₹50 lakh, State Commission above ₹50 lakh up to ₹2 crore, National Commission above ₹2 crore (<a href=\"https://consumeraffairs.gov.in/public/upload/files/232278_1732705181.pdf\" rel=\"noopener\">Jurisdiction Rules, 2021</a>).",
+    "<strong>File within two years</strong> of the date the cause of action arose (section 69 of the <a href=\"https://consumeraffairs.gov.in/public/upload/files/CP%20Act%202019_1732700731.pdf\" rel=\"noopener\">Consumer Protection Act, 2019</a>). Late complaints are taken only if the commission accepts your reason for the delay.",
+    "<strong>File online on <a href=\"https://e-jagriti.gov.in/\" rel=\"noopener\">e-Jagriti</a>:</strong> register with an OTP, choose File New Case, then Consumer Complaint, upload documents, submit, and note the reference number.",
+    "<strong>Fee:</strong> nil if the value paid is up to ₹5 lakh; ₹200 up to ₹10 lakh; ₹400 up to ₹20 lakh; ₹1,000 up to ₹50 lakh (<a href=\"https://consumeraffairs.gov.in/public/upload/files/CDRC%20Amendment%20Rules%202023-1_1732707073.pdf\" rel=\"noopener\">2023 fee rules</a>). Pay it online from Payment history."
+   ]
+  },
+  {
+   "type": "steps",
+   "title": "Filing on e-Jagriti: each step and what happens next",
+   "rows": [
+    {
+     "who": "<strong>Register on e-Jagriti</strong>",
+     "contact": "On <a href=\"https://e-jagriti.gov.in/\" rel=\"noopener\">e-jagriti.gov.in</a> click Login/Signup, then Register. Enter mobile number, email ID, full name and password, choose your role, enter the captcha, and verify the 6-digit OTP sent to your mobile and email. Add your address and upload an identity proof such as Aadhaar, PAN or driving licence (<a href=\"https://e-jagriti.gov.in/static/media/Onboarding_Tutorial.9e89535dbbd244dc2691.pdf\" rel=\"noopener\">onboarding help PDF</a>).",
+     "deadline": "No time limit for registering. Your two-year limit for the complaint keeps running, so register early."
+    },
+    {
+     "who": "<strong>File the consumer complaint</strong>",
+     "contact": "Dashboard, File New Case, Consumer Complaint. The portal shows the list of required documents and the fee structure. Enter the amount paid, the claim amount, the date of cause of action, state, district and category, then your details and the opposite party's details. Upload the Index, Proforma, Synopsis, Memo of Parties, notarised affidavit, any vakalatnama, and your annexures. Choose the commission, tick the declaration, preview, then Final Submit. You get a reference number (<a href=\"https://e-jagriti.gov.in/static/media/CC_Filing.34e0fc5dd03b1d864cab.pdf\" rel=\"noopener\">complaint filing help PDF</a>).",
+     "deadline": "Within two years of the cause of action (Act, section 69)."
+    },
+    {
+     "who": "<strong>Pay the fee</strong> (only if the value paid is above ₹5 lakh)",
+     "contact": "Dashboard, Payment history, Pay against your reference number. Options listed are Bharatkosh, Razorpay or PayGov, with Indian credit or debit card, UPI or net banking. Download the receipt (<a href=\"https://e-jagriti.gov.in/static/media/Payment_Flow.c102b9be21387e321633.pdf\" rel=\"noopener\">payment help PDF</a>).",
+     "deadline": "Not stated in the help document. Pay right after filing so the case is not held up."
+    },
+    {
+     "who": "<strong>Admission by the District Commission</strong>",
+     "contact": "The commission admits or rejects the complaint. It cannot reject it without first giving you a chance to be heard (Act, section 36).",
+     "deadline": "Admissibility is ordinarily decided within 21 days of filing. If it is not decided in that time, the complaint is treated as admitted."
+    },
+    {
+     "who": "<strong>Opposite party replies; possible mediation</strong>",
+     "contact": "For goods, the commission sends the complaint to the company within 21 days of admission. If both sides agree, the commission can refer the dispute to mediation (sections 37 and 38).",
+     "deadline": "The company gets 30 days to give its version, which the commission can extend by up to 15 days."
+    },
+    {
+     "who": "<strong>Hearing and order</strong>",
+     "contact": "The complaint is heard on affidavits and documents. You can ask to be heard in person or by video conferencing. Track the case on your e-Jagriti dashboard (section 38).",
+     "deadline": "The Act asks the commission to try to decide within 3 months of the company receiving notice, or 5 months if goods need lab testing. This is a target, not a guarantee."
+    },
+    {
+     "who": "<strong>Appeal</strong>, if you disagree with the District Commission's order",
+     "contact": "Appeal to the State Commission (section 41).",
+     "deadline": "Within 45 days of the order. The State Commission can allow a later appeal if there was sufficient cause."
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Which consumer commission, and the filing fee",
+   "headers": [
+    "Value of goods or services paid",
+    "Commission",
+    "Fee"
+   ],
+   "rows": [
+    [
+     "Up to ₹5 lakh",
+     "District Commission",
+     "Nil"
+    ],
+    [
+     "Above ₹5 lakh, up to ₹10 lakh",
+     "District Commission",
+     "₹200"
+    ],
+    [
+     "Above ₹10 lakh, up to ₹20 lakh",
+     "District Commission",
+     "₹400"
+    ],
+    [
+     "Above ₹20 lakh, up to ₹50 lakh",
+     "District Commission",
+     "₹1,000"
+    ],
+    [
+     "Above ₹50 lakh, up to ₹1 crore",
+     "State Commission",
+     "₹2,000"
+    ],
+    [
+     "Above ₹1 crore, up to ₹2 crore",
+     "State Commission",
+     "₹2,500"
+    ],
+    [
+     "Above ₹2 crore, up to ₹4 crore",
+     "National Commission",
+     "₹3,000"
+    ],
+    [
+     "Above ₹4 crore, up to ₹6 crore",
+     "National Commission",
+     "₹4,000"
+    ],
+    [
+     "Above ₹6 crore, up to ₹8 crore",
+     "National Commission",
+     "₹5,000"
+    ],
+    [
+     "Above ₹8 crore, up to ₹10 crore",
+     "National Commission",
+     "₹6,000"
+    ],
+    [
+     "Above ₹10 crore",
+     "National Commission",
+     "₹7,500"
+    ]
+   ]
+  },
+  {
+   "type": "section",
+   "title": "How much does a consumer court complaint cost, and which commission hears it?",
+   "html": "<p>Under the Consumer Protection (Jurisdiction of the District Commission, the State Commission and the National Commission) Rules, 2021, the District Commission hears complaints where the value of the goods or services you paid does not exceed ₹50 lakh. The State Commission hears complaints above ₹50 lakh and up to ₹2 crore, and the National Commission hears those above ₹2 crore. The value that counts is what you paid as consideration, not the compensation you ask for. The fee follows the 2023 amendment to rule 7 of the Consumer Protection (Consumer Disputes Redressal Commissions) Rules, 2020: nil up to ₹5 lakh, rising to ₹7,500 above ₹10 crore. The table above copies those slabs as published. Sources: <a href=\"https://consumeraffairs.gov.in/public/upload/files/232278_1732705181.pdf\" rel=\"noopener\">Jurisdiction Rules, 2021 (PDF)</a> and <a href=\"https://consumeraffairs.gov.in/public/upload/files/CDRC%20Amendment%20Rules%202023-1_1732707073.pdf\" rel=\"noopener\">fee amendment, G.S.R. 606(E) (PDF)</a>.</p>"
+  },
+  {
+   "type": "section",
+   "title": "Which District Commission do I file in?",
+   "html": "<p>Section 34(2) of the Consumer Protection Act, 2019 lets you file in the District Commission for the area where you live or personally work for gain, where the company carries on business or has a branch office, or where the cause of action arose, wholly or in part. That means you do not have to travel to the company's head office city. On e-Jagriti you pick the state and district in the case details and then choose the commission before you submit.</p>"
+  },
+  {
+   "type": "section",
+   "title": "What happened to e-Daakhil?",
+   "html": "<p>e-Daakhil, launched by the National Consumer Disputes Redressal Commission on 7 September 2020, is now part of e-Jagriti. The Department of Consumer Affairs launched e-Jagriti on 1 January 2025 and it brings together e-Daakhil, OCMS, the NCDRC case system and CONFONET in one portal. A press release dated 17 August 2025 says it is operational at the NCDRC and in all 36 States and Union Territories, and that consumers can register by OTP, file from anywhere in India or abroad, pay fees online or offline and track their case. A Lok Sabha answer of 18 March 2026 describes e-Jagriti as CONFONET 2.0. Sources: <a href=\"https://www.pib.gov.in/PressReleasePage.aspx?PRID=2157241\" rel=\"noopener\">PIB, 17 August 2025</a>, <a href=\"https://fcainfoweb.nic.in/PMS/writereaddata/2026_LS_B_4255.pdf\" rel=\"noopener\">Lok Sabha question 4255 (PDF)</a>.</p>"
+  },
+  {
+   "type": "problems",
+   "items": [
+    {
+     "title": "Insurance claim rejected: consumer court or Insurance Ombudsman?",
+     "html": "<p>The Insurance Ombudsman is free and covers claims up to ₹50 lakh, but it cannot take a dispute that is pending before, or already decided by, a court or consumer forum. So choose before you file. Our <a href=\"../health-insurance-claim-rejected/\">health insurance claim rejected guide</a> covers the Ombudsman route and its one-year limit, and the <a href=\"../insurance-ombudsman-offices-by-state/\">Ombudsman offices by state</a> page shows where to send it.</p>"
+    },
+    {
+     "title": "Bank or card complaint: consumer court or RBI Ombudsman?",
+     "html": "<p>The RBI Ombudsman route is also free. RBI does not take a complaint that is already pending before, or decided by, a court or other forum, so decide the order first. See <a href=\"../how-to-file-complaint-rbi-cms-portal/\">how to file a complaint with the RBI Ombudsman</a>.</p>"
+    },
+    {
+     "title": "You bought it for business use",
+     "html": "<p>The Act's definition of \"consumer\" (section 2(7)) leaves out a person who buys goods for resale or for any commercial purpose, or avails a service for any commercial purpose. If you used the product only to earn your own livelihood by self-employment, the Act says that is not a commercial purpose.</p>"
+    },
+    {
+     "title": "You missed the two-year limit",
+     "html": "<p>Section 69 says a commission shall not admit a complaint filed more than two years after the cause of action arose, unless you satisfy it that you had sufficient cause for the delay, and it records its reasons for condoning it. Explain the delay with dates and documents.</p>"
+    }
+   ]
+  },
+  {
+   "type": "notice",
+   "html": "<strong>What we could not confirm.</strong> The e-Jagriti portal itself runs only with JavaScript, so we used its official help PDFs (March 2025), the Act, the Rules and the PIB release. The help PDF asks for a vakalatnama and lets you add an advocate; it does not say an advocate is required, and the Act lets the consumer file the complaint. We have not copied any helpline number or email for e-Jagriti because we could not find one on a page you can open. Document formats can differ by commission, so follow the list e-Jagriti shows when you choose Consumer Complaint."
+  }
+ ],
+ "templates": [
+  {
+   "title": "Outline of a consumer complaint (to adapt into your Synopsis and complaint)",
+   "intro_html": "Free to copy. A starting draft in plain English, not a court format. e-Jagriti asks for its own documents (Index, Proforma, Synopsis, Memo of Parties, affidavit), so use this to collect the facts, then fit them into those forms.",
+   "text": "BEFORE THE DISTRICT CONSUMER DISPUTES REDRESSAL COMMISSION, [DISTRICT], [STATE]\n\nConsumer Complaint No. ____ of [year]\n\nIn the matter of:\n[Your full name], [age], [address], [mobile], [email]  ... Complainant\nVersus\n[Company legal name], through its [Managing Director / Branch Manager], [registered or branch office address]  ... Opposite Party\n\nCOMPLAINT UNDER SECTION 35 OF THE CONSUMER PROTECTION ACT, 2019\n\n1. The Complainant is a consumer. On [date] the Complainant [bought / hired] [goods or service] from the Opposite Party for Rs. [amount paid], not for resale or any commercial purpose. (Annexure 1: invoice or policy)\n2. Facts: [what went wrong, in date order, 5 to 10 short lines].\n3. Complaint to the company: on [date] the Complainant complained to the Opposite Party (reference no. [____]). [It replied on [date] refusing / It did not reply.] (Annexure 2)\n4. Deficiency in service / defect / unfair trade practice: [say which, and why].\n5. Cause of action: arose on [date] when [event], and continues. This complaint is filed within two years of that date (section 69).\n6. Jurisdiction: the value of goods or services paid is Rs. [____], within this Commission's limit. The Complainant [resides / works] in [district], and/or the Opposite Party has a branch at [place] (section 34(2)).\n7. The same matter is not pending before, or decided by, any other court, forum, ombudsman or authority.\n8. Relief sought:\n   (a) refund / replacement / payment of Rs. [____];\n   (b) compensation of Rs. [____] for loss and harassment;\n   (c) costs of this complaint;\n   (d) any other relief the Commission thinks fit.\n\nList of annexures: 1. Invoice / policy  2. Complaint and reply  3. [Photos, emails, bank statement]  4. ID proof\n\nPlace: [____]   Date: [DD-MM-YYYY]\n[Signature]\n[Name], Complainant\n\nVERIFICATION\nI, [name], verify that the contents of paragraphs 1 to 8 are true to my knowledge and belief.\n"
+  }
+ ],
+ "related": [
+  "health-insurance-claim-rejected",
+  "how-to-file-complaint-rbi-cms-portal",
+  "insurance-ombudsman-offices-by-state",
+  "complaint-deadline-calculator",
+  "regulators",
+  "insurance",
+  "banks"
+ ],
+ "resources_html": "",
+ "faq": [
+  {
+   "q": "Is e-Daakhil still working?",
+   "a": "e-Daakhil is now part of e-Jagriti. The Department of Consumer Affairs launched e-Jagriti on 1 January 2025 and it integrates e-Daakhil, so file on e-jagriti.gov.in."
+  },
+  {
+   "q": "What is the time limit to file a consumer complaint?",
+   "a": "Two years from the date the cause of action arose, under section 69 of the Consumer Protection Act, 2019. A late complaint is admitted only if the commission accepts your reason for the delay."
+  },
+  {
+   "q": "What is the consumer court fee?",
+   "a": "Nil if the value of goods or services paid is up to ₹5 lakh. ₹200 up to ₹10 lakh, ₹400 up to ₹20 lakh, ₹1,000 up to ₹50 lakh, rising to ₹7,500 above ₹10 crore."
+  },
+  {
+   "q": "Which consumer commission should I file in?",
+   "a": "The District Commission if you paid up to ₹50 lakh, the State Commission above ₹50 lakh up to ₹2 crore, and the National Commission above ₹2 crore."
+  },
+  {
+   "q": "How long does the consumer court take?",
+   "a": "The Act asks the commission to try to decide within 3 months of the company receiving notice, or 5 months if goods need testing. Admission is ordinarily decided within 21 days of filing."
+  }
+ ]
+}

@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-25
+- Added page: Consumer court complaint online: e-Jagriti step by step (`/consumer-court-complaint-e-jagriti/`). Covers registering, filing a Consumer Complaint, paying the fee, admission, reply, hearing and appeal; which commission by value paid (₹50 lakh / ₹2 crore); the full 2023 fee table (nil up to ₹5 lakh); where to file (section 34(2)); the two-year limit (section 69); what happened to e-Daakhil; a complaint outline template.
+- Sources checked 2026-10-25: e-Jagriti help PDFs (Onboarding, CC Filing, Payment Flow, March 2025), PIB releases of 17 Aug 2025 and 27 Nov 2024, Lok Sabha USQ 4255 (18 Mar 2026), Consumer Protection Act 2019, Jurisdiction Rules 2021 (G.S.R. 912(E)), fee amendment 2023 (G.S.R. 606(E)).
+- Left out: e-Jagriti helpline/email and app links (only found inside the portal's JavaScript, not on a citable page).
+- Linked from the health insurance, Ombudsman offices, RBI CMS, Star Health and deadline calculator pages, home page and the Regulators, Insurance and Banks hubs. The health insurance and calculator pages now state the two-year consumer complaint limit with the Act as source.
+
 ## 2026-10-24
 - Added page: Star Health complaint escalation: GRO, IRDAI, Ombudsman, letter (`/star-health-complaint-escalation/`). Ladder: customer care (Level 1), Customer Escalations Team form (Level 2), Grievance Redressal Officer S. Chandrabose, Chennai (Level 3), IRDAI Bima Bharosa, Insurance Ombudsman. Includes cashless-denied, rejected, part-paid, no-reply and late-payment sections and a GRO letter template.
 - Sources checked 2026-10-24: starhealth.in grievance redressal, service parameters (Citizens' Charter) and claims pages, Star Health's zonal/branch grievance PDFs, IRDAI list of GROs (updated 9 October 2026), CIO GRO list, IRDAI master circulars (re-checked), Bima Bharosa and CIO FAQ pages.
