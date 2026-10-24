@@ -630,6 +630,10 @@ def check_built():
     for t, n in inbound.items():
         if n == 0 and not t.endswith(str(DOCS.resolve() / "index.html")):
             die(f"orphan page (no inbound link from another page's main content): {Path(t).relative_to(DOCS.resolve())}")
+    for s in PAGES:  # cluster rule: every guide gets 3+ in-content links from other pages
+        n = inbound.get(str((DOCS / s / "index.html").resolve()), 0)
+        if n < 3:
+            die(f"{s}: only {n} inbound links from other pages' main content (want 3 or more; add related links)")
     robots = (DOCS / "robots.txt").read_text(encoding="utf-8")
     for bot in AI_SEARCH_BOTS:
         if f"User-agent: {bot}\nAllow: /" not in robots:
@@ -744,6 +748,13 @@ def main():
     if check:
         bad = check_links()
         check_built()
+        # tools/check_pages.py (BUILD-PLAYBOOK.md section 2) runs on the same built pages; FAIL lines fail the build
+        import subprocess
+        cp = subprocess.run([sys.executable, str(ROOT / "tools" / "check_pages.py")], capture_output=True, text=True)
+        print(cp.stdout.strip().splitlines()[-1] if cp.stdout.strip() else "check_pages: no output")
+        if cp.returncode != 0:
+            print(cp.stdout + cp.stderr)
+            die("tools/check_pages.py reported FAIL (see above)")
         if bad or problems:
             print("\n".join("PROBLEM: " + x for x in problems)); sys.exit(1)
         print("Link check OK; SEO, schema, copy and architecture checks OK")
