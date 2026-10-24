@@ -41,3 +41,18 @@ Applied the marketingskills seo-audit, schema, programmatic-seo, site-architectu
 - `build.py --check` now also checks: one H1 and no skipped heading levels; self-referencing canonical; unique titles and descriptions; sitemap coverage; orphan pages; guides link to their hub; JSON-LD parses and has the required BreadcrumbList, FAQPage and Article fields; FAQ text visible on the page; dateModified equals Last checked; Last checked sits above the direct answer; a question H2 on each guide; copy lint (filler words, em dashes, sentences over 40 words); robots.txt AI bots; llms.txt coverage.
 - New `tools/test_site.py`: Playwright smoke test of every built page (console errors, internal links 200, no sideways scroll at 390px, calculator dates for 4 known inputs).
 - DESIGN.md: new SEO rules 5 to 8 and a "Page and site rules" section.
+
+## 2026-10-24 (night): trust, share-preview and IndexNow pass
+Applied the site fixes in BUILD-PLAYBOOK.md section 3 and br grower's on-page requests. No URL changed.
+- Fixed a false claim: the home page said "no tracking", but the site counts visits with GoatCounter. It now says "no sign-up, no ads, no cookies" and links the new privacy page.
+- New trust pages: `/privacy/` (what GoatCounter and GitHub Pages record, from their own policies, checked 24 October 2026) and `/how-we-check-facts/` (official sources only, dated checks, AI-assisted drafting with every fact matched to its source, corrections via GitHub issues). Linked from the footer, About and home; in the sitemap and llms.txt. Contact is GitHub issues only, with no personal email or name.
+- Disclaimer reworded so it is true on every page ("each guide links its official sources with the date we checked them"). The full text appears once per page; the footer has a short version.
+- JSON-LD is now one `@graph` per page with `@id`s: Organization (logo, publishingPrinciples), WebSite, Article (author = Organization "Where to Complain"), FAQPage, BreadcrumbList. Schema.org validator: 0 errors, 0 warnings.
+- Share previews: `og.png` (1200x630) and `logo.png` in brand colours (`tools/make_images.py`), `og:image` and `twitter:card` summary_large_image on every page. Real `favicon.svg` instead of the empty data URI.
+- Brand link on the home page now has `href="./"`. The 404 page has no canonical and no JSON-LD.
+- Removed every en and em dash (source lists, scheme name, Ombudsman addresses: punctuation only). Trimmed 3 meta descriptions to 160 characters or fewer, plus the home page.
+- RBI guide: new H2 "How do I check my RBI complaint status?" from RBI's RB-IOS 2026 FAQ (questions 10, 11, 19, 34, 36, re-checked 24 October 2026). The direct answer now names the RBI Ombudsman.
+- Claim-rejected guide: new H2 "How do I complain on IRDAI Bima Bharosa?" from the Bima Bharosa FAQ and Our Process pages (re-checked 24 October 2026): 2-week trigger, 155255, complaints@irdai.gov.in, post, Token Number tracking, 15 days then the Ombudsman, no payments.
+- IndexNow: key in `site.json`, key file written to `docs/` by build.py, `tools/indexnow.py` to ping after each deploy.
+- `build.py --check` now also runs `tools/check_pages.py` (fails on any FAIL), and checks the @graph (@context, unique @ids, resolvable references, Organization and WebSite nodes), og:image and twitter:card, no en or em dashes, direct answers of 40 to 60 words, descriptions of 120 to 160 characters, and 3+ inbound in-content links per guide.
+- Committed BUILD-PLAYBOOK.md and tools/check_pages.py. DESIGN.md now points to the playbook's nightly checklist and has rules 9 to 12.

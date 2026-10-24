@@ -54,13 +54,22 @@ Things to avoid (from the frontend-design skill): uppercase eyebrow labels, iden
 ## SEO rules for every guide page (build.py --check enforces them)
 
 1. **`title` must be 60 characters or fewer, with the main search query first**, e.g. "Star Health complaint: escalation steps (India)". Guide titles get no " | Where to Complain" suffix (the brand is in `og:site_name`). Leave the H1 as written unless it is also too long.
-2. **`direct_answer`**: 2 sentences, 320 characters or fewer, shown at the top. It answers the main query directly.
+2. **`direct_answer`** (answer-first): 40 to 60 words, shown at the top. It answers the main query directly and names the body and the number or deadline (for example "the RBI Ombudsman ... within 90 days"). (`--check`)
 3. **`faq`**: 3 to 5 `{q, a}` items, rendered both visibly and as FAQPage JSON-LD.
 4. **The direct answer, question answer and FAQ use only facts already on that page** (same numbers, deadlines, contacts and wording), with nothing new. Any email in them must already be in `verified_emails`. The check scans them.
 5. **"Last checked: <date>" sits between the H1 and the direct answer** on every guide, and the Article `dateModified` equals that date. (`--check`)
 6. **Every guide has at least one question-style H2** (`question`: `q` ends in "?", `a` is about 40 to 60 words and stands on its own when quoted). Phrase it the way people ask, e.g. "Where do I complain if Star Health rejects my claim?". (`--check`)
-7. **Every page**: one H1, no skipped heading levels, a self-referencing absolute canonical, a unique title of 60 characters or fewer and a unique meta description of about 150 to 160 characters (check allows 120 to 170), and a listing in `sitemap.xml` unless it is noindex. (`--check`)
-8. **Structured data**: JSON-LD in the head, `@context` https://schema.org, absolute URLs, ISO dates. Guides carry Article + BreadcrumbList + FAQPage; hubs, about and tools carry BreadcrumbList; home carries WebSite. Every FAQ question and answer must be visible on the page word for word. Google stopped FAQ rich results in May 2026; keep the markup because other engines read it, but don't add schema just to chase rich results (no HowTo). (`--check` parses every block and checks required fields)
+7. **Every page**: one H1, no skipped heading levels, a self-referencing absolute canonical, a unique title of 60 characters or fewer and a unique meta description of 120 to 160 characters (aim for 150 to 160), and a listing in `sitemap.xml` unless it is noindex. (`--check`)
+8. **Structured data**: one JSON-LD block per page in the head: `{"@context": "https://schema.org", "@graph": [...]}`, every node with a unique `@id`, absolute URLs, ISO dates. `layout()` always adds the Organization (`#organization`, with logo and `publishingPrinciples` = how-we-check-facts) and WebSite (`#website`) nodes. Guides add Article (author = Organization "Where to Complain", never a person's name) + FAQPage + BreadcrumbList; hubs, about, trust pages and tools add BreadcrumbList. The 404 page has no JSON-LD and no canonical. Every FAQ question and answer must be visible on the page word for word. Google stopped FAQ rich results in May 2026; keep the markup because other engines read it, but don't add schema just to chase rich results (no HowTo). (`--check` parses every block and checks required fields)
+
+9. **Share previews and icons**: every page has `og:image` (`og.png`, 1200x630) and `twitter:card` summary_large_image, plus `favicon.svg`. Regenerate the images with `python3 tools/make_images.py` only if the brand changes. (`--check`)
+10. **No en or em dashes anywhere** in visible text, titles or descriptions (use a hyphen, colon, comma or full stop). (`--check`)
+11. **Trust pages**: `/how-we-check-facts/` and `/privacy/` are linked from the footer, About and home. Contact is the repo's GitHub issues page only: never publish a personal email or a person's name. Never claim "no tracking": the site uses GoatCounter (no cookies) and GitHub Pages logs IPs; say exactly that.
+12. **Clusters**: every guide has at least 3 inbound links from other pages' main content (related lists, hubs, in-text links). (`--check`)
+
+## Nightly page checklist
+
+Follow **BUILD-PLAYBOOK.md section 2 (nightly page checklist A to G)** for every new page: research, writing, on-page SEO, clusters, GEO, web quality, then deploy and submit. It is folded in here by reference; where it and this file differ, this file wins (for example: Organization author, not a named person). `python3 build.py --check` runs `tools/check_pages.py` too and fails on any FAIL line; also run `python3 tools/check_pages.py --live` after the deploy. After the push is live, run `python3 tools/indexnow.py <new and changed URLs>` and submit the same URLs to Bing (SubmitUrlBatch).
 
 ## Page and site rules (from the marketingskills references)
 
@@ -79,6 +88,6 @@ Things to avoid (from the frontend-design skill): uppercase eyebrow labels, iden
 1. **Spec first.** Before writing, state in one line who the page is for, the main query, and the official sources you will use. If an official page can't be opened, say so on the page and don't guess.
 2. **Plan in small steps.** Use the data JSON fields in schema order: sources, then blocks, then templates, then direct_answer and faq (written last, from the finished page), then related. Edit one file per step.
 3. **Reuse the components.** No new CSS for a single page. If a new component is truly needed, add it here first, with tokens, then to `style.css`.
-4. **Verify before claiming done** (evidence before assertions): run `python3 build.py --check`, `node tools/test_calculator.js` and `python3 tools/test_site.py`, and read the output. `--check` must end with "checks OK". After pushing, fetch the live URL and confirm HTTP 200 and the new title. Don't report "live" until you've seen it.
+4. **Verify before claiming done** (evidence before assertions): run `python3 build.py --check` (includes `tools/check_pages.py`), `node tools/test_calculator.js` and `python3 tools/test_site.py`, and read the output. `--check` must end with "checks OK". After pushing, fetch the live URL and confirm HTTP 200 and the new title. Don't report "live" until you've seen it.
 5. For a visual change, take before and after screenshots with `tools/shots.sh before|after` (headless Chrome, 390px and 1280px) into `design-shots/`, then look at them.
 6. Use one focused commit per page or change, update `CHANGELOG.md` and `QUEUE.md`, then push.
