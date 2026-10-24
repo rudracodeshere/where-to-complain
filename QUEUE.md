@@ -11,9 +11,9 @@ Source of the list: `/workspace/boring-realty/picks/01-escalation-ladder-directo
 | 2 | done | Insurance Ombudsman offices: which one covers your state | `insurance-ombudsman-offices-by-state` | Published 2026-10-23 |
 | 3 | done | Star Health: grievance officer, escalation ladder, claim-rejected template | `star-health-complaint-escalation` | Published 2026-10-24: https://rudracodeshere.github.io/where-to-complain/star-health-complaint-escalation/ . GRO details from starhealth.in grievance page + IRDAI/CIO GRO lists (they differ on the GRO email; both shown). |
 | 6 | done | How to file a complaint on the RBI CMS portal | `how-to-file-complaint-rbi-cms-portal` | Published 2026-10-23. Follows RB-IOS 2026 (30-day wait, 90-day window). |
-| 10 | todo | Consumer court (e-Daakhil) complaint: format and fee by claim value | `consumer-court-e-daakhil-complaint` | Fee slabs and limitation must come from the official Consumer Protection rules/e-Daakhil pages. Link back from the insurance page. |
-| 22 | todo | National Consumer Helpline (NCH): how to complain, 1915 / app / WhatsApp, what happens next | `national-consumer-helpline-complaint` | Only from consumerhelpline.gov.in / DoCA official pages. Bing: ~217 searches/12 wks. |
-| 23 | todo | CPGRAMS: how to file a public grievance and escalate (appeal) | `cpgrams-grievance-complaint` | Only from pgportal.gov.in / DARPG official pages. Bing: ~1,313 searches/12 wks. |
+| 10 | todo | Consumer court complaint online: e-Jagriti (e-Daakhil) step by step | `consumer-court-complaint-e-jagriti` | e-Daakhil was replaced by e-Jagriti (e-jagriti.gov.in) on 1 Jan 2025 per br grower; VERIFY on official govt press release / edaakhil.nic.in notice / e-jagriti.gov.in. Build around e-Jagriti, mention e-Daakhil as old name. Fee slabs and limitation only from official Consumer Protection rules. Bing cluster ~2,830. Link from insurance page and hubs. |
+| 22 | todo | National Consumer Helpline (NCH 1915): how to complain, 1915 / app / WhatsApp, what happens next | `national-consumer-helpline-complaint` | Only from consumerhelpline.gov.in / DoCA official pages. Title must include "NCH" and "1915". Bing cluster ~585. |
+| 23 | todo | CPGRAMS: register/login, file a grievance, track status, appeal | `cpgrams-grievance-complaint` | Only from pgportal.gov.in / DARPG official pages. Bing: ~1,313 searches/12 wks. |
 | 8 | todo | SBI complaint escalation: branch -> regional -> PNO -> CMS | `sbi-complaint-escalation` | Copy from sbi.co.in's own grievance page. |
 | 20 | todo | IndiGo / Air India: AirSewa and DGCA complaint route | `airline-complaint-airsewa` | |
 | 4 | todo | Care Health: cashless denied / claim rejected ladder + template | `care-health-complaint-escalation` | Same method as #3. |
@@ -46,3 +46,9 @@ Source of the list: `/workspace/boring-realty/picks/01-escalation-ladder-directo
 | todo | Motor insurance claim rejected: what to do | Check surveyor/claim timelines from the IRDAI Protection of Policyholders circular. |
 | todo | Insurance Ombudsman: how to track and what happens after you file | Uses CIO pages. |
 | done | Complaint deadline calculator (tool) | Published 2026-10-24: https://rudracodeshere.github.io/where-to-complain/complaint-deadline-calculator/ . Insurance + RBI only. |
+
+
+## Standing on-page rules from br grower (2026-10-24)
+- Each guide needs at least 3 internal links in from other pages.
+- No per-city Ombudsman pages (0 searches).
+- Cluster owners: see /workspace/boring-realty/growth-playbook.md; never build a page that competes with an existing owner page.
