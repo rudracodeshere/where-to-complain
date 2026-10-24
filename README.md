@@ -30,6 +30,9 @@ GoatCounter (free, no cookies) is live. Dashboard: https://where-to-complain.goa
 
 ```
 build.py                  generator (Python 3, standard library only)
+style.css                 design-system CSS source (copied to docs/style.css)
+DESIGN.md                 design tokens, components, SEO and build rules: follow it for every page
+tools/shots.sh            before/after screenshots with headless Chrome into design-shots/
 site.json                 site name, base URL, sector list
 data/pages/NN-slug.json   one file per content page
 data/ombudsman_offices.json  data used by the "offices" block
@@ -41,7 +44,8 @@ QUEUE.md                  todo/done list of pages
 ## How to add a page
 
 1. Copy an existing file in `data/pages/` to `data/pages/NN-new-slug.json` (`NN` is the next number).
-2. Set `slug`, `order`, `sector` (one of the slugs in `site.json`), `title` (70 characters or fewer), `h1`, `description` (50 to 170 characters), `verified` (date you checked, `YYYY-MM-DD`), `primary_source` (official URL), and `sources` (every official page you used, each with `url`, `label`, `checked`).
+2. Set `slug`, `order`, `sector` (one of the slugs in `site.json`), `title` (60 characters or fewer, main query first; see DESIGN.md), `h1`, `description` (50 to 170 characters), `verified` (date you checked, `YYYY-MM-DD`), `primary_source` (official URL), and `sources` (every official page you used, each with `url`, `label`, `checked`).
+   Also set `direct_answer` (2 sentences, 320 characters or fewer) and `faq` (3 to 5 `{q, a}` items). Both use only facts already on the page.
 3. Fill `blocks`, in the order they should appear:
    - `answer`: the 30-second answer box (`items`, an ordered list).
    - `steps`: the ladder table (`rows` with `who`, `contact`, `deadline`; the Step number is added automatically).

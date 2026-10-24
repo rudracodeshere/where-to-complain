@@ -5,9 +5,10 @@
  "also_in": [
   "regulators"
  ],
- "title": "Insurance Ombudsman offices: which one covers your state",
+ "title": "Insurance Ombudsman offices by state: which one covers you",
  "h1": "Insurance Ombudsman offices: which one covers your state",
  "description": "All 18 Insurance Ombudsman centres in India: address, phone, email and areas covered, with a state-by-state lookup, copied from the official CIO site.",
+ "direct_answer": "You may file with the Insurance Ombudsman office that covers either the insurer's branch you dealt with or your own residence; find yours in the state lookup below. Complain to the insurer in writing first, then file within one year by letter, email or the online portal.",
  "audience": "For anyone who needs to send an insurance complaint to the right Ombudsman office",
  "verified": "2026-10-23",
  "primary_source": "https://cioins.co.in/Ombudsman",
@@ -310,5 +311,23 @@
   "insurance",
   "regulators"
  ],
- "resources_html": ""
+ "resources_html": "",
+ "faq": [
+  {
+   "q": "Which Insurance Ombudsman office should I file with?",
+   "a": "Under Rule 14, you may file with the office that covers either the insurer's branch you dealt with or your own residence."
+  },
+  {
+   "q": "Which states are split between Ombudsman offices?",
+   "a": "Haryana (four districts go to Delhi), Maharashtra (Pune, Mumbai or Thane by area), Uttar Pradesh (Lucknow or Noida by district) and Puducherry (Chennai, Hyderabad or Kochi by area)."
+  },
+  {
+   "q": "Do I need to complain to the insurer first?",
+   "a": "Yes. Complain to the insurer in writing first; the Ombudsman will not take the complaint otherwise. If there is no reply for one month, you may go to the Ombudsman."
+  },
+  {
+   "q": "How long does the Ombudsman take to give an award?",
+   "a": "The award is due within 3 months of the Ombudsman receiving all requirements from you (Rules, rule 17)."
+  }
+ ]
 }

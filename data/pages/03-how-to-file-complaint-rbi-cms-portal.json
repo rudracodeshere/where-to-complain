@@ -5,9 +5,10 @@
  "also_in": [
   "regulators"
  ],
- "title": "How to file a complaint on the RBI CMS portal (2026 rules)",
+ "title": "RBI CMS portal complaint: how to file (2026 rules)",
  "h1": "How to file a complaint on the RBI CMS portal",
  "description": "Bank, NBFC or wallet complaint unresolved? How to approach the RBI Ombudsman under the 2026 scheme: 30-day wait, 90-day window, CMS portal, email or post, and tracking.",
+ "direct_answer": "Complain to your bank or lender in writing first and wait 30 days for a reply. Then file free on cms.rbi.org.in, by email to crpc@rbi.org.in or by post, within 90 days, and track it on the portal or by calling 14448.",
  "audience": "For customers of banks, NBFCs, prepaid wallet issuers and credit information companies in India",
  "verified": "2026-10-23",
  "primary_source": "https://www.rbi.org.in/commonperson/english/scripts/FAQs.aspx?Id=3407",
@@ -160,5 +161,27 @@
   "banks",
   "regulators"
  ],
- "resources_html": ""
+ "resources_html": "",
+ "faq": [
+  {
+   "q": "Do I need to complain to my bank before going to RBI?",
+   "a": "Yes. Complain to the bank or lender in writing first and keep its complaint or acknowledgement number. RBI will not act on a complaint if you have not."
+  },
+  {
+   "q": "What is the deadline to file with the RBI Ombudsman?",
+   "a": "Within 90 days of the day the 30-day waiting period ends, or of the lender's last reply, whichever is later."
+  },
+  {
+   "q": "Does it cost anything to file on the RBI CMS portal?",
+   "a": "No. It is free."
+  },
+  {
+   "q": "How do I track my RBI complaint?",
+   "a": "Use your complaint number and mobile number on the CMS portal, or call 14448."
+  },
+  {
+   "q": "Can I appeal an RBI Ombudsman decision?",
+   "a": "The RBI FAQ says an appeal is available only against an Award passed by the RBI Ombudsman. File it within 30 days of receiving the Award; a further period of up to 30 days may be allowed if there is sufficient reason for delay."
+  }
+ ]
 }

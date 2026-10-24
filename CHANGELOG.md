@@ -16,3 +16,8 @@
 - Added `--check` mode in `build.py`: validates required fields, description and title length, that every email in a page is declared in `verified_emails`, and that every internal link resolves.
 - Credit cards and Telecom hubs are not generated yet (no pages); the home page lists them as "coming soon".
 - Known gaps recorded on the pages: the RBI CMS portal and the Scheme PDF could not be opened by automated checks, so portal screens are not described; the CIO site shows two versions of its centre list and an inconsistent home page, handled as described on the Ombudsman offices page.
+
+## 2026-10-24 (evening)
+- Redesigned the site using the new DESIGN.md design system. Changes: a registry-green palette with tokens and WCAG AA contrast checked in light and dark mode; the system font stack; a header with hub nav, a current-page marker and a skip link; breadcrumbs as a list; a "Last verified" badge; escalation steps as a numbered ladder with amber deadline callouts instead of a table; a letter box with a print stylesheet; and two-column hub cards. CSS moved to `style.css`. All page text, facts, sources, dates, URLs, GoatCounter, the verification file, sitemap and robots are unchanged.
+- SEO: guide `<title>`s shortened to 60 characters or fewer with the main query first (no site-name suffix). Each guide now has a 2-sentence direct answer at the top and 3 to 5 "Quick answers" with FAQPage JSON-LD, all taken from facts already on the page. `--check` now enforces these rules.
+- Before and after screenshots are in `design-shots/`.

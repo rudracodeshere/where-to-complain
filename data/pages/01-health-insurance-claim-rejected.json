@@ -5,9 +5,10 @@
  "also_in": [
   "regulators"
  ],
- "title": "Health insurance claim rejected: what to do, in order",
+ "title": "Health insurance claim rejected: what to do (India)",
  "h1": "Health insurance claim rejected: what to do",
  "description": "Health claim rejected or short-paid in India? The escalation order: insurer grievance officer, IRDAI Bima Bharosa, Insurance Ombudsman, with deadlines and a free letter.",
+ "direct_answer": "Get the rejection reasons in writing, then complain to the insurer's Grievance Redressal Officer, who must resolve it within 14 days. Still unresolved? Escalate to IRDAI on Bima Bharosa (155255), then the Insurance Ombudsman: free, claims up to ₹50 lakh, file within one year.",
  "audience": "For policyholders in India whose health insurance claim was rejected, short-paid or delayed",
  "verified": "2026-10-23",
  "primary_source": "https://irdai.gov.in/en/document-detail?documentId=5625747",
@@ -165,5 +166,27 @@
   "insurance",
   "regulators"
  ],
- "resources_html": ""
+ "resources_html": "",
+ "faq": [
+  {
+   "q": "How long does the insurer have to resolve my complaint?",
+   "a": "IRDAI's circular says the insurer must acknowledge your complaint immediately and resolve it within 14 days."
+  },
+  {
+   "q": "When can I go to the Insurance Ombudsman?",
+   "a": "Once the insurer has rejected your complaint, has not replied for one month, or you are not satisfied with its reply. File within one year of that point."
+  },
+  {
+   "q": "Does the Insurance Ombudsman charge a fee?",
+   "a": "No. It is free and no lawyer is needed. It covers claims up to ₹50 lakh."
+  },
+  {
+   "q": "Can I go to the Ombudsman if my case is already in a court or consumer forum?",
+   "a": "No. The Ombudsman cannot take a dispute that is pending before, or already decided by, a court, consumer forum or arbitrator."
+  },
+  {
+   "q": "How fast must a health insurance claim be settled?",
+   "a": "For non-cashless claims, IRDAI's circular says settlement within 15 days of submission of claim. For cashless, a decision within 1 hour of the request and final discharge authorisation within 3 hours."
+  }
+ ]
 }

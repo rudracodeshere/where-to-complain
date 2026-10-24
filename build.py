@@ -5,7 +5,8 @@ Usage:  python3 build.py            # build everything into docs/
         python3 build.py --check    # build + verify links, required fields, emails
 
 One JSON file per content page lives in data/pages/. See README.md for the schema.
-No third-party packages. No JavaScript, fonts or trackers are emitted.
+No third-party packages. No JavaScript or web fonts are emitted; the only script is the GoatCounter counter.
+CSS lives in style.css (source) and is copied to docs/style.css. Design rules: DESIGN.md.
 """
 import html, json, re, sys, shutil
 from pathlib import Path
@@ -22,45 +23,7 @@ DISCLAIMER = ("This page is general information to help you find the right offic
               "company. Rules and contact details change; always confirm on the official source linked below "
               "before you act. If your case is complex or the amount is large, talk to a qualified professional.")
 
-CSS = """
-:root{--bg:#fff;--fg:#1b1f23;--mut:#5a636d;--line:#d8dde3;--acc:#0b5cab;--box:#eef5fc;--warn:#fff7e0;--code:#f5f6f8}
-@media(prefers-color-scheme:dark){:root{--bg:#14171a;--fg:#e6e9ec;--mut:#9aa4ae;--line:#2d343b;--acc:#7db7f0;--box:#1b2631;--warn:#2b2614;--code:#1c2025}}
-*{box-sizing:border-box}
-body{margin:0;font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--fg)}
-a{color:var(--acc)}
-.wrap{max-width:860px;margin:0 auto;padding:0 16px}
-header.site{border-bottom:1px solid var(--line);padding:12px 0}
-header.site .wrap{display:flex;flex-wrap:wrap;gap:8px 20px;align-items:baseline}
-header.site .brand{font-weight:700;font-size:1.1rem;text-decoration:none;color:var(--fg)}
-header.site nav a{margin-right:14px;text-decoration:none}
-h1{font-size:1.75rem;line-height:1.25;margin:1.2rem 0 .4rem}
-h2{font-size:1.3rem;margin:2rem 0 .5rem;line-height:1.3}
-h3{font-size:1.08rem;margin:1.4rem 0 .3rem}
-.meta{color:var(--mut);font-size:.9rem;margin:0 0 1rem}
-.crumbs{font-size:.9rem;color:var(--mut);margin-top:12px}
-.answer{background:var(--box);border-left:5px solid var(--acc);padding:12px 16px;border-radius:4px;margin:1rem 0}
-.answer h2{margin:.1rem 0 .4rem;font-size:1.1rem}
-.answer ol,.answer ul{margin:.3rem 0 .3rem 1.2rem;padding:0}
-.notice{background:var(--warn);border:1px solid var(--line);padding:10px 14px;border-radius:4px;margin:1rem 0;font-size:.95rem}
-.tablewrap{overflow-x:auto;margin:1rem 0}
-table{border-collapse:collapse;width:100%;font-size:.95rem}
-th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
-th{background:var(--code)}
-pre.letter{white-space:pre-wrap;word-wrap:break-word;background:var(--code);border:1px solid var(--line);padding:14px;border-radius:4px;font:15px/1.55 ui-monospace,Menlo,Consolas,monospace}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:1rem 0;padding:0;list-style:none}
-.cards li{border:1px solid var(--line);border-radius:6px;padding:12px 14px}
-.cards li strong{display:block;font-size:1.05rem}
-.soon{color:var(--mut)}
-.resources{border:1px dashed var(--line);padding:8px 14px;margin:2rem 0;border-radius:4px;color:var(--mut);font-size:.95rem}
-.resources:empty{display:none}
-.related ul{padding-left:1.2rem}
-footer.site{border-top:1px solid var(--line);margin-top:3rem;padding:16px 0 40px;color:var(--mut);font-size:.88rem}
-.verified{border-top:1px solid var(--line);margin-top:2rem;padding-top:12px;font-size:.92rem}
-.sources li{margin-bottom:4px;word-break:break-word}
-details{margin:.6rem 0}
-summary{cursor:pointer;font-weight:600}
-@media print{header.site,footer.site,.resources{display:none}}
-"""
+CSS = (ROOT / "style.css").read_text(encoding="utf-8")
 
 problems = []
 
@@ -74,21 +37,24 @@ def fmt_date(iso):
     y, m, d = map(int, iso.split("-"))
     return date(y, m, d).strftime("%-d %B %Y")
 
-def layout(*, title, desc, canon_path, body, depth, jsonld=None, noindex=False, crumbs=None):
+def layout(*, title, desc, canon_path, body, depth, jsonld=None, noindex=False, crumbs=None, current=None):
     r = rel(depth)
     canon = BASE + canon_path
-    nav = "".join(f'<a href="{r}{s["slug"]}/">{E(s["name"])}</a>' for s in SITE["sectors"] if s["slug"] in LIVE_SECTORS)
+    cur = lambda slug: ' aria-current="page"' if slug == current else ""
+    nav = "".join(f'<a href="{r}{s["slug"]}/"{cur(s["slug"])}>{E(s["name"])}</a>' for s in SITE["sectors"] if s["slug"] in LIVE_SECTORS)
     ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ""
     robots = '<meta name="robots" content="noindex">' if noindex else ""
     cr = ""
     if crumbs:
-        cr = '<nav class="crumbs" aria-label="Breadcrumb">' + " › ".join(
-            f'<a href="{r}{u}">{E(t)}</a>' if u is not None else E(t) for t, u in crumbs) + "</nav>"
+        cr = '<nav class="crumbs" aria-label="Breadcrumb"><ol>' + "".join(
+            f'<li><a href="{r}{u}">{E(t)}</a></li>' if u is not None else f'<li aria-current="page">{E(t)}</li>'
+            for t, u in crumbs) + "</ol></nav>"
     return f"""<!doctype html>
 <html lang="{SITE['language']}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
 <title>{E(title)}</title>
 <meta name="description" content="{E(desc)}">
 <link rel="canonical" href="{E(canon)}">
@@ -97,15 +63,17 @@ def layout(*, title, desc, canon_path, body, depth, jsonld=None, noindex=False, 
 <meta property="og:title" content="{E(title)}">
 <meta property="og:description" content="{E(desc)}">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="{E(SITE['name'])}">
 <meta property="og:url" content="{E(canon)}">
 {ld}
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 <header class="site"><div class="wrap">
 <a class="brand" href="{r}">{E(SITE['name'])}</a>
-<nav>{nav}<a href="{r}about/">About</a></nav>
+<nav aria-label="Main">{nav}<a href="{r}about/"{cur("about")}>About</a></nav>
 </div></header>
-<main class="wrap">
+<main class="wrap" id="main">
 {cr}
 {body}
 </main>
@@ -137,12 +105,13 @@ def render_block(b, page, depth):
     if t == "notice":
         return f'<div class="notice">{b["html"]}</div>'
     if t == "steps":
-        head = "<tr><th>Step</th><th>Who</th><th>Official contact</th><th>Deadline</th></tr>"
         rows = ""
         for i, s in enumerate(b["rows"], 1):
-            rows += (f"<tr><td>{i}</td><td>{s['who']}</td><td>{s['contact']}</td><td>{s['deadline']}</td></tr>")
+            rows += (f'<li><p class="rung-who">{s["who"]}</p><dl>'
+                     f'<dt>Official contact</dt><dd>{s["contact"]}</dd>'
+                     f'<dt>Deadline</dt><dd class="deadline">{s["deadline"]}</dd></dl></li>')
         h = b.get("title", "Step-by-step ladder")
-        return f'<h2 id="steps">{E(h)}</h2><div class="tablewrap"><table>{head}{rows}</table></div>'
+        return f'<h2 id="steps">{E(h)}</h2><ol class="ladder">{rows}</ol>'
     if t == "table":
         head = "".join(f"<th>{E(h)}</th>" for h in b["headers"])
         rows = "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in b["rows"])
@@ -181,8 +150,8 @@ def render_template(page, depth):
         letters[fn] = t["text"]
         out += (f'<h2 id="template-{i+1}">{E(t["title"])}</h2>'
                 f'<p>{t.get("intro_html","Free to copy. Replace everything in [square brackets]; delete paragraphs that do not apply.")}</p>'
-                f'<pre class="letter">{E(t["text"])}</pre>'
-                f'<p><a href="{rel(depth)}letters/{fn}" download>Download as .txt</a></p>')
+                f'<div class="letter-box"><pre class="letter">{E(t["text"])}</pre>'
+                f'<p class="letter-actions"><a href="{rel(depth)}letters/{fn}" download>Download as .txt</a></p></div>')
     return out
 
 def related_html(page, depth):
@@ -198,16 +167,24 @@ def related_html(page, depth):
             die(f"{page['slug']}: related slug not found: {slug}")
     return f'<section class="related"><h2>Related pages</h2><ul>{items}</ul></section>'
 
+def faq_html(page):
+    if not page.get("faq"):
+        return ""
+    items = "".join(f'<details><summary>{E(f["q"])}</summary><p>{E(f["a"])}</p></details>' for f in page["faq"])
+    return f'<section class="faq" id="faq"><h2>Quick answers</h2>{items}</section>'
+
 def render_page(page):
     depth = 1
     r = rel(depth)
     blocks = "".join(render_block(b, page, depth) for b in page["blocks"])
     sec = next(s for s in SITE["sectors"] if s["slug"] == page["sector"])
+    lede = f'<p class="lede">{E(page["direct_answer"])}</p>' if page.get("direct_answer") else ""
     body = (f'<h1>{E(page["h1"])}</h1>'
-            f'<p class="meta">Last verified: {fmt_date(page["verified"])} · {E(page.get("audience",""))}</p>'
-            f'{blocks}{render_template(page, depth)}'
+            f'<p class="meta"><span class="badge">Last verified: {fmt_date(page["verified"])}</span></p>'
+            f'<p class="audience">{E(page.get("audience",""))}</p>'
+            f'{lede}{blocks}{render_template(page, depth)}'
             f'<section class="resources" id="resources" aria-label="Resources"><!-- RESOURCES BLOCK (for br mogul): add vetted resource links here via "resources_html" in the page data file. Leave empty if none. -->{page.get("resources_html","")}</section>'
-            f'{related_html(page, depth)}'
+            f'{faq_html(page)}{related_html(page, depth)}'
             f'<section class="verified"><p><strong>Last verified: {fmt_date(page["verified"])}, '
             f'source: <a href="{E(page["primary_source"])}" rel="noopener">{E(page["primary_source"])}</a></strong></p>'
             f'<details open><summary>All official sources used</summary>{link_sources(page["sources"])}</details>'
@@ -224,8 +201,11 @@ def render_page(page):
             {"@type": "ListItem", "position": 1, "name": "Home", "item": BASE},
             {"@type": "ListItem", "position": 2, "name": sec["name"], "item": BASE + sec["slug"] + "/"},
             {"@type": "ListItem", "position": 3, "name": page["h1"], "item": BASE + page["slug"] + "/"}]}]
-    return layout(title=f'{page["title"]} | {SITE["name"]}', desc=page["description"], canon_path=page["slug"] + "/",
-                  body=body, depth=depth, jsonld=ld,
+    if page.get("faq"):
+        ld.append({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+            {"@type": "Question", "name": f["q"], "acceptedAnswer": {"@type": "Answer", "text": f["a"]}} for f in page["faq"]]})
+    return layout(title=page["title"], desc=page["description"], canon_path=page["slug"] + "/",
+                  body=body, depth=depth, jsonld=ld, current=page["sector"],
                   crumbs=[("Home", ""), (sec["name"], sec["slug"] + "/"), (page["h1"], None)])
 
 def render_hub(sec):
@@ -242,7 +222,7 @@ def render_hub(sec):
             f'<section class="verified"><p><strong>Disclaimer.</strong> {E(DISCLAIMER)}</p></section>')
     desc = f'{sec["name"]} complaints in India: step-by-step escalation guides with official contacts and deadlines.'
     return layout(title=f'{sec["name"]} complaints in India | {SITE["name"]}', desc=desc,
-                  canon_path=sec["slug"] + "/", body=body, depth=depth,
+                  canon_path=sec["slug"] + "/", body=body, depth=depth, current=sec["slug"],
                   crumbs=[("Home", ""), (sec["name"], None)])
 
 HUB_EXTRA = {
@@ -302,7 +282,7 @@ def render_about():
 <p>There are none today. If any ever appear, they will be marked clearly on the page where they appear.</p>"""
     return layout(title=f"About and disclaimer | {SITE['name']}",
                   desc="How Where to Complain sources its facts, what it is not, and the general-information disclaimer.",
-                  canon_path="about/", body=body, depth=1, crumbs=[("Home", ""), ("About", None)])
+                  canon_path="about/", body=body, depth=1, current="about", crumbs=[("Home", ""), ("About", None)])
 
 def render_404():
     body = (f'<h1>Page not found</h1><p>That page does not exist. Try the <a href="{BASE_PATH}">home page</a> '
@@ -338,8 +318,14 @@ def check_content():
     for p in PAGES.values():
         if not (50 <= len(p["description"]) <= 170):
             die(f"{p['slug']}: description length {len(p['description'])} (want 50-170)")
-        if len(p["title"]) > 70:
-            die(f"{p['slug']}: title too long ({len(p['title'])})")
+        if len(p["title"]) > 60:
+            die(f"{p['slug']}: title too long ({len(p['title'])}, want 60 or less, main query first)")
+        if not p.get("direct_answer"):
+            die(f"{p['slug']}: no direct_answer (2-sentence answer shown under the H1)")
+        elif len(p["direct_answer"]) > 320:
+            die(f"{p['slug']}: direct_answer too long ({len(p['direct_answer'])}, want 320 or less)")
+        if not (3 <= len(p.get("faq", [])) <= 5):
+            die(f"{p['slug']}: faq needs 3 to 5 items, each from facts already on the page")
         if not any(b["type"] == "answer" for b in p["blocks"]):
             die(f"{p['slug']}: no answer block")
         if not p.get("templates"):
@@ -349,7 +335,7 @@ def check_content():
                 die(f"{p['slug']}: source needs https url and checked date: {s}")
         # every email in content must be declared as copied from an official source
         declared = {e.lower() for e in p.get("verified_emails", [])}
-        text = json.dumps(p["blocks"]) + json.dumps(p.get("templates", []))
+        text = json.dumps(p["blocks"]) + json.dumps(p.get("templates", [])) + json.dumps(p.get("faq", [])) + p.get("direct_answer", "")
         for e in set(email_re.findall(text)):
             if e.lower() not in declared:
                 die(f"{p['slug']}: email {e} not listed in verified_emails (copy only from official pages)")
