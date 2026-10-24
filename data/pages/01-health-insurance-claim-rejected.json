@@ -9,7 +9,10 @@
  "h1": "Health insurance claim rejected: what to do",
  "description": "Health claim rejected or short-paid in India? Escalate in order: insurer grievance officer, IRDAI Bima Bharosa, Insurance Ombudsman. Deadlines, free letter.",
  "direct_answer": "Get the rejection reasons in writing, then complain to the insurer's Grievance Redressal Officer, who must resolve it within 14 days. Still unresolved? Escalate to IRDAI on Bima Bharosa (155255), then the Insurance Ombudsman: free, claims up to ₹50 lakh, file within one year.",
- "question": {"q": "Where do I complain if my health insurance claim is rejected?", "a": "Write to your insurer's Grievance Redressal Officer first and keep the acknowledgement; IRDAI's circular says it must resolve your complaint within 14 days. If it is not resolved, escalate to IRDAI on Bima Bharosa (155255). Then go to the Insurance Ombudsman, which is free, covers claims up to ₹50 lakh and must be approached within one year."},
+ "question": {
+  "q": "Where do I complain if my health insurance claim is rejected?",
+  "a": "Write to your insurer's Grievance Redressal Officer first and keep the acknowledgement; IRDAI's circular says it must resolve your complaint within 14 days. If it is not resolved, escalate to IRDAI on Bima Bharosa (155255). Then go to the Insurance Ombudsman, which is free, covers claims up to ₹50 lakh and must be approached within one year."
+ },
  "audience": "For policyholders in India whose health insurance claim was rejected, short-paid or delayed",
  "verified": "2026-10-23",
  "primary_source": "https://irdai.gov.in/en/document-detail?documentId=5625747",
@@ -33,14 +36,14 @@
    "checked": "2026-10-23"
   },
   {
-   "label": "IRDAI Bima Bharosa: FAQ (IRDAI complaints email)",
+   "label": "IRDAI Bima Bharosa: FAQ (when to approach IRDAI, IRDAI complaints email, Token Number tracking, no payments)",
    "url": "https://bimabharosa.irdai.gov.in/Home/FAQ",
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   {
    "label": "IRDAI Bima Bharosa: Our Process (when to approach the Ombudsman)",
    "url": "https://bimabharosa.irdai.gov.in/Home/OurProcess",
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   {
    "label": "IRDAI: List of Grievance Redressal Officers (GROs) of insurers",
@@ -139,9 +142,15 @@
   },
   {
    "type": "section",
-   "title": "Regulator step: IRDAI and the Ombudsman",
+   "id": "bima-bharosa",
+   "title": "How do I complain on IRDAI Bima Bharosa?",
+   "html": "<p><strong>IRDAI (Bima Bharosa)</strong> monitors insurers' compliance. IRDAI's Bima Bharosa FAQ says that if the insurer has not resolved your complaint within 2 weeks, or you are unhappy with its answer, you can approach IRDAI's Grievance Redressal Cell:</p><ul><li><strong>Online:</strong> register on <a href=\"https://bimabharosa.irdai.gov.in/\" rel=\"noopener\">bimabharosa.irdai.gov.in</a>. The complaint goes to the insurer's system and to IRDAI's records.</li><li><strong>Phone or email:</strong> toll-free 155255, or <a href=\"mailto:complaints@irdai.gov.in\">complaints@irdai.gov.in</a>.</li><li><strong>Post:</strong> send the complaint to the IRDAI Grievance Redressal Cell in Hyderabad (address in the step-by-step ladder above).</li></ul><p>When you register online, a Token Number is generated. Use it to track the complaint. The insurer's status updates and its final resolution show in your complainant login on the portal. If you are not satisfied with the insurer's answer, the portal says you can escalate for IRDAI to review a possible violation of regulations.</p><p>If the complaint is not attended to within 15 days of registration, or you are not satisfied with the resolution, Bima Bharosa's Our Process page says you can go to the Insurance Ombudsman. Bima Bharosa does not ask for payment of any kind. Be careful with callers, messages or look-alike sites that ask for money to speed up a claim.</p>"
+  },
+  {
+   "type": "section",
    "id": "regulator",
-   "html": "<p><strong>IRDAI (Bima Bharosa)</strong> monitors insurers' compliance. You register on the portal, the complaint flows to the insurer and to IRDAI, and you can see the insurer's response and IRDAI's remarks. If you are not satisfied with the insurer's answer, the portal says you can escalate for IRDAI to review a possible violation of regulations. Bima Bharosa does not ask for any payment; be careful with callers or sites that ask for money to speed up a claim.</p><p><strong>Insurance Ombudsman</strong> is the step that can order payment. Your complaint must be in writing, signed or sent by email or the CIO website, and must state your name and address, the insurer's branch or office complained against, the facts with documents, the nature and extent of your loss, and the relief you want (rule 14). Documents the CIO FAQ lists: a copy of your complaint to the insurer, KYC particulars, a photograph for online registration, the insurer's rejection letter, the policy copy and any other relevant documents. Complaints can be made to the office whose area covers either the insurer's branch you dealt with or your residence.</p><p>You can track an online complaint at <a href=\"https://cioins.co.in/Complaint/Track\" rel=\"noopener\">https://cioins.co.in/Complaint/Track</a>.</p>"
+   "title": "Regulator step: the Insurance Ombudsman",
+   "html": "<p><strong>Insurance Ombudsman</strong> is the step that can order payment. Your complaint must be in writing, signed or sent by email or the CIO website, and must state your name and address, the insurer's branch or office complained against, the facts with documents, the nature and extent of your loss, and the relief you want (rule 14). Documents the CIO FAQ lists: a copy of your complaint to the insurer, KYC particulars, a photograph for online registration, the insurer's rejection letter, the policy copy and any other relevant documents. Complaints can be made to the office whose area covers either the insurer's branch you dealt with or your residence.</p><p>You can track an online complaint at <a href=\"https://cioins.co.in/Complaint/Track\" rel=\"noopener\">https://cioins.co.in/Complaint/Track</a>.</p>"
   },
   {
    "type": "notice",

@@ -9,7 +9,10 @@
  "h1": "How to file an RBI Ombudsman complaint on the CMS portal",
  "description": "Bank, NBFC or wallet complaint unresolved? Reach the RBI Ombudsman under the 2026 scheme: 30-day wait, 90-day window, CMS portal, email or post, and tracking.",
  "direct_answer": "Complain to your bank or lender in writing first and wait 30 days for a reply. Then file free with the RBI Ombudsman on cms.rbi.org.in, by email to crpc@rbi.org.in or by post, within 90 days. Track it on the portal or by calling 14448.",
- "question": {"q": "How do I complain to the RBI Ombudsman about my bank?", "a": "Complain to your bank or lender in writing first and keep its complaint number. If it does not reply within 30 days, or you are not satisfied with its reply, go to the RBI Ombudsman. Filing is free on cms.rbi.org.in, by email to crpc@rbi.org.in or by post. File within 90 days of the wait ending or the lender's last reply, whichever is later."},
+ "question": {
+  "q": "How do I complain to the RBI Ombudsman about my bank?",
+  "a": "Complain to your bank or lender in writing first and keep its complaint number. If it does not reply within 30 days, or you are not satisfied with its reply, go to the RBI Ombudsman. Filing is free on cms.rbi.org.in, by email to crpc@rbi.org.in or by post. File within 90 days of the wait ending or the lender's last reply, whichever is later."
+ },
  "audience": "For customers of banks, NBFCs, prepaid wallet issuers and credit information companies in India",
  "verified": "2026-10-23",
  "primary_source": "https://www.rbi.org.in/commonperson/english/scripts/FAQs.aspx?Id=3407",
@@ -18,9 +21,9 @@
  ],
  "sources": [
   {
-   "label": "RBI, FAQs on the Reserve Bank - Integrated Ombudsman Scheme, 2026 (updated 1 July 2026)",
+   "label": "RBI, FAQs on the Reserve Bank - Integrated Ombudsman Scheme, 2026 (updated 1 July 2026); questions 10, 11, 19, 34 and 36 on status and tracking",
    "url": "https://www.rbi.org.in/commonperson/english/scripts/FAQs.aspx?Id=3407",
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   {
    "label": "RBI press release, 16 January 2026: RBI issues Reserve Bank - Integrated Ombudsman Scheme, 2026 (in force 1 July 2026)",
@@ -95,6 +98,12 @@
    "title": "What to have ready before you file",
    "id": "checklist",
    "html": "<p>RBI's FAQ lists these as the minimum details. Missing information can lead to rejection.</p><ul><li>Your name, mobile number, email ID if you have one, and full postal address.</li><li>The entity's name, branch or location and address.</li><li>The entity's complaint or acknowledgement number, the date you complained, and a copy of your complaint.</li><li>Account, card, loan or transaction details that relate to the problem, with the date and reference number of the transaction if available.</li><li>A copy of the entity's reply, if any.</li><li>The full facts, the loss or inconvenience you suffered, and what you want done.</li><li>Supporting documents.</li></ul><p>The CMS portal accepts complaints in Hindi and English. You may type the description in any language, subject to the portal's character limit. Complaints by email or post may be in any language.</p>"
+  },
+  {
+   "type": "section",
+   "id": "track-status",
+   "title": "How do I check my RBI complaint status?",
+   "html": "<p>Use your complaint number. RBI's FAQ (question 19) says you get a complaint number once the complaint is registered, and you can track its status on the CMS portal, <a href=\"https://cms.rbi.org.in\" rel=\"noopener\">cms.rbi.org.in</a>, with that number and your mobile number. You can also call the RBI Contact Centre on toll-free 14448 for help with the status.</p><ul><li>The 14448 IVRS works 24x7. Staff answer from 8:00 AM to 10:00 PM, Monday to Saturday, except national holidays (question 10).</li><li>The Contact Centre can help with the status, but it cannot take a new complaint (question 11).</li><li>To withdraw a complaint at any stage, use the \"Track a complaint\" tab on the CMS portal (question 34).</li><li>After the complaint is closed, you can give feedback on the CMS portal where that option is available (question 36).</li></ul>"
   },
   {
    "type": "problems",
