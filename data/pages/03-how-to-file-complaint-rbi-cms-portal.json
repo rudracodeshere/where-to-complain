@@ -5,10 +5,11 @@
  "also_in": [
   "regulators"
  ],
- "title": "RBI CMS portal complaint: how to file (2026 rules)",
- "h1": "How to file a complaint on the RBI CMS portal",
+ "title": "RBI Ombudsman complaint: how to file on the CMS portal",
+ "h1": "How to file an RBI Ombudsman complaint on the CMS portal",
  "description": "Bank, NBFC or wallet complaint unresolved? How to approach the RBI Ombudsman under the 2026 scheme: 30-day wait, 90-day window, CMS portal, email or post, and tracking.",
  "direct_answer": "Complain to your bank or lender in writing first and wait 30 days for a reply. Then file free on cms.rbi.org.in, by email to crpc@rbi.org.in or by post, within 90 days, and track it on the portal or by calling 14448.",
+ "question": {"q": "How do I complain to the RBI Ombudsman about my bank?", "a": "Complain to your bank or lender in writing first and keep its complaint number. If it does not reply within 30 days, or you are not satisfied with its reply, go to the RBI Ombudsman. Filing is free on cms.rbi.org.in, by email to crpc@rbi.org.in or by post. File within 90 days of the wait ending or the lender's last reply, whichever is later."},
  "audience": "For customers of banks, NBFCs, prepaid wallet issuers and credit information companies in India",
  "verified": "2026-10-23",
  "primary_source": "https://www.rbi.org.in/commonperson/english/scripts/FAQs.aspx?Id=3407",

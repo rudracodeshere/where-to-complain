@@ -1,0 +1,24 @@
+# Where to Complain
+
+> Plain-English complaint escalation ladders for India: who to write to, in what order, and by when.
+
+A free, independent guide for people in India whose complaint to an insurer, bank or other regulated company has stalled. Each guide gives the official escalation order, the published contact, the deadline, a free letter template where useful, and links to the official source with the date it was last checked. General information only, not legal advice. Not affiliated with any regulator or company.
+
+## Guides
+
+- [Health insurance claim rejected: what to do](https://rudracodeshere.github.io/where-to-complain/health-insurance-claim-rejected/): Health claim rejected or short-paid in India? The escalation order: insurer grievance officer, IRDAI Bima Bharosa, Insurance Ombudsman, with deadlines and a free letter. Last checked 2026-10-23.
+- [Insurance Ombudsman offices: which one covers your state](https://rudracodeshere.github.io/where-to-complain/insurance-ombudsman-offices-by-state/): All 18 Insurance Ombudsman centres in India: address, phone, email and areas covered, with a state-by-state lookup, copied from the official CIO site. Last checked 2026-10-23.
+- [How to file an RBI Ombudsman complaint on the CMS portal](https://rudracodeshere.github.io/where-to-complain/how-to-file-complaint-rbi-cms-portal/): Bank, NBFC or wallet complaint unresolved? How to approach the RBI Ombudsman under the 2026 scheme: 30-day wait, 90-day window, CMS portal, email or post, and tracking. Last checked 2026-10-23.
+- [Star Health complaint escalation: step-by-step](https://rudracodeshere.github.io/where-to-complain/star-health-complaint-escalation/): Star Health claim rejected, cashless denied or no reply? The official order: customer care, Star Health GRO, IRDAI Bima Bharosa, Insurance Ombudsman, plus a free letter. Last checked 2026-10-24.
+- [Complaint deadline calculator: when to escalate and the last date to file](https://rudracodeshere.github.io/where-to-complain/complaint-deadline-calculator/): Free complaint deadline calculator for India: when you can go to the Insurance Ombudsman or RBI Ombudsman, and the last date to file, from official rules. Last checked 2026-10-24.
+
+## Sector hubs
+
+- [Insurance](https://rudracodeshere.github.io/where-to-complain/insurance/): Health, life and motor claim rejections, insurer grievance officers, IRDAI and the Insurance Ombudsman.
+- [Banks](https://rudracodeshere.github.io/where-to-complain/banks/): Bank service complaints and the RBI Ombudsman.
+- [Regulators](https://rudracodeshere.github.io/where-to-complain/regulators/): The official bodies behind each ladder: what each one handles and how to reach it.
+
+## About
+
+- [About and disclaimer](https://rudracodeshere.github.io/where-to-complain/about/): how facts are sourced and checked.
+- [Sitemap](https://rudracodeshere.github.io/where-to-complain/sitemap.xml)

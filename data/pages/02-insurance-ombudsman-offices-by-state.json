@@ -9,6 +9,7 @@
  "h1": "Insurance Ombudsman offices: which one covers your state",
  "description": "All 18 Insurance Ombudsman centres in India: address, phone, email and areas covered, with a state-by-state lookup, copied from the official CIO site.",
  "direct_answer": "You may file with the Insurance Ombudsman office that covers either the insurer's branch you dealt with or your own residence; find yours in the state lookup below. Complain to the insurer in writing first, then file within one year by letter, email or the online portal.",
+ "question": {"q": "Which Insurance Ombudsman office should I file with?", "a": "Under Rule 14 you may file with the Insurance Ombudsman office that covers either the insurer's branch you dealt with or your own residence. Find your state or union territory in the lookup table below. Haryana, Maharashtra, Uttar Pradesh and Puducherry are split between offices, so check the area or district in the full list."},
  "audience": "For anyone who needs to send an insurance complaint to the right Ombudsman office",
  "verified": "2026-10-23",
  "primary_source": "https://cioins.co.in/Ombudsman",

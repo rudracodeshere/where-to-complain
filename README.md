@@ -35,6 +35,7 @@ style.css                 design-system CSS source (copied to docs/style.css)
 DESIGN.md                 design tokens, components, SEO and build rules: follow it for every page
 assets/*.js               tool scripts (copied to docs/), e.g. calculator.js
 tools/test_calculator.js  node tests for the calculator date logic
+tools/test_site.py        Playwright smoke test of every built page (console errors, links, 390px, calculator)
 tools/shots.sh            before/after screenshots with headless Chrome into design-shots/
 site.json                 site name, base URL, sector list
 data/pages/NN-slug.json   one file per content page
@@ -59,8 +60,9 @@ QUEUE.md                  todo/done list of pages
    - `notice`: a highlighted note.
 4. Add `templates`: a list of `{title, text, intro_html}`. The text is also written to `docs/letters/<slug>.txt` for download.
 5. Add `related` (slugs of other pages or sector hubs), `also_in` (extra sector hubs to list the page in), and leave `resources_html` as `""`. The page renders an empty `<section class="resources" id="resources">`, reserved for br mogul. It is hidden until it has content.
-6. Run `python3 build.py --check`. It fails if a required field is missing, a description or title is the wrong length, a link is broken, or an email address appears in the content without being listed in `verified_emails`.
-7. Mark the row in `QUEUE.md` as `done`, add a line to `CHANGELOG.md`, commit, and push. GitHub Pages serves the `docs/` folder from `main`.
+6. Add `question`: `{q, a}`, a question-style H2 (ending in "?") with a 40 to 60 word answer using only facts on the page.
+7. Run `python3 build.py --check`. It fails if a required field is missing, a description or title is the wrong length or duplicated, a link is broken, a page is an orphan, the JSON-LD is invalid, the "Last checked" line or question H2 is missing, the short copy fails the copy-editing lint, or an email address appears in the content without being listed in `verified_emails`. Then run `python3 tools/test_site.py`.
+8. Mark the row in `QUEUE.md` as `done`, add a line to `CHANGELOG.md`, commit, and push. GitHub Pages serves the `docs/` folder from `main`.
 
 A sector hub (`/insurance/`, etc.) is generated automatically once at least one page uses that sector. Credit cards and Telecom hubs will appear when their first page is added.
 
@@ -77,9 +79,12 @@ A sector hub (`/insurance/`, etc.) is generated automatically once at least one 
 ## Build and publish
 
 ```
-python3 build.py --check
+python3 build.py --check             # links, fields, SEO/schema/copy rules from DESIGN.md
 node tools/test_calculator.js        # calculator date logic
+python3 tools/test_site.py           # browser smoke test of docs/ (needs Playwright; see below)
 git add -A && git commit -m "Add page: <title>" && git push
 ```
+
+`tools/test_site.py` needs Playwright (`python3 -m venv .venv && .venv/bin/pip install playwright && .venv/bin/playwright install chromium`, or set `CHROME=/usr/bin/google-chrome` to use an installed Chrome). On the shared box: `CHROME=/usr/bin/google-chrome /workspace/boring-realty/.venv/bin/python tools/test_site.py`.
 
 The base URL in `site.json` controls canonical links and `sitemap.xml`. Internal links are relative, so the site also works from a custom domain if `base_url` is changed.

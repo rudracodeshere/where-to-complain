@@ -1,3 +1,17 @@
+# All crawlers are allowed. AI search crawlers are listed explicitly so the intent is clear.
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
 User-agent: *
 Allow: /
 

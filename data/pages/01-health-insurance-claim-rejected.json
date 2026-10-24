@@ -9,6 +9,7 @@
  "h1": "Health insurance claim rejected: what to do",
  "description": "Health claim rejected or short-paid in India? The escalation order: insurer grievance officer, IRDAI Bima Bharosa, Insurance Ombudsman, with deadlines and a free letter.",
  "direct_answer": "Get the rejection reasons in writing, then complain to the insurer's Grievance Redressal Officer, who must resolve it within 14 days. Still unresolved? Escalate to IRDAI on Bima Bharosa (155255), then the Insurance Ombudsman: free, claims up to ₹50 lakh, file within one year.",
+ "question": {"q": "Where do I complain if my health insurance claim is rejected?", "a": "Write to your insurer's Grievance Redressal Officer first and keep the acknowledgement; IRDAI's circular says it must resolve your complaint within 14 days. If it is not resolved, escalate to IRDAI on Bima Bharosa (155255). Then go to the Insurance Ombudsman, which is free, covers claims up to ₹50 lakh and must be approached within one year."},
  "audience": "For policyholders in India whose health insurance claim was rejected, short-paid or delayed",
  "verified": "2026-10-23",
  "primary_source": "https://irdai.gov.in/en/document-detail?documentId=5625747",

@@ -6,7 +6,7 @@
   "also_in": ["banks", "regulators"],
   "title": "Complaint deadline calculator: RBI and insurance (India)",
   "h1": "Complaint deadline calculator: when to escalate and the last date to file",
-  "description": "Work out when you can go to the Insurance Ombudsman or RBI Ombudsman and the last date to file, from official rules with sources.",
+  "description": "Free complaint deadline calculator for India: when you can go to the Insurance Ombudsman or RBI Ombudsman, and the last date to file, from official rules.",
   "audience": "For anyone in India whose insurer or bank has not replied, rejected their complaint, or sent a reply they are unhappy with.",
   "verified": "2026-10-24",
   "published": "2026-10-24",
@@ -19,6 +19,7 @@
     {"label": "RBI, FAQs on the Reserve Bank – Integrated Ombudsman Scheme, 2026 (30-day wait, 90-day window)", "url": "https://www.rbi.org.in/commonperson/english/scripts/FAQs.aspx?Id=3407", "checked": "2026-10-24"}
   ],
   "direct_answer": "Insurance: go to the Insurance Ombudsman after a rejection, an unsatisfactory reply, or one month with no reply, and file within one year of that point. Banks: wait 30 days (unless you already have a reply you dislike), then file with the RBI Ombudsman within 90 days.",
+  "question": {"q": "How do I work out my ombudsman deadline?", "a": "Insurance: file with the Ombudsman within one year of the insurer's rejection or reply, or of one month passing with no reply after it received your complaint. Banks: wait 30 days after the bank received your complaint, unless it has already replied, then file with the RBI Ombudsman within 90 days, or 90 days from its last reply if later."},
   "blocks": [
     {"type": "answer", "title": "How it works", "items": [
       "<strong>Pick who the complaint is against:</strong> an insurer, or a bank or other lender covered by the RBI Ombudsman.",

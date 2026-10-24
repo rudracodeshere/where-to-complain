@@ -132,7 +132,7 @@
         dl.appendChild(el("dd", {}, row.rule));
         dl.appendChild(el("dt", {}, "Source"));
         var dd = el("dd"), a = el("a", { href: SRC[row.src].url, rel: "noopener" }, SRC[row.src].label);
-        dd.appendChild(a); dd.appendChild(document.createTextNode(". Last verified: " + VERIFIED + "."));
+        dd.appendChild(a); dd.appendChild(document.createTextNode(". Last checked: " + VERIFIED + "."));
         dl.appendChild(dd);
         li.appendChild(dl); ol.appendChild(li);
       });
