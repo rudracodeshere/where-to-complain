@@ -5,7 +5,7 @@ Usage:  python3 build.py            # build everything into docs/
         python3 build.py --check    # build + verify links, required fields, emails
 
 One JSON file per content page lives in data/pages/. See README.md for the schema.
-No third-party packages. No JavaScript or web fonts are emitted; the only script is the GoatCounter counter.
+No third-party packages. No web fonts. JavaScript only for tools (assets/*.js, copied to docs/) plus the GoatCounter counter.
 CSS lives in style.css (source) and is copied to docs/style.css. Design rules: DESIGN.md.
 """
 import html, json, re, sys, shutil
@@ -138,10 +138,35 @@ def render_block(b, page, depth):
                 f'checked {fmt_date(data["checked"])}. Text is as published by the Council for Insurance Ombudsmen.</p>')
         return (f'<h2 id="{E(b.get("id","offices"))}">{E(b["title"])}</h2>{note}'
                 f'<div class="tablewrap"><table><tr><th>Centre</th><th>Address</th><th>Phone</th><th>Email</th><th>Covers</th></tr>{rows}</table></div>')
+    if t == "calculator":
+        return CALCULATOR_HTML.replace("{r}", rel(depth))
     if t == "template":
         return ""  # rendered separately (also written to letters/*.txt)
     die(f"{page['slug']}: unknown block type {t}")
     return ""
+
+CALCULATOR_HTML = """<noscript><p class="notice">This calculator needs JavaScript. Every rule it uses is listed below with its official source, so you can count the dates yourself.</p></noscript>
+<form id="calc" class="calc" novalidate>
+<fieldset><legend>Who is the complaint against?</legend>
+<label class="choice"><input type="radio" name="type" value="insurance" checked> An insurance company</label>
+<label class="choice"><input type="radio" name="type" value="bank"> A bank, NBFC, wallet issuer or credit information company (RBI Ombudsman)</label>
+</fieldset>
+<label for="complained">Date you sent your written complaint to the company</label>
+<input type="date" id="complained" name="complained" required aria-describedby="complained-hint">
+<p class="hint" id="complained-hint">The first written complaint, by email, online form or letter. Keep its reference number.</p>
+<fieldset><legend>What has the company done so far?</legend>
+<label class="choice"><input type="radio" name="reply" value="none" checked> No reply yet</label>
+<label class="choice"><input type="radio" name="reply" value="rejected"> It rejected my complaint</label>
+<label class="choice"><input type="radio" name="reply" value="unsatisfied"> It replied, but I am not satisfied</label>
+</fieldset>
+<div id="reply-date-wrap">
+<label for="replied">Date you received its reply (final or last reply)</label>
+<input type="date" id="replied" name="replied">
+</div>
+<p><button type="submit">Show my dates</button></p>
+</form>
+<div id="calc-result" class="calc-result" tabindex="-1" aria-live="polite"></div>
+<script src="{r}calculator.js" defer></script>"""
 
 def render_template(page, depth):
     out = ""
@@ -328,7 +353,7 @@ def check_content():
             die(f"{p['slug']}: faq needs 3 to 5 items, each from facts already on the page")
         if not any(b["type"] == "answer" for b in p["blocks"]):
             die(f"{p['slug']}: no answer block")
-        if not p.get("templates"):
+        if not p.get("templates") and p.get("kind") != "tool":
             die(f"{p['slug']}: no letter template")
         for s in p["sources"]:
             if not s.get("url", "").startswith("https://") or not s.get("checked"):
@@ -397,6 +422,8 @@ def main():
     for fn, text in letters.items():
         write(f"letters/{fn}", text + "\n")
     write("style.css", CSS.strip() + "\n")
+    for js in sorted((ROOT / "assets").glob("*.js")):
+        write(js.name, js.read_text(encoding="utf-8"))
     write("404.html", render_404())
     write(".nojekyll", "")
     write("robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {BASE}sitemap.xml\n")

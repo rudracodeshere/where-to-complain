@@ -3,7 +3,7 @@
 **Live site:** https://rudracodeshere.github.io/where-to-complain/
 **Repo:** https://github.com/rudracodeshere/where-to-complain
 
-A free, no-JavaScript, no-tracker static directory of Indian complaint escalation ladders: who to write to first, who to escalate to next, the official contact, the deadline, and a copy-paste letter. Every fact on a page is copied from an official regulator or government page, with the URL and the date it was checked. If something is not published officially, the page says so instead of guessing.
+A free, no-tracker static directory (JavaScript only on tool pages) of Indian complaint escalation ladders: who to write to first, who to escalate to next, the official contact, the deadline, and a copy-paste letter. Every fact on a page is copied from an official regulator or government page, with the URL and the date it was checked. If something is not published officially, the page says so instead of guessing.
 
 **Who it helps:** people in India whose insurance claim was rejected, whose bank or lender did not resolve a complaint, and anyone who needs to know which ombudsman office covers them.
 
@@ -16,6 +16,7 @@ A free, no-JavaScript, no-tracker static directory of Indian complaint escalatio
 | Insurance Ombudsman offices: which one covers your state | https://rudracodeshere.github.io/where-to-complain/insurance-ombudsman-offices-by-state/ |
 | How to file a complaint on the RBI CMS portal | https://rudracodeshere.github.io/where-to-complain/how-to-file-complaint-rbi-cms-portal/ |
 | Star Health complaint escalation: GRO, IRDAI, Ombudsman, letter | https://rudracodeshere.github.io/where-to-complain/star-health-complaint-escalation/ |
+| Complaint deadline calculator (tool, JavaScript) | https://rudracodeshere.github.io/where-to-complain/complaint-deadline-calculator/ |
 | Hubs: Insurance, Banks, Regulators | `/insurance/`, `/banks/`, `/regulators/` |
 | About and disclaimer | `/about/` |
 | Sitemap, robots | `/sitemap.xml`, `/robots.txt` |
@@ -32,6 +33,8 @@ GoatCounter (free, no cookies) is live. Dashboard: https://where-to-complain.goa
 build.py                  generator (Python 3, standard library only)
 style.css                 design-system CSS source (copied to docs/style.css)
 DESIGN.md                 design tokens, components, SEO and build rules: follow it for every page
+assets/*.js               tool scripts (copied to docs/), e.g. calculator.js
+tools/test_calculator.js  node tests for the calculator date logic
 tools/shots.sh            before/after screenshots with headless Chrome into design-shots/
 site.json                 site name, base URL, sector list
 data/pages/NN-slug.json   one file per content page
@@ -75,6 +78,7 @@ A sector hub (`/insurance/`, etc.) is generated automatically once at least one 
 
 ```
 python3 build.py --check
+node tools/test_calculator.js        # calculator date logic
 git add -A && git commit -m "Add page: <title>" && git push
 ```
 

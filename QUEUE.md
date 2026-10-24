@@ -43,3 +43,4 @@ Source of the list: `/workspace/boring-realty/picks/01-escalation-ladder-directo
 | todo | Life insurance claim rejected: what to do (LIC and private insurers) | Same ladder; reuse verified rules. Also check IRDAI rules specific to life claims. |
 | todo | Motor insurance claim rejected: what to do | Check surveyor/claim timelines from the IRDAI Protection of Policyholders circular. |
 | todo | Insurance Ombudsman: how to track and what happens after you file | Uses CIO pages. |
+| done | Complaint deadline calculator (tool) | Published 2026-10-24: https://rudracodeshere.github.io/where-to-complain/complaint-deadline-calculator/ . Insurance + RBI only. |
