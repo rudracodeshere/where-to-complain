@@ -112,7 +112,7 @@ Skipped: running it. It needs a Google Cloud OAuth client and a Bing API key, wh
 **F. Web quality, performance, accessibility**
 - [ ] No new JS or third-party requests. Page under 50 KB. No images without width, height and alt.
 - [ ] Lighthouse mobile: Performance 95+, Accessibility 100, Best Practices 100 (after the favicon fix), SEO 100.
-- [ ] `python3 tools/check_pages.py` shows 0 FAIL. `python3 tools/test_site.py` passes.
+- [ ] `python3 tools/check_pages.py` shows 0 FAIL. `CHROME=/usr/bin/google-chrome python3 tools/test_site.py` passes (Playwright browser is not installed; use system Chrome).
 
 **G. Deploy and submit**
 - [ ] Commit and push. Confirm the live URL returns 200 and appears in the live sitemap.xml.
