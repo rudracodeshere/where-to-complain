@@ -52,3 +52,9 @@ Source of the list: `/workspace/boring-realty/picks/01-escalation-ladder-directo
 - Each guide needs at least 3 internal links in from other pages.
 - No per-city Ombudsman pages (0 searches).
 - Cluster owners: see /workspace/boring-realty/growth-playbook.md; never build a page that competes with an existing owner page.
+
+## PF section (from br scout pick 02, picks/02-pf-claim-fixer.md), added 2026-10-25
+Built as a /pf/ hub on this site, interleaved after #22 NCH and #23 CPGRAMS, roughly every 3rd night. Follow the accuracy rules in the pick brief.
+| PF1 | todo | EPFO grievance: how to file and escalate on EPFiGMS | `epfo-grievance-complaint` | Bing "epfo grievance" 346/12 wks. Official epfigms.gov.in + EPFO circulars only. Links: CPGRAMS, consumer court. |
+| PF2 | todo | PF claim status: what each status means and what to do | `pf-claim-status-meaning` | Bing "pf claim status" 128. Only statuses shown on official EPFO pages. |
+| PF3 | todo | PF claim rejected: common reasons and fixes | `pf-claim-rejected-reasons` | Only reasons published by EPFO. |
