@@ -7,7 +7,7 @@ A free static directory with no ads and no cookies (JavaScript only on tool page
 
 **Who it helps:** people in India whose insurance claim was rejected, whose bank or lender did not resolve a complaint, and anyone who needs to know which ombudsman office covers them.
 
-## Pages (as of 2026-10-25)
+## Pages (as of 2026-10-26)
 
 | Page | URL |
 |------|-----|
@@ -18,6 +18,7 @@ A free static directory with no ads and no cookies (JavaScript only on tool page
 | Star Health complaint escalation: GRO, IRDAI, Ombudsman, letter | https://rudracodeshere.github.io/where-to-complain/star-health-complaint-escalation/ |
 | Complaint deadline calculator (tool, JavaScript) | https://rudracodeshere.github.io/where-to-complain/complaint-deadline-calculator/ |
 | Consumer court complaint online: e-Jagriti step by step | https://rudracodeshere.github.io/where-to-complain/consumer-court-complaint-e-jagriti/ |
+| National Consumer Helpline (NCH 1915): how to complain | https://rudracodeshere.github.io/where-to-complain/national-consumer-helpline-complaint/ |
 | Hubs: Insurance, Banks, Regulators | `/insurance/`, `/banks/`, `/regulators/` |
 | About and disclaimer | `/about/` |
 | How we check facts, Privacy (trust pages) | `/how-we-check-facts/`, `/privacy/` |

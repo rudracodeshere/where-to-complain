@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-26
+- Added page: National Consumer Helpline (NCH 1915): how to complain and what happens next (`/national-consumer-helpline-complaint/`). Covers the toll-free numbers 1915 and 1800-11-4000 (8 AM to 8 PM daily except national holidays, call back 8 PM to 8 AM), WhatsApp/SMS 8800001915, email nch-ca@gov.in, portal sign-up, NCH and UMANG apps, docket number, tracking and document upload, the Convergence programme (responses expected within 30 days), subjects NCH cannot take, and the next step to the consumer commission (two-year limit). Grievance text template.
+- Sources checked 2026-10-26: consumerhelpline.gov.in contact, about, convergence program, consumer login, signup, track, upload-docs and UMANG pages; Department of Consumer Affairs NCH page (last updated 11 Mar 2026); NCH app listing on Google Play (linked from the NCH site).
+- Left out: whether companies must accept NCH's outcome, any response time for non-partner companies, the names of the 17 languages, NCH statistics (not on a page we could cite).
+- Linked from the e-Jagriti (in body and related), health insurance claim rejected, RBI CMS and Star Health pages, home page and the Regulators, Insurance and Banks hubs. Submitted to Bing (SubmitUrlBatch) and IndexNow.
+
 ## 2026-10-25
 - Added page: Consumer court complaint online: e-Jagriti step by step (`/consumer-court-complaint-e-jagriti/`). Covers registering, filing a Consumer Complaint, paying the fee, admission, reply, hearing and appeal; which commission by value paid (₹50 lakh / ₹2 crore); the full 2023 fee table (nil up to ₹5 lakh); where to file (section 34(2)); the two-year limit (section 69); what happened to e-Daakhil; a complaint outline template.
 - Sources checked 2026-10-25: e-Jagriti help PDFs (Onboarding, CC Filing, Payment Flow, March 2025), PIB releases of 17 Aug 2025 and 27 Nov 2024, Lok Sabha USQ 4255 (18 Mar 2026), Consumer Protection Act 2019, Jurisdiction Rules 2021 (G.S.R. 912(E)), fee amendment 2023 (G.S.R. 606(E)).
