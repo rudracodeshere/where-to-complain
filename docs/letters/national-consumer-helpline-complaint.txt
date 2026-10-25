@@ -1,0 +1,25 @@
+Company: [company legal or brand name]
+Product or service: [what you bought or used]
+Order / account / policy / bill number: [number]
+Date of purchase or service: [DD-MM-YYYY]
+Amount paid: Rs. [amount]
+
+What went wrong:
+[2 to 5 short lines, in date order]
+
+My complaint to the company:
+On [date] I complained to the company by [email / app / call / letter], reference no. [____]. [It replied on [date] saying ____. / It has not replied.]
+
+What I want:
+[refund of Rs. ____ / replacement / repair / service restored / bill corrected] within [__] days.
+
+Documents I am uploading:
+1. Invoice or bill
+2. My complaint to the company and its reply
+3. [Screenshots, photos, bank statement]
+
+Name: [your name]
+Mobile: [registered mobile number]
+Email: [registered email]
+City and state: [city], [state]
+

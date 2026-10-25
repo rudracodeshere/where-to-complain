@@ -74,7 +74,7 @@
   {
    "type": "answer",
    "items": [
-    "<strong>Complain to the company first</strong> and keep its reply. For insurance and bank problems there are free regulator routes too: see the section on choosing below.",
+    "<strong>Complain to the company first</strong> and keep its reply. For other consumer problems you can also try the <a href=\"../national-consumer-helpline-complaint/\">National Consumer Helpline (NCH 1915)</a> first. For insurance and bank problems there are free regulator routes too: see the section on choosing below.",
     "<strong>Pick the commission by what you paid:</strong> District Commission up to ₹50 lakh, State Commission above ₹50 lakh up to ₹2 crore, National Commission above ₹2 crore (<a href=\"https://consumeraffairs.gov.in/public/upload/files/232278_1732705181.pdf\" rel=\"noopener\">Jurisdiction Rules, 2021</a>).",
     "<strong>File within two years</strong> of the date the cause of action arose (section 69 of the <a href=\"https://consumeraffairs.gov.in/public/upload/files/CP%20Act%202019_1732700731.pdf\" rel=\"noopener\">Consumer Protection Act, 2019</a>). Late complaints are taken only if the commission accepts your reason for the delay.",
     "<strong>File online on <a href=\"https://e-jagriti.gov.in/\" rel=\"noopener\">e-Jagriti</a>:</strong> register with an OTP, choose File New Case, then Consumer Complaint, upload documents, submit, and note the reference number.",
@@ -237,6 +237,7 @@
   }
  ],
  "related": [
+  "national-consumer-helpline-complaint",
   "health-insurance-claim-rejected",
   "how-to-file-complaint-rbi-cms-portal",
   "insurance-ombudsman-offices-by-state",
