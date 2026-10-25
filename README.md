@@ -96,3 +96,6 @@ python3 tools/indexnow.py <changed URLs>   # after the deploy is live (key file 
 `tools/test_site.py` needs Playwright (`python3 -m venv .venv && .venv/bin/pip install playwright && .venv/bin/playwright install chromium`, or set `CHROME=/usr/bin/google-chrome` to use an installed Chrome). On the shared box: `CHROME=/usr/bin/google-chrome /workspace/boring-realty/.venv/bin/python tools/test_site.py`.
 
 The base URL in `site.json` controls canonical links and `sitemap.xml`. Internal links are relative, so the site also works from a custom domain if `base_url` is changed.
+
+## License
+Code is MIT (see LICENSE). Guide text is CC BY 4.0: reuse it with a link back.
