@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-27
+- Added page: CPGRAMS grievance: how to register, file, track status and appeal (`/cpgrams-grievance-complaint/`). Covers sign-up and login (incl. OTP), Lodge Public Grievance, the app (Android, iPhone) and UMANG, filing by post or Common Service Centre, no fee, no grievances by email, routing to the Ministry/State, View Status and Send Reminder, the 21-day maximum redress time (3 days for priority, 48 hours to forward a misrouted grievance), the Poor rating that opens the appeal, appeal within 30 days and decided within 30 days, no reopening of closed grievances, and matters CPGRAMS does not take up. Two templates: grievance text and appeal text.
+- Sources checked 2026-10-27: pgportal.gov.in home, FAQ, Registration, Signin, Lodge Grievance, Status, Appeal Status, Reminder, Nodal Authority for Appeal, Nodal PG Officers, Contact Us; DARPG OM "Comprehensive guidelines for handling the Public Grievances" (23 Aug 2024, PDF on pgportal); CPGRAMS app store listings linked from pgportal.
+- Left out: the PMO grievance route, the feedback call centre number (not published on a page we opened), the start date for the 30-day appeal window (FAQ does not say), and the Redress Process Flow page (empty when fetched).
+- Linked from the NCH page (in body and related), e-Jagriti and RBI CMS related lists, the home page and the Regulators hub. Submitted to Bing (SubmitUrlBatch) and IndexNow.
+
 ## 2026-10-26
 - Added page: National Consumer Helpline (NCH 1915): how to complain and what happens next (`/national-consumer-helpline-complaint/`). Covers the toll-free numbers 1915 and 1800-11-4000 (8 AM to 8 PM daily except national holidays, call back 8 PM to 8 AM), WhatsApp/SMS 8800001915, email nch-ca@gov.in, portal sign-up, NCH and UMANG apps, docket number, tracking and document upload, the Convergence programme (responses expected within 30 days), subjects NCH cannot take, and the next step to the consumer commission (two-year limit). Grievance text template.
 - Sources checked 2026-10-26: consumerhelpline.gov.in contact, about, convergence program, consumer login, signup, track, upload-docs and UMANG pages; Department of Consumer Affairs NCH page (last updated 11 Mar 2026); NCH app listing on Google Play (linked from the NCH site).
