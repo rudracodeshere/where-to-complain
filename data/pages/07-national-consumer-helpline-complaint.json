@@ -191,6 +191,10 @@
      "html": "<p>NCH does not take away your right to file in a consumer commission. Note your docket number and the company's reply, if any, and use them as evidence. Steps, fees and which commission are on our <a href=\"../consumer-court-complaint-e-jagriti/\">consumer court complaint on e-Jagriti</a> page. Work out your last date with the <a href=\"../complaint-deadline-calculator/\">complaint deadline calculator</a> if it covers your case.</p>"
     },
     {
+     "title": "Your complaint is about a government office",
+     "html": "<p>NCH handles consumer grievances. For a Central Ministry, Department or State Government office, file on CPGRAMS instead: see <a href=\"../cpgrams-grievance-complaint/\">how to file, track and appeal a CPGRAMS grievance</a>.</p>"
+    },
+    {
      "title": "The matter is already in court",
      "html": "<p>NCH lists court related and sub judice matters among the subjects it cannot treat as consumer grievances. Follow the case in that court instead.</p>"
     }
@@ -213,6 +217,7 @@
   "health-insurance-claim-rejected",
   "how-to-file-complaint-rbi-cms-portal",
   "complaint-deadline-calculator",
+  "cpgrams-grievance-complaint",
   "regulators",
   "insurance",
   "banks"

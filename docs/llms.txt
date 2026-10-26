@@ -13,6 +13,7 @@ A free, independent guide for people in India whose complaint to an insurer, ban
 - [Complaint deadline calculator: when to escalate and the last date to file](https://rudracodeshere.github.io/where-to-complain/complaint-deadline-calculator/): Free complaint deadline calculator for India: when you can go to the Insurance Ombudsman or RBI Ombudsman, and the last date to file, from official rules. Last checked 2026-10-24.
 - [Consumer court complaint online on e-Jagriti (formerly e-Daakhil): step by step](https://rudracodeshere.github.io/where-to-complain/consumer-court-complaint-e-jagriti/): File a consumer court complaint online on e-Jagriti, which replaced e-Daakhil: which commission, fees (nil up to ₹5 lakh), the 2-year limit and each step. Last checked 2026-10-25.
 - [National Consumer Helpline (NCH 1915): how to complain and what happens next](https://rudracodeshere.github.io/where-to-complain/national-consumer-helpline-complaint/): File a complaint with the National Consumer Helpline: call 1915 or 1800-11-4000, WhatsApp 8800001915, app or portal, get a docket number, and what comes next. Last checked 2026-10-26.
+- [CPGRAMS grievance: how to register, file, track status and appeal](https://rudracodeshere.github.io/where-to-complain/cpgrams-grievance-complaint/): File a CPGRAMS grievance on pgportal.gov.in: register and log in, lodge it free, track status with your registration number, the 21-day target and the appeal. Last checked 2026-10-27.
 
 ## Sector hubs
 

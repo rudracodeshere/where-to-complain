@@ -1,0 +1,259 @@
+{
+ "slug": "cpgrams-grievance-complaint",
+ "order": 8,
+ "sector": "regulators",
+ "also_in": [],
+ "title": "CPGRAMS grievance: register, file, track status and appeal",
+ "h1": "CPGRAMS grievance: how to register, file, track status and appeal",
+ "description": "File a CPGRAMS grievance on pgportal.gov.in: register and log in, lodge it free, track status with your registration number, the 21-day target and the appeal.",
+ "direct_answer": "File a CPGRAMS grievance free on pgportal.gov.in or the CPGRAMS app after you register and log in. It goes to the Ministry, Department or State Government concerned. DARPG's guidelines set a 21-day maximum for redress. If the reply is poor, you can appeal within 30 days, and appeals should be closed within 30 days.",
+ "question": {
+  "q": "How do I file a grievance on CPGRAMS?",
+  "a": "Register on pgportal.gov.in with your name, address, state, district, pincode, mobile number and email, then log in and choose Lodge Public Grievance. You can also use the CPGRAMS app or a Common Service Centre, or post a letter to DARPG. You get a unique registration number, which you use to track the grievance."
+ },
+ "audience": "For people in India with a grievance against a Central Ministry, Department, State Government or other public authority, who want to file it on CPGRAMS, track it and appeal",
+ "verified": "2026-10-27",
+ "primary_source": "https://pgportal.gov.in/Home/Faq",
+ "verified_emails": [
+  "cpgrams-darpg@nic.in"
+ ],
+ "sources": [
+  {
+   "label": "CPGRAMS FAQs/Help (post, CSC, registration number, 21 days, appeal within 30 days, no reopening, exclusions)",
+   "url": "https://pgportal.gov.in/Home/Faq",
+   "checked": "2026-10-27"
+  },
+  {
+   "label": "DARPG Office Memorandum: Comprehensive guidelines for handling the Public Grievances, 23 August 2024 (21 days, 3 days for priority cases, 48 hours to forward, appeal closed in 30 days)",
+   "url": "https://pgportal.gov.in/Home/Preview/Q29tcHJlaGVuc2l2ZUd1aWRlbGluZXNGb3JIYW5kbGluZ1RoZVB1YmxpY0dyaWV2YW5jZXMucGRm",
+   "checked": "2026-10-27"
+  },
+  {
+   "label": "CPGRAMS home page (about CPGRAMS, appeal after a Poor rating, no fee, no grievances by email, issues not taken up)",
+   "url": "https://pgportal.gov.in/",
+   "checked": "2026-10-27"
+  },
+  {
+   "label": "CPGRAMS Registration/Sign up form",
+   "url": "https://pgportal.gov.in/Registration",
+   "checked": "2026-10-27"
+  },
+  {
+   "label": "CPGRAMS User Login (OTP login, technical support email, app links)",
+   "url": "https://pgportal.gov.in/Signin",
+   "checked": "2026-10-27"
+  },
+  {
+   "label": "CPGRAMS: Lodge Public Grievance (registered users only)",
+   "url": "https://pgportal.gov.in/Home/LodgeGrievance",
+   "checked": "2026-10-27"
+  },
+  {
+   "label": "CPGRAMS: View Status (grievance)",
+   "url": "https://pgportal.gov.in/Status",
+   "checked": "2026-10-27"
+  },
+  {
+   "label": "CPGRAMS: View Appeal Status",
+   "url": "https://pgportal.gov.in/Appeal/Status",
+   "checked": "2026-10-27"
+  },
+  {
+   "label": "CPGRAMS: Send Reminder",
+   "url": "https://pgportal.gov.in/Reminder",
+   "checked": "2026-10-27"
+  },
+  {
+   "label": "CPGRAMS: List of Nodal Authority for Appeal",
+   "url": "https://pgportal.gov.in/Home/NodalAuthorityForAppeal",
+   "checked": "2026-10-27"
+  },
+  {
+   "label": "CPGRAMS: Nodal PG Officers, Central Government",
+   "url": "https://pgportal.gov.in/Home/NodalPgOfficers",
+   "checked": "2026-10-27"
+  },
+  {
+   "label": "CPGRAMS: Contact Us (public grievances officers, technical support email)",
+   "url": "https://pgportal.gov.in/Home/ContactUs",
+   "checked": "2026-10-27"
+  },
+  {
+   "label": "CPGRAMS app on Google Play (linked from pgportal.gov.in)",
+   "url": "https://play.google.com/store/apps/details?id=nic.org.mygrievance",
+   "checked": "2026-10-27"
+  },
+  {
+   "label": "CPGRAMS app on the App Store (linked from pgportal.gov.in)",
+   "url": "https://apps.apple.com/in/app/cpgrams/id6746528698",
+   "checked": "2026-10-27"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "answer",
+   "items": [
+    "<strong>Register once</strong> on the <a href=\"https://pgportal.gov.in/Registration\" rel=\"noopener\">CPGRAMS sign up form</a>: name, gender, address, country, state, district, pincode, mobile number and email. Only registered users can lodge a grievance.",
+    "<strong>Log in and lodge it</strong> with <a href=\"https://pgportal.gov.in/Home/LodgeGrievance\" rel=\"noopener\">Lodge Public Grievance</a>, or use the CPGRAMS app (<a href=\"https://play.google.com/store/apps/details?id=nic.org.mygrievance\" rel=\"noopener\">Android</a>, <a href=\"https://apps.apple.com/in/app/cpgrams/id6746528698\" rel=\"noopener\">iPhone</a>) or UMANG. Filing is free.",
+    "<strong>Note the unique registration number.</strong> You need it to <a href=\"https://pgportal.gov.in/Status\" rel=\"noopener\">view status</a> or <a href=\"https://pgportal.gov.in/Reminder\" rel=\"noopener\">send a reminder</a>.",
+    "<strong>Expect a reply within 21 days.</strong> That is the maximum redress time in DARPG's <a href=\"https://pgportal.gov.in/Home/Preview/Q29tcHJlaGVuc2l2ZUd1aWRlbGluZXNGb3JIYW5kbGluZ1RoZVB1YmxpY0dyaWV2YW5jZXMucGRm\" rel=\"noopener\">guidelines of 23 August 2024</a>. If it needs longer, the officer should send an interim reply with reasons.",
+    "<strong>Not happy with the reply?</strong> Rate it. A Poor rating opens the appeal option. File the appeal within 30 days. Appeals should be closed within 30 days."
+   ]
+  },
+  {
+   "type": "steps",
+   "title": "CPGRAMS step by step: who handles it and the time limits",
+   "rows": [
+    {
+     "who": "<strong>Register and log in on pgportal.gov.in</strong>",
+     "contact": "Fill in the <a href=\"https://pgportal.gov.in/Registration\" rel=\"noopener\">Registration/Sign up form</a>, then log in on the <a href=\"https://pgportal.gov.in/Signin\" rel=\"noopener\">User Login page</a> with your mobile number, email or username and password, or choose Login with OTP. The login page also lists the CPGRAMS app and an AI chatbot called Samadhan Didi that takes grievances by voice.",
+     "deadline": "CPGRAMS is available 24x7. No fee: the portal says the Government is not charging fee from the public for filing grievances."
+    },
+    {
+     "who": "<strong>Lodge the grievance</strong>",
+     "contact": "Choose <a href=\"https://pgportal.gov.in/Home/LodgeGrievance\" rel=\"noopener\">Lodge Public Grievance</a> (pension matters have a separate Lodge Pension Grievance option in the same menu). Describe the problem and attach papers. Without internet, you can post it to the Department of Administrative Reforms and Public Grievances, 5th floor, Sardar Patel Bhavan, Sansad Marg, New Delhi 110001, on plain paper with no set format, or file it through a Common Service Centre. Grievances sent by email are not attended to.",
+     "deadline": "The official pages give no time limit for filing."
+    },
+    {
+     "who": "<strong>It goes to the right office</strong>",
+     "contact": "CPGRAMS sends the grievance to the Ministry, Department or State Government concerned, where a Grievance Redressal Officer (GRO) handles it. State and UT matters go to that State or UT Government. Find each Ministry's nodal officer on the <a href=\"https://pgportal.gov.in/Home/NodalPgOfficers\" rel=\"noopener\">Nodal PG Officers list</a>.",
+     "deadline": "If it reaches the wrong officer, the 2024 guidelines say it must be forwarded to the right GRO or nodal officer within 48 hours. It must not be closed as \"does not pertain to this office\"."
+    },
+    {
+     "who": "<strong>Track it, send a reminder</strong>",
+     "contact": "On <a href=\"https://pgportal.gov.in/Status\" rel=\"noopener\">View Status</a>, enter your registration number and grievance password, or your email ID or mobile number, plus the security code. The <a href=\"https://pgportal.gov.in/Reminder\" rel=\"noopener\">Send Reminder</a> page takes the same details.",
+     "deadline": "Redress within 21 days at most. Grievances flagged as priority should be resolved within 3 days at most. If it takes longer, the officer must give an interim reply with reasons."
+    },
+    {
+     "who": "<strong>Rate the reply and appeal</strong>",
+     "contact": "When the grievance is closed you get an SMS or email. Give feedback on the portal. If you rate it Poor, the appeal option opens. The appeal goes to the officer next senior to the GRO. Each Ministry's Nodal Appellate Authority is on the <a href=\"https://pgportal.gov.in/Home/NodalAuthorityForAppeal\" rel=\"noopener\">Nodal Authority for Appeal list</a>. Track it on <a href=\"https://pgportal.gov.in/Appeal/Status\" rel=\"noopener\">View Appeal Status</a> with the appeal number, or your email ID or mobile number.",
+     "deadline": "File the appeal within 30 days (CPGRAMS FAQ 15). Appeals should be closed within 30 days. Only one appeal is allowed per grievance."
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "CPGRAMS time limits at a glance",
+   "id": "time-limits",
+   "headers": [
+    "What",
+    "Time limit",
+    "Official source"
+   ],
+   "rows": [
+    [
+     "Redress of a grievance",
+     "21 days at most; interim reply with reasons if longer",
+     "<a href=\"https://pgportal.gov.in/Home/Preview/Q29tcHJlaGVuc2l2ZUd1aWRlbGluZXNGb3JIYW5kbGluZ1RoZVB1YmxpY0dyaWV2YW5jZXMucGRm\" rel=\"noopener\">DARPG OM, 23 August 2024</a>, <a href=\"https://pgportal.gov.in/Home/Faq\" rel=\"noopener\">FAQ 13</a>"
+    ],
+    [
+     "Priority or urgent grievance",
+     "Resolved within 3 days at most",
+     "<a href=\"https://pgportal.gov.in/Home/Preview/Q29tcHJlaGVuc2l2ZUd1aWRlbGluZXNGb3JIYW5kbGluZ1RoZVB1YmxpY0dyaWV2YW5jZXMucGRm\" rel=\"noopener\">DARPG OM, annexure 3.1.1</a>"
+    ],
+    [
+     "Grievance sent to the wrong officer",
+     "Forwarded within 48 hours",
+     "<a href=\"https://pgportal.gov.in/Home/Preview/Q29tcHJlaGVuc2l2ZUd1aWRlbGluZXNGb3JIYW5kbGluZ1RoZVB1YmxpY0dyaWV2YW5jZXMucGRm\" rel=\"noopener\">DARPG OM, annexure 3.2.1</a>"
+    ],
+    [
+     "Filing an appeal",
+     "Within 30 days",
+     "<a href=\"https://pgportal.gov.in/Home/Faq\" rel=\"noopener\">FAQ 15</a>"
+    ],
+    [
+     "Deciding an appeal",
+     "30 days at most",
+     "<a href=\"https://pgportal.gov.in/Home/Preview/Q29tcHJlaGVuc2l2ZUd1aWRlbGluZXNGb3JIYW5kbGluZ1RoZVB1YmxpY0dyaWV2YW5jZXMucGRm\" rel=\"noopener\">DARPG OM, section 6</a>"
+    ],
+    [
+     "Filing the grievance",
+     "Not published",
+     "None"
+    ]
+   ]
+  },
+  {
+   "type": "section",
+   "title": "What is CPGRAMS and who runs it?",
+   "html": "<p>CPGRAMS is the Centralised Public Grievance Redress and Monitoring System. It is run by the Department of Administrative Reforms and Public Grievances (DARPG), under the Ministry of Personnel, Public Grievances and Pensions, and hosted by NIC. It is an online platform, open 24x7, where you can lodge a grievance against a public authority on any subject related to service delivery. It is connected to all Ministries and Departments of the Government of India and to the States. DARPG does not settle grievances itself: it forwards them to the Ministry or Department concerned, which redresses them, and DARPG reviews how fast they do it. DARPG's guidelines of 23 August 2024 cut the maximum redress time to 21 days and say an appeal should be decided in 30 days at most. Filing is free. The portal warns that any money paid for filing goes only to M/s CSC, the Common Service Centre operator. Sources: <a href=\"https://pgportal.gov.in/\" rel=\"noopener\">CPGRAMS home page</a>, <a href=\"https://pgportal.gov.in/Home/Faq\" rel=\"noopener\">CPGRAMS FAQ</a>, <a href=\"https://pgportal.gov.in/Home/Preview/Q29tcHJlaGVuc2l2ZUd1aWRlbGluZXNGb3JIYW5kbGluZ1RoZVB1YmxpY0dyaWV2YW5jZXMucGRm\" rel=\"noopener\">DARPG OM of 23 August 2024</a>.</p>"
+  },
+  {
+   "type": "section",
+   "title": "What can I not complain about on CPGRAMS?",
+   "id": "not-covered",
+   "html": "<p>CPGRAMS does not take up RTI matters, court related or sub judice matters, religious matters, or service matters of Government employees, including disciplinary cases, unless the employee has already used the prescribed channels. The CPGRAMS FAQ also lists personal and family disputes and anything that affects the territorial integrity of the country or friendly relations with other countries. The 2024 guidelines add suggestions to the list. A GRO can close such a reference by explaining the rule. Sources: <a href=\"https://pgportal.gov.in/\" rel=\"noopener\">CPGRAMS home page</a>, <a href=\"https://pgportal.gov.in/Home/Faq\" rel=\"noopener\">CPGRAMS FAQ 10</a>.</p>"
+  },
+  {
+   "type": "problems",
+   "items": [
+    {
+     "title": "No reply after 21 days",
+     "html": "<p>Use <a href=\"https://pgportal.gov.in/Reminder\" rel=\"noopener\">Send Reminder</a> on pgportal.gov.in. The CPGRAMS FAQ says you can also take it up with the Director of Public Grievances of the Ministry or Department concerned. Their details are on the <a href=\"https://pgportal.gov.in/Home/NodalPgOfficers\" rel=\"noopener\">Nodal PG Officers list</a>. The FAQ also says every Wednesday is earmarked for the Director of Public Grievances to receive and hear grievances in person.</p>"
+    },
+    {
+     "title": "It was closed without details",
+     "html": "<p>A closed grievance cannot be reopened (CPGRAMS FAQ 7). Lodge a fresh grievance that quotes the old registration number and ask for the details. The FAQ notes that details are sometimes sent by post, so wait for the letter first. If you are not satisfied with the outcome, rate it Poor and appeal within 30 days instead.</p>"
+    },
+    {
+     "title": "Your complaint is about a company, a seller or a service",
+     "html": "<p>CPGRAMS is for public authorities. For a consumer problem with a company, try the <a href=\"../national-consumer-helpline-complaint/\">National Consumer Helpline (NCH 1915)</a>, then a <a href=\"../consumer-court-complaint-e-jagriti/\">consumer court complaint on e-Jagriti</a>.</p>"
+    },
+    {
+     "title": "Your complaint is about a bank or an insurer",
+     "html": "<p>RBI and IRDAI run their own routes with fixed time limits. For banks, see <a href=\"../how-to-file-complaint-rbi-cms-portal/\">how to file an RBI Ombudsman complaint on the CMS portal</a>. For a rejected health claim, see the <a href=\"../health-insurance-claim-rejected/\">health insurance claim rejected guide</a>.</p>"
+    },
+    {
+     "title": "The portal itself is not working",
+     "html": "<p>For technical problems with the portal, CPGRAMS lists the support email <a href=\"mailto:cpgrams-darpg@nic.in\">cpgrams-darpg@nic.in</a>. Do not send the grievance itself by email: the portal says grievances sent by email will not be attended to.</p>"
+    }
+   ]
+  },
+  {
+   "type": "notice",
+   "html": "<strong>What we could not confirm.</strong> The CPGRAMS FAQ says to file an appeal within 30 days but does not say from which date. Count from the day the grievance was closed to be safe. The FAQ mentions a feedback call centre that helps with appeals, but no official page we opened gives its number, so we have not listed one. The Redress Process Flow page showed no text when we opened it. We have not described the PMO grievance route because we did not check it on an official page tonight."
+  }
+ ],
+ "templates": [
+  {
+   "title": "Grievance text to paste into CPGRAMS",
+   "intro_html": "Free to copy. Replace everything in [square brackets]. Keep it short and factual, and attach your papers.",
+   "text": "Office or scheme: [Ministry / Department / State office and the scheme or service]\nApplication or reference number: [number, if any]\nDate applied or last contact: [DD-MM-YYYY]\n\nWhat happened:\n[2 to 5 short lines, in date order]\n\nWhat I have already done:\nOn [date] I [applied / wrote / visited] to [office], reference no. [____]. [Reply received on [date] saying ____. / No reply.]\n\nWhat I am asking for:\n[issue the certificate / release the payment of Rs. ____ / correct the record / give a written reason]\n\nDocuments attached:\n1. [Application or receipt]\n2. [Earlier letters and replies]\n3. [ID or other proof, if needed]\n\nName: [your name]\nMobile: [registered mobile number]\nDistrict and state: [district], [state]\n"
+  },
+  {
+   "title": "Appeal text after a Poor rating",
+   "intro_html": "Use this in the appeal box once you have rated the reply Poor. File it within 30 days.",
+   "text": "Grievance registration number: [number]\nDate the grievance was closed: [DD-MM-YYYY]\n\nWhy the reply does not resolve my grievance:\n1. [What the reply said]\n2. [What is still not done, with dates]\n3. [Any point the reply did not answer]\n\nWhat I am asking the appellate authority to do:\n[direct the office to ____ / give a reasoned reply on ____]\n\nI attach: [the reply received and any new papers].\n\nName: [your name]\nMobile: [registered mobile number]\n"
+  }
+ ],
+ "related": [
+  "national-consumer-helpline-complaint",
+  "consumer-court-complaint-e-jagriti",
+  "how-to-file-complaint-rbi-cms-portal",
+  "health-insurance-claim-rejected",
+  "regulators"
+ ],
+ "resources_html": "",
+ "faq": [
+  {
+   "q": "What is the time limit for a CPGRAMS grievance?",
+   "a": "DARPG's guidelines of 23 August 2024 set 21 days as the maximum redress time. If it needs longer, the officer must give an interim reply with reasons. Priority grievances should be resolved within 3 days at most."
+  },
+  {
+   "q": "How do I check my CPGRAMS grievance status?",
+   "a": "Open View Status on pgportal.gov.in. Enter your registration number and grievance password, or your email ID or mobile number, plus the security code."
+  },
+  {
+   "q": "How do I appeal on CPGRAMS?",
+   "a": "After the grievance is closed, rate the reply. A Poor rating opens the appeal option. File the appeal within 30 days. It goes to the officer next senior to the GRO, and appeals should be closed within 30 days."
+  },
+  {
+   "q": "Is there a fee to file on CPGRAMS?",
+   "a": "No. The portal says the Government is not charging fee from the public for filing grievances. Any money paid for filing goes only to M/s CSC, the Common Service Centre operator."
+  },
+  {
+   "q": "Can I reopen a closed CPGRAMS grievance?",
+   "a": "No. Lodge a fresh grievance that quotes the closed one, or rate the reply Poor and file an appeal within 30 days."
+  }
+ ]
+}
