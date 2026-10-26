@@ -344,7 +344,9 @@ def render_about():
 <h2>Found something out of date?</h2>
 <p>Please open an issue at <a href="{E(ISSUES)}">{E(ISSUES)}</a>. Issues are public, so do not post personal details, policy numbers or documents. Always check the official source linked on the page first.</p>
 <h2>Affiliate links</h2>
-<p>There are none today. If any ever appear, they will be marked clearly on the page where they appear.</p>"""
+<p>There are none today. If any ever appear, they will be marked clearly on the page where they appear.</p>
+<h2>Sister site</h2>
+<p>Waiting on an income, domicile or caste certificate instead? <a href="https://rudracodeshere.github.io/certificate-guide-india/" rel="noopener">Certificate Guide India</a> lists the documents, fee, official time limit and appeal ladder, from official sources.</p>"""
     return layout(title=f"About and disclaimer | {SITE['name']}",
                   desc="How Where to Complain checks facts: official regulator sources only, a dated check on every page, no guessing. What the site is not, plus the disclaimer.",
                   canon_path="about/", body=body, depth=1, current="about", crumbs=[("Home", ""), ("About", None)])
