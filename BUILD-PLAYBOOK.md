@@ -84,6 +84,7 @@ Skipped: running it. It needs a Google Cloud OAuth client and a Bing API key, wh
 - [ ] Link the exact document or subpage, not the portal home. Record the date checked next to each source.
 - [ ] Open each source today and confirm the exact figure is on it. Anything unconfirmed is cut, not hedged.
 - [ ] Data goes in the page data file; no fact appears only in prose.
+- [ ] Check that each figure has not been superseded. Compare press releases against the latest rule (for example, the 2026 DGCA CAR sets 14 days for refunds, replacing the older PIB figure of 30 working days). If an official URL has moved, cite the new domain (SBI is now sbi.bank.in).
 
 **B. Writing**
 - [ ] First paragraph: 40-60 word answer (who, by when, cost). Plain English, "you", short sentences.
