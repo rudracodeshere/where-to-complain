@@ -1,0 +1,24 @@
+To: The [Assistant / Deputy] General Manager (Customer Experience)
+State Bank of India, Local Head Office, [city]
+
+Subject: Escalation of complaint no. [______], account ending [last 4 digits only]
+
+I lodged the complaint above on [DD-MM-YYYY] through [branch / crh.sbi.bank.in / contact centre / email].
+[I have had no response in [__] days. / SBI replied on [date] saying ____, which does not resolve it because ____.]
+
+What happened:
+[2 to 5 short lines, in date order, with amounts and transaction dates]
+
+What I am asking for:
+[refund of Rs. ____ / correction of ____ / closure of ____ / written reason]
+
+If this is not resolved within 30 days of my first complaint, I will approach the RBI Ombudsman under the Reserve Bank - Integrated Ombudsman Scheme.
+
+Attached: [copy of first complaint and acknowledgement, statement extract, SBI's reply]
+
+Name: [your name]
+Branch: [branch name]
+Registered mobile: [number]
+Date: [DD-MM-YYYY]
+
+Do not send your full account number, card number, PIN, OTP or password.

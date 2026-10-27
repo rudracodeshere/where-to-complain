@@ -1,0 +1,19 @@
+To: The Nodal Officer (Passenger Grievances), [airline name]
+
+Subject: [Cancellation / delay / denied boarding / refund], PNR [______], flight [number] on [DD-MM-YYYY]
+
+Earlier complaint reference no.: [______], filed on [DD-MM-YYYY]
+
+What happened:
+[Flight [number] from [city] to [city], scheduled [time], was [cancelled / delayed by __ hours / I was denied boarding]. I was informed on [date and time / not informed].]
+
+What I am asking for:
+[Full refund of Rs. ____ / compensation under para [3.2.2 / 3.3.2] of DGCA CAR Section 3, Series M, Part IV / reimbursement of meals or hotel costs of Rs. ____]
+
+If this is not resolved, I will escalate to the Appellate Authority and file on AirSewa.
+
+Attached: [ticket, boarding pass, airline messages, receipts]
+
+Name: [your name]
+Mobile and email used for the booking: [______]
+Date: [DD-MM-YYYY]

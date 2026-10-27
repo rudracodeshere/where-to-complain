@@ -1,0 +1,185 @@
+{
+ "slug": "airline-complaint-airsewa",
+ "order": 10,
+ "sector": "regulators",
+ "also_in": [],
+ "title": "AirSewa complaint: how to complain against an airline",
+ "h1": "AirSewa complaint: how to complain against an airline in India",
+ "description": "Complain against IndiGo, Air India or any airline: the airline's nodal officer and appellate authority, then AirSewa or CPGRAMS, and DGCA compensation rules.",
+ "direct_answer": "Complain to the airline first. DGCA's CAR Series M Part IV makes every airline appoint a Nodal Officer and an Appellate Authority and list them on its website. If that fails, file on AirSewa, the Ministry of Civil Aviation portal and app, or on CPGRAMS. Cancellation compensation can reach Rs 10,000.",
+ "question": {
+  "q": "How do I complain against an airline in India?",
+  "a": "Complain to the airline through its online grievance system and keep the reference number. If it does not help, go to its Nodal Officer, then its Appellate Authority, both listed on the airline's website. You can also file on AirSewa or CPGRAMS, which take the grievance up with the airline."
+ },
+ "audience": "For air passengers in India with a complaint against IndiGo, Air India, Akasa, SpiceJet or any airline about a cancellation, delay, denied boarding, downgrade or refund",
+ "verified": "2026-10-28",
+ "primary_source": "https://www.dgca.gov.in/digigov-portal/Upload?attachId=we1PSlOuQhYdHcwKKrm7ew%3D%3D&flag=iframeAttachView",
+ "verified_emails": [],
+ "sources": [
+  {
+   "label": "DGCA CAR Section 3, Series M, Part IV: facilities for denied boarding, cancellation and delays, Rev. 4 dated 25 January 2023, effective 15 February 2023 (PDF on dgca.gov.in)",
+   "url": "https://www.dgca.gov.in/digigov-portal/Upload?attachId=we1PSlOuQhYdHcwKKrm7ew%3D%3D&flag=iframeAttachView",
+   "checked": "2026-10-28"
+  },
+  {
+   "label": "AirSewa portal, Ministry of Civil Aviation (grievances, #AirSewa on X, app)",
+   "url": "https://airsewa.gov.in/",
+   "checked": "2026-10-28"
+  },
+  {
+   "label": "PIB, Ministry of Civil Aviation, 2 February 2023: air passengers can lodge grievances through CPGRAMS and AirSewa",
+   "url": "https://pib.gov.in/PressReleseDetailm.aspx?PRID=1895740",
+   "checked": "2026-10-28"
+  },
+  {
+   "label": "Lok Sabha unstarred question 6226, answered 2 April 2026: revised refund CAR Series M Part II in effect from 26 March 2026 (PDF on sansad.in)",
+   "url": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/187/AU6226_eVBwHM.pdf",
+   "checked": "2026-10-28"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "answer",
+   "items": [
+    "<strong>Complain to the airline first.</strong> Every airline must run an online complaint system that gives each complaint a unique reference number, under para 3.10.5 of <a href=\"https://www.dgca.gov.in/digigov-portal/Upload?attachId=we1PSlOuQhYdHcwKKrm7ew%3D%3D&flag=iframeAttachView\" rel=\"noopener\">DGCA CAR Section 3, Series M, Part IV</a>.",
+    "<strong>Escalate inside the airline.</strong> Each airline must appoint a Nodal Officer and an Appellate Authority and display their details on its website (para 3.10.4).",
+    "<strong>File on AirSewa or CPGRAMS.</strong> <a href=\"https://airsewa.gov.in/\" rel=\"noopener\">AirSewa</a> is the Ministry of Civil Aviation's grievance portal and app. <a href=\"../cpgrams-grievance-complaint/\">CPGRAMS</a> also takes airline grievances. Both take the grievance up with the airline.",
+    "<strong>Still not satisfied?</strong> DGCA's rule says you are free to complain to any statutory body or court, for example the <a href=\"../consumer-court-complaint-e-jagriti/\">consumer commission on e-Jagriti</a>."
+   ]
+  },
+  {
+   "type": "steps",
+   "title": "Airline complaint step by step",
+   "rows": [
+    {
+     "who": "<strong>The airline's own complaint system</strong>",
+     "contact": "Use the complaint or feedback form on the airline's website or app, or its counter at the airport. Keep the reference number.",
+     "deadline": "DGCA's CAR says airlines must settle grievances in a stipulated time frame but does not set the number of days. Check the airline's own passenger charter."
+    },
+    {
+     "who": "<strong>Nodal Officer, then Appellate Authority</strong>",
+     "contact": "Names and contacts are on each airline's website, as para 3.10.4 of the CAR requires. Quote your reference number.",
+     "deadline": "Not set in the DGCA CAR."
+    },
+    {
+     "who": "<strong>AirSewa</strong>",
+     "contact": "File on <a href=\"https://airsewa.gov.in/\" rel=\"noopener\">airsewa.gov.in</a> or the AirSewa app after signing up. AirSewa says grievances posted with #AirSewa on X are also tracked, acknowledged and addressed.",
+     "deadline": "The PIB release of 2 February 2023 says grievances are taken up with the airline, and you can file an appeal if not satisfied with the airline's resolution."
+    },
+    {
+     "who": "<strong>CPGRAMS</strong>",
+     "contact": "File on pgportal.gov.in. Our <a href=\"../cpgrams-grievance-complaint/\">CPGRAMS</a> guide has the steps.",
+     "deadline": "DARPG's guidelines set 21 days as the maximum redress time."
+    },
+    {
+     "who": "<strong>Consumer helpline or consumer commission</strong>",
+     "contact": "Try the <a href=\"../national-consumer-helpline-complaint/\">National Consumer Helpline</a> on 1915, or file a consumer case on e-Jagriti.",
+     "deadline": "Para 3.9.3 of the CAR leaves you free to go to any statutory body or court."
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "DGCA compensation for a cancelled flight",
+   "id": "cancellation",
+   "headers": [
+    "Flight block time",
+    "Compensation, on top of a full refund",
+    "Official source"
+   ],
+   "rows": [
+    [
+     "Up to 1 hour",
+     "Rs 5,000 or the one-way basic fare plus airline fuel charge, whichever is less",
+     "<a href=\"https://www.dgca.gov.in/digigov-portal/Upload?attachId=we1PSlOuQhYdHcwKKrm7ew%3D%3D&flag=iframeAttachView\" rel=\"noopener\">CAR M Part IV, para 3.3.2</a>"
+    ],
+    [
+     "More than 1 hour, up to 2 hours",
+     "Rs 7,500 or the one-way basic fare plus airline fuel charge, whichever is less",
+     "<a href=\"https://www.dgca.gov.in/digigov-portal/Upload?attachId=we1PSlOuQhYdHcwKKrm7ew%3D%3D&flag=iframeAttachView\" rel=\"noopener\">CAR M Part IV, para 3.3.2</a>"
+    ],
+    [
+     "More than 2 hours",
+     "Rs 10,000 or the one-way basic fare plus airline fuel charge, whichever is less",
+     "<a href=\"https://www.dgca.gov.in/digigov-portal/Upload?attachId=we1PSlOuQhYdHcwKKrm7ew%3D%3D&flag=iframeAttachView\" rel=\"noopener\">CAR M Part IV, para 3.3.2</a>"
+    ]
+   ]
+  },
+  {
+   "type": "section",
+   "title": "When does an airline have to pay compensation for a cancelled flight?",
+   "id": "cancellation-rules",
+   "html": "<p>DGCA's CAR Series M Part IV says an airline that cancels with less than 24 hours' notice must give an alternate flight you accept, or pay up to Rs 10,000 on top of a full refund. In detail: if the airline tells you at least two weeks before departure, it must arrange an alternate flight or a refund as acceptable to you. If it tells you less than two weeks before and up to 24 hours before the scheduled departure, it must offer an alternate flight or a refund, as acceptable to you. If it does not inform you in line with those rules, or you miss a connecting flight booked on the same ticket number, it must give an alternate flight you accept, or pay compensation on top of the full refund, set by block time as in the table above. If you had already reported for the flight, it must also give you meals and refreshments while you wait. No compensation is payable if you gave no email or phone number when booking, or if the cancellation was caused by extraordinary circumstances beyond the airline's control, such as weather, air traffic control, security risks or strikes.</p>"
+  },
+  {
+   "type": "section",
+   "title": "What do I get if my flight is delayed?",
+   "id": "delays",
+   "html": "<p>Under DGCA's CAR, free meals and refreshments start at a 2 hour delay for flights with a block time up to 2.5 hours, 3 hours for flights from 2.5 to 5 hours, and 4 hours for longer flights, if you checked in on time. If a domestic flight is expected to be delayed more than 6 hours, the airline must offer an alternate flight within 6 hours or a full refund. If the delay is more than 24 hours, or more than 6 hours for a flight due to leave between 2000 and 0300 hrs, you must be offered hotel accommodation with transfers. The CAR does not set cash compensation for a delay, and the airline is not bound by these facilities if the delay comes from extraordinary circumstances.</p>"
+  },
+  {
+   "type": "section",
+   "title": "What if I am denied boarding or downgraded?",
+   "id": "denied-boarding",
+   "html": "<p>If you are denied boarding against your will on an overbooked flight, DGCA's CAR says no compensation is due if the airline puts you on a flight leaving within one hour of your original time. Otherwise it pays 200% of the booked one-way basic fare plus airline fuel charge, up to Rs 10,000, if the alternate flight leaves within 24 hours, or 400%, up to Rs 20,000, if it leaves later. If you do not take an alternate flight, you get a full refund plus 400%, up to Rs 20,000. If you are downgraded on a domestic flight against your will, the airline must reimburse 75% of the ticket cost including taxes. Compensation can be paid in cash, by bank transfer, or as travel vouchers only if you sign an agreement.</p>"
+  },
+  {
+   "type": "problems",
+   "items": [
+    {
+     "title": "My refund has not come",
+     "html": "<p>The Ministry of Civil Aviation told the Lok Sabha on 2 April 2026 that under the revised refund CAR, Series M Part II, in effect from 26 March 2026, the refund process is to be completed within 14 days (<a href=\"https://sansad.in/getFile/lsapps/loksabhaquestions/annex/187/AU6226_eVBwHM.pdf\" rel=\"noopener\">answer to question 6226</a>). Complain to the airline with your PNR, then file on AirSewa or <a href=\"../cpgrams-grievance-complaint/\">CPGRAMS</a> if it is still not paid. The airline is responsible for refunds even when you booked through a travel agent or portal, as the PIB release of 2 February 2023 notes.</p>"
+    },
+    {
+     "title": "The airline says it was weather or air traffic control",
+     "html": "<p>Paras 1.4 and 1.5 of the CAR excuse compensation for extraordinary circumstances, including weather, air traffic control and security risks. The airline carries the burden of proving when it told you about a delay (para 3.4.5). Ask it in writing for the reason and the time it informed you.</p>"
+    },
+    {
+     "title": "I cannot find the Nodal Officer",
+     "html": "<p>The CAR requires airlines to display the Nodal Officer and Appellate Authority conspicuously on their website. Look for a page named grievance redressal, customer care or passenger charter. If you still cannot find it, file on AirSewa and say so.</p>"
+    }
+   ]
+  },
+  {
+   "type": "notice",
+   "html": "<strong>What we could not confirm.</strong> AirSewa's portal loads by script and its passenger charter link did not open, so we do not quote its response times. We opened Rev. 4 of CAR Series M Part IV on dgca.gov.in; DGCA's CAR list page did not load for us, so check there for a newer revision. Airline Nodal Officer contacts change, so take them from the airline's own site. This page is general information, not legal advice."
+  }
+ ],
+ "templates": [
+  {
+   "title": "Complaint to an airline's Nodal Officer",
+   "intro_html": "Free to copy. Replace everything in [square brackets]. Send it through the airline's complaint form or to the Nodal Officer listed on its website.",
+   "text": "To: The Nodal Officer (Passenger Grievances), [airline name]\n\nSubject: [Cancellation / delay / denied boarding / refund], PNR [______], flight [number] on [DD-MM-YYYY]\n\nEarlier complaint reference no.: [______], filed on [DD-MM-YYYY]\n\nWhat happened:\n[Flight [number] from [city] to [city], scheduled [time], was [cancelled / delayed by __ hours / I was denied boarding]. I was informed on [date and time / not informed].]\n\nWhat I am asking for:\n[Full refund of Rs. ____ / compensation under para [3.2.2 / 3.3.2] of DGCA CAR Section 3, Series M, Part IV / reimbursement of meals or hotel costs of Rs. ____]\n\nIf this is not resolved, I will escalate to the Appellate Authority and file on AirSewa.\n\nAttached: [ticket, boarding pass, airline messages, receipts]\n\nName: [your name]\nMobile and email used for the booking: [______]\nDate: [DD-MM-YYYY]"
+  }
+ ],
+ "related": [
+  "cpgrams-grievance-complaint",
+  "national-consumer-helpline-complaint",
+  "consumer-court-complaint-e-jagriti",
+  "complaint-deadline-calculator",
+  "regulators"
+ ],
+ "resources_html": "",
+ "faq": [
+  {
+   "q": "How do I file a complaint on AirSewa?",
+   "a": "Sign up on airsewa.gov.in or the AirSewa app and file a grievance. AirSewa is run by the Ministry of Civil Aviation, and grievances are taken up with the airline. Posts with #AirSewa on X are also tracked."
+  },
+  {
+   "q": "How much compensation do I get for a cancelled flight in India?",
+   "a": "Under DGCA's CAR Series M Part IV, up to Rs 5,000, Rs 7,500 or Rs 10,000 by block time, or the one-way basic fare plus fuel charge if less, on top of a full refund, unless extraordinary circumstances apply."
+  },
+  {
+   "q": "Who is the airline Nodal Officer?",
+   "a": "Each airline must appoint a Nodal Officer and an Appellate Authority to settle passenger grievances and display their details on its website, under para 3.10.4 of DGCA's CAR."
+  },
+  {
+   "q": "How long does an airline take to refund a ticket?",
+   "a": "The Ministry of Civil Aviation told the Lok Sabha in April 2026 that under the revised refund CAR, in effect from 26 March 2026, the refund process is to be completed within 14 days."
+  },
+  {
+   "q": "Can I complain about an airline on CPGRAMS?",
+   "a": "Yes. The Ministry of Civil Aviation says aggrieved air passengers can lodge grievances through CPGRAMS and AirSewa, and the grievances are taken up with the airlines."
+  }
+ ]
+}

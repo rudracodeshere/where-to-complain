@@ -1,0 +1,239 @@
+{
+ "slug": "sbi-complaint-escalation",
+ "order": 9,
+ "sector": "banks",
+ "also_in": [],
+ "title": "SBI complaint escalation: levels, nodal officer, RBI",
+ "h1": "SBI complaint escalation: the 4 levels, the nodal officer and RBI",
+ "description": "How to escalate an SBI complaint: branch or crh.sbi.bank.in, then the AGM and DGM (Customer Experience) after 10 and 20 days, then the RBI Ombudsman at 30.",
+ "direct_answer": "Complain to SBI first at your branch, on crh.sbi.bank.in, by email or on 1800 1234. No reply in 10 days? Write to the AGM (Customer Experience) of your Local Head Office. After 20 days, the DGM (Customer Experience). After 30 days, file free with the RBI Ombudsman on cms.rbi.org.in.",
+ "question": {
+  "q": "How do I escalate a complaint against SBI?",
+  "a": "SBI's escalation page sets four levels. Level 1 is the branch, contact centre, email or online complaint. Level 2 is the AGM (Customer Experience) of your Local Head Office if there is no reply in 10 days. Level 3 is the DGM (Customer Experience) after 20 days. Level 4 is the RBI Ombudsman after 30 days."
+ },
+ "audience": "For State Bank of India customers in India whose complaint about an account, card, loan, digital transaction or branch service is unresolved, and who want SBI's own escalation levels before going to the RBI Ombudsman",
+ "verified": "2026-10-28",
+ "primary_source": "https://sbi.bank.in/web/customer-care/grievance-redressal-and-escalation-mechanism",
+ "verified_emails": [
+  "customercare@sbi.co.in",
+  "contactcentre@sbi.co.in",
+  "gm.customer@sbi.co.in",
+  "pno@sbi.co.in",
+  "crpc@rbi.org.in",
+  "customercare@sbi.bank.in",
+  "contactcentre@sbi.bank.in"
+ ],
+ "sources": [
+  {
+   "label": "SBI: Grievance Redressal and Escalation Mechanism (Levels 1 to 4, 10, 20 and 30 days, toll free numbers, emails), last updated 27-03-2026",
+   "url": "https://sbi.bank.in/web/customer-care/grievance-redressal-and-escalation-mechanism",
+   "checked": "2026-10-28"
+  },
+  {
+   "label": "SBI: Level 2 AGM (Customer Experience) contact details by Local Head Office (PDF)",
+   "url": "https://sbi.bank.in/documents/53471/57869312/Level+2+AGM+CX+CONTACT+DETAILSv2.pdf/e34836db-ad91-f185-a6ff-316387374084?t=1774593798960",
+   "checked": "2026-10-28"
+  },
+  {
+   "label": "SBI: Level 3 DGM (Customer Experience) contact details by Local Head Office (PDF)",
+   "url": "https://sbi.bank.in/documents/53471/57869312/DGM+CX+Conatct+detailsv3.pdf/ae84fd38-b444-65fc-387e-fed41c88fb45?t=1774605184511",
+   "checked": "2026-10-28"
+  },
+  {
+   "label": "SBI: Level 4 AGM (Banking Ombudsman) and support officials at Circles (PDF)",
+   "url": "https://sbi.bank.in/documents/53471/57869312/Level+4+AGM+BO+and+Support+Officials+BO+at+CirclesV2.pdf/da55f3e0-3f4b-cef2-bab0-d28f3daa093f?t=1774593842494",
+   "checked": "2026-10-28"
+  },
+  {
+   "label": "SBI: Contact Us (Principal Nodal Officer address, phone and emails, SMS UNHAPPY), last updated 18-04-2026",
+   "url": "https://sbi.bank.in/web/customer-care/contact-us",
+   "checked": "2026-10-28"
+  },
+  {
+   "label": "SBI: Network Grievance Redressal Nodal Officers (PDF)",
+   "url": "https://sbi.bank.in/documents/53471/91871/260724-Network+Grievance+Redressal+Nodal+Officer_English.pdf/10e93527-d0e5-15fb-14be-1c79da777a13?t=1722015239053",
+   "checked": "2026-10-28"
+  },
+  {
+   "label": "SBI: Customer Rights, Grievance Redressal and Compensation Policy 2026, Version 6 (3 working days, 20 and 30 calendar days)",
+   "url": "https://sbi.bank.in/documents/53471/263971/12052026_Customer+Rights%2CGrievance+Redressal+and+Compensation+Policy.pdf/834818f3-4529-ca6b-5203-e8f1cfd6b2d5?t=1778572640602",
+   "checked": "2026-10-28"
+  },
+  {
+   "label": "SBI: Customer Service Policies page (links the policy and RB-IOS 2026)",
+   "url": "https://sbi.bank.in/web/customer-care/customer-service-policies",
+   "checked": "2026-10-28"
+  },
+  {
+   "label": "SBI: online complaint form (Customer Request and Complaint Handling)",
+   "url": "https://crh.sbi.bank.in/",
+   "checked": "2026-10-28"
+  },
+  {
+   "label": "RBI Complaint Management System",
+   "url": "https://cms.rbi.org.in/",
+   "checked": "2026-10-28"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "answer",
+   "items": [
+    "<strong>Level 1, complain to SBI.</strong> Use your branch, the <a href=\"https://crh.sbi.bank.in/\" rel=\"noopener\">online complaint form on crh.sbi.bank.in</a>, email customercare@sbi.co.in, or call toll free 1800 1234 or 1800 2100. Note the complaint number SBI sends you.",
+    "<strong>Level 2 after 10 days.</strong> No reply, or not satisfied? Contact the Assistant General Manager (Customer Experience) of your Local Head Office. The <a href=\"https://sbi.bank.in/documents/53471/57869312/Level+2+AGM+CX+CONTACT+DETAILSv2.pdf/e34836db-ad91-f185-a6ff-316387374084?t=1774593798960\" rel=\"noopener\">Level 2 contact list</a> gives each office's phone and email.",
+    "<strong>Level 3 after 20 days.</strong> Go to the Deputy General Manager (Customer Experience) of the same Local Head Office, from the <a href=\"https://sbi.bank.in/documents/53471/57869312/DGM+CX+Conatct+detailsv3.pdf/ae84fd38-b444-65fc-387e-fed41c88fb45?t=1774605184511\" rel=\"noopener\">Level 3 contact list</a>.",
+    "<strong>Level 4 after 30 days.</strong> File free with the <a href=\"../how-to-file-complaint-rbi-cms-portal/\">RBI Ombudsman on the CMS portal</a> at cms.rbi.org.in. Do it within 90 days of the waiting period ending or of SBI's last reply."
+   ]
+  },
+  {
+   "type": "steps",
+   "title": "SBI escalation levels: who to contact and when",
+   "rows": [
+    {
+     "who": "<strong>Level 1: branch, contact centre, email or online</strong>",
+     "contact": "Your branch (ask for the complaint book), the <a href=\"https://crh.sbi.bank.in/\" rel=\"noopener\">online complaint form</a>, email customercare@sbi.co.in or contactcentre@sbi.co.in, or call toll free 1800 1234, 1800 2100, 1800 11 2211 or 1800 425 3800, or 080-26599990 (toll). You can also SMS UNHAPPY to 8008 20 20 20.",
+     "deadline": "SBI's 2026 policy says it acknowledges a complaint within 3 working days and resolves it within a reasonable period not exceeding 20 calendar days."
+    },
+    {
+     "who": "<strong>Level 2: AGM (Customer Experience), Local Head Office</strong>",
+     "contact": "By email, call or letter, using the <a href=\"https://sbi.bank.in/documents/53471/57869312/Level+2+AGM+CX+CONTACT+DETAILSv2.pdf/e34836db-ad91-f185-a6ff-316387374084?t=1774593798960\" rel=\"noopener\">AGM (Customer Experience) list</a> for your circle. Quote your Level 1 complaint number.",
+     "deadline": "If Level 1 did not satisfy you, or you had no response within 10 days of lodging the complaint."
+    },
+    {
+     "who": "<strong>Level 3: DGM (Customer Experience), Local Head Office</strong>",
+     "contact": "By email, call or letter, using the <a href=\"https://sbi.bank.in/documents/53471/57869312/DGM+CX+Conatct+detailsv3.pdf/ae84fd38-b444-65fc-387e-fed41c88fb45?t=1774605184511\" rel=\"noopener\">DGM (Customer Experience) list</a>.",
+     "deadline": "If Level 2 did not satisfy you, or you had no response within 20 days of lodging the complaint."
+    },
+    {
+     "who": "<strong>Principal Nodal Officer, Mumbai</strong>",
+     "contact": "General Manager (Customer Experience), Customer Service Department, State Bank of India, State Bank Bhavan, 16th Floor, Madam Cama Road, Mumbai 400 021. Phone 022 22741216. Email gm.customer@sbi.co.in or pno@sbi.co.in. Quote your complaint number.",
+     "deadline": "SBI's policy says aggrieved customers can write to the Principal Nodal Officer quoting their complaint number. It gives no separate time limit for this step."
+    },
+    {
+     "who": "<strong>Level 4: RBI Ombudsman</strong>",
+     "contact": "File online on <a href=\"https://cms.rbi.org.in/\" rel=\"noopener\">cms.rbi.org.in</a>, or write to the Centralised Receipt and Processing Centre, Reserve Bank of India, Central Vista, Sector-17, Chandigarh 160017, email crpc@rbi.org.in. Our <a href=\"../how-to-file-complaint-rbi-cms-portal/\">RBI Ombudsman on the CMS portal</a> guide has the full steps.",
+     "deadline": "If SBI has not resolved it, or has not responded within 30 days of your complaint. File within 90 days after that."
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "SBI complaint time limits at a glance",
+   "id": "time-limits",
+   "headers": [
+    "What",
+    "Time limit",
+    "Official source"
+   ],
+   "rows": [
+    [
+     "SBI acknowledges your complaint",
+     "3 working days",
+     "<a href=\"https://sbi.bank.in/documents/53471/263971/12052026_Customer+Rights%2CGrievance+Redressal+and+Compensation+Policy.pdf/834818f3-4529-ca6b-5203-e8f1cfd6b2d5?t=1778572640602\" rel=\"noopener\">SBI policy 2026, Version 6</a>"
+    ],
+    [
+     "Move to Level 2 (AGM Customer Experience)",
+     "No response within 10 days of lodging",
+     "<a href=\"https://sbi.bank.in/web/customer-care/grievance-redressal-and-escalation-mechanism\" rel=\"noopener\">SBI escalation page</a>"
+    ],
+    [
+     "Move to Level 3 (DGM Customer Experience)",
+     "No response within 20 days of lodging",
+     "<a href=\"https://sbi.bank.in/web/customer-care/grievance-redressal-and-escalation-mechanism\" rel=\"noopener\">SBI escalation page</a>"
+    ],
+    [
+     "SBI resolves the complaint",
+     "Not more than 20 calendar days",
+     "<a href=\"https://sbi.bank.in/documents/53471/263971/12052026_Customer+Rights%2CGrievance+Redressal+and+Compensation+Policy.pdf/834818f3-4529-ca6b-5203-e8f1cfd6b2d5?t=1778572640602\" rel=\"noopener\">SBI policy 2026, Version 6</a>"
+    ],
+    [
+     "SBI's final decision, including Internal Ombudsman review of a rejection",
+     "30 calendar days from receipt",
+     "<a href=\"https://sbi.bank.in/documents/53471/263971/12052026_Customer+Rights%2CGrievance+Redressal+and+Compensation+Policy.pdf/834818f3-4529-ca6b-5203-e8f1cfd6b2d5?t=1778572640602\" rel=\"noopener\">SBI policy 2026, Version 6</a>"
+    ],
+    [
+     "Go to the RBI Ombudsman (Level 4)",
+     "No response within 30 days of lodging",
+     "<a href=\"https://sbi.bank.in/web/customer-care/grievance-redressal-and-escalation-mechanism\" rel=\"noopener\">SBI escalation page</a>"
+    ]
+   ]
+  },
+  {
+   "type": "section",
+   "title": "How long does SBI take to resolve a complaint?",
+   "id": "how-long",
+   "html": "<p>SBI's Customer Rights, Grievance Redressal and Compensation Policy 2026 (Version 6) gives 20 calendar days to resolve a complaint and 30 calendar days for a final decision. In more detail: SBI acknowledges a complaint within three working days. It aims to resolve it within a reasonable period not exceeding 20 calendar days, and if it cannot, it should tell you the reasons. The final decision, including any review by SBI's Internal Ombudsman when the complaint is partly or fully rejected, should reach you within 30 calendar days of the date SBI received it. The policy counts days as calendar days unless it says working days. Separately, SBI's escalation page tells you to move to Level 2 after 10 days with no response, Level 3 after 20 days, and the RBI Ombudsman after 30 days. Keep the complaint number from the SMS or email SBI sends, because every later level asks for it.</p>"
+  },
+  {
+   "type": "section",
+   "title": "Who is the SBI nodal officer?",
+   "id": "nodal-officer",
+   "html": "<p>SBI's Principal Nodal Officer is the General Manager (Customer Experience) at State Bank Bhavan, Mumbai, reachable on 022 22741216 or pno@sbi.co.in, per SBI's <a href=\"https://sbi.bank.in/web/customer-care/contact-us\" rel=\"noopener\">Contact Us page</a>. The policy also names a Network Nodal Officer at each Local Head Office, who is the General Manager (Network). SBI publishes those names in its <a href=\"https://sbi.bank.in/documents/53471/91871/260724-Network+Grievance+Redressal+Nodal+Officer_English.pdf/10e93527-d0e5-15fb-14be-1c79da777a13?t=1722015239053\" rel=\"noopener\">Network Grievance Redressal Nodal Officer list</a>. For cases already with the RBI Ombudsman, SBI lists the officials who handle them at each circle in the <a href=\"https://sbi.bank.in/documents/53471/57869312/Level+4+AGM+BO+and+Support+Officials+BO+at+CirclesV2.pdf/da55f3e0-3f4b-cef2-bab0-d28f3daa093f?t=1774593842494\" rel=\"noopener\">Level 4 contact list</a>. We link these lists instead of copying names, because SBI updates them.</p>"
+  },
+  {
+   "type": "section",
+   "title": "What if money was taken from my SBI account without my consent?",
+   "id": "fraud",
+   "html": "<p>Report an unauthorised electronic transaction to SBI at once on toll free 1800 11 1109, on 94491 12211 (mobile, toll free), or on 080-2659 9990, as listed on SBI's <a href=\"https://sbi.bank.in/web/customer-care/grievance-redressal-and-escalation-mechanism\" rel=\"noopener\">escalation page</a>. SBI's 2026 policy says these complaints are handled by a Customer Liability Identification Cell at each circle. If SBI does not resolve it within 30 days, take it to the <a href=\"../how-to-file-complaint-rbi-cms-portal/\">RBI Ombudsman on the CMS portal</a>.</p>"
+  },
+  {
+   "type": "problems",
+   "items": [
+    {
+     "title": "SBI closed my complaint without fixing it",
+     "html": "<p>Do not start again at Level 1. Write to the AGM (Customer Experience) of your Local Head Office with the complaint number and SBI's reply, then the DGM, using the <a href=\"https://sbi.bank.in/documents/53471/57869312/Level+2+AGM+CX+CONTACT+DETAILSv2.pdf/e34836db-ad91-f185-a6ff-316387374084?t=1774593798960\" rel=\"noopener\">Level 2</a> and <a href=\"https://sbi.bank.in/documents/53471/57869312/DGM+CX+Conatct+detailsv3.pdf/ae84fd38-b444-65fc-387e-fed41c88fb45?t=1774605184511\" rel=\"noopener\">Level 3</a> lists. If 30 days have passed since your first complaint, you can go straight to the <a href=\"../how-to-file-complaint-rbi-cms-portal/\">RBI Ombudsman on the CMS portal</a>.</p>"
+    },
+    {
+     "title": "I do not know my Local Head Office",
+     "html": "<p>The Level 2 and Level 3 lists group offices by circle city, for example Bengaluru, Kolkata, Lucknow, Mumbai Metro, New Delhi and Patna. Pick the one covering the state where your branch is. Your branch can tell you which circle it belongs to.</p>"
+    },
+    {
+     "title": "I got no complaint number",
+     "html": "<p>SBI's policy says a branch complaint is returned with an acknowledgement, and the complaint number is sent by SMS or email. Ask the branch for it, or call the contact centre. Without a number, keep a dated copy of your letter or email as proof.</p>"
+    }
+   ]
+  },
+  {
+   "type": "notice",
+   "html": "<strong>What we could not confirm.</strong> SBI's escalation and Contact Us pages give emails ending @sbi.co.in, while the 2026 policy PDF lists customercare@sbi.bank.in and contactcentre@sbi.bank.in. We use the addresses on SBI's web pages. SBI's older sbi.co.in grievance pages now return errors; the current pages are on sbi.bank.in. This page is general information, not legal advice."
+  }
+ ],
+ "templates": [
+  {
+   "title": "Escalation letter to SBI (Level 2 or 3)",
+   "intro_html": "Free to copy. Replace everything in [square brackets]. Send it to the AGM or DGM (Customer Experience) email from SBI's list, and keep a copy.",
+   "text": "To: The [Assistant / Deputy] General Manager (Customer Experience)\nState Bank of India, Local Head Office, [city]\n\nSubject: Escalation of complaint no. [______], account ending [last 4 digits only]\n\nI lodged the complaint above on [DD-MM-YYYY] through [branch / crh.sbi.bank.in / contact centre / email].\n[I have had no response in [__] days. / SBI replied on [date] saying ____, which does not resolve it because ____.]\n\nWhat happened:\n[2 to 5 short lines, in date order, with amounts and transaction dates]\n\nWhat I am asking for:\n[refund of Rs. ____ / correction of ____ / closure of ____ / written reason]\n\nIf this is not resolved within 30 days of my first complaint, I will approach the RBI Ombudsman under the Reserve Bank - Integrated Ombudsman Scheme.\n\nAttached: [copy of first complaint and acknowledgement, statement extract, SBI's reply]\n\nName: [your name]\nBranch: [branch name]\nRegistered mobile: [number]\nDate: [DD-MM-YYYY]\n\nDo not send your full account number, card number, PIN, OTP or password."
+  }
+ ],
+ "related": [
+  "how-to-file-complaint-rbi-cms-portal",
+  "complaint-deadline-calculator",
+  "national-consumer-helpline-complaint",
+  "cpgrams-grievance-complaint",
+  "consumer-court-complaint-e-jagriti",
+  "banks"
+ ],
+ "resources_html": "",
+ "faq": [
+  {
+   "q": "How many days before I can escalate an SBI complaint?",
+   "a": "SBI's escalation page says go to the AGM (Customer Experience) of your Local Head Office if there is no response within 10 days, the DGM (Customer Experience) after 20 days, and the RBI Ombudsman after 30 days."
+  },
+  {
+   "q": "What is the SBI Principal Nodal Officer's contact?",
+   "a": "The General Manager (Customer Experience), State Bank Bhavan, 16th Floor, Madam Cama Road, Mumbai 400 021. Phone 022 22741216, email pno@sbi.co.in or gm.customer@sbi.co.in. Quote your complaint number."
+  },
+  {
+   "q": "How long does SBI take to resolve a complaint?",
+   "a": "SBI's 2026 policy says it acknowledges within 3 working days, resolves within a period not exceeding 20 calendar days, and gives a final decision within 30 calendar days of receiving the complaint."
+  },
+  {
+   "q": "Where do I file an SBI complaint online?",
+   "a": "Use SBI's online complaint form at crh.sbi.bank.in, linked from SBI's grievance page. If SBI does not resolve it within 30 days, file with the RBI Ombudsman on cms.rbi.org.in."
+  },
+  {
+   "q": "What is the SBI number for unauthorised transactions?",
+   "a": "SBI lists toll free 1800 11 1109, 94491 12211 (mobile, toll free) and 080-2659 9990 for reporting unauthorised electronic transactions."
+  }
+ ]
+}

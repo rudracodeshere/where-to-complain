@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-10-28
+- Added page: SBI complaint escalation: levels, nodal officer, RBI (`/sbi-complaint-escalation/`). Covers Level 1 (branch, CRCF online form, customercare email, toll-free numbers, SMS UNHAPPY), Level 2 (AGM Customer Service at the Local Head Office), Level 3 (DGM Customer Service), the Principal Nodal Officer in Mumbai, and Level 4 RBI Ombudsman after 30 days (within 90 days of SBI's reply). Table of SBI's own time limits, unauthorised transaction numbers, a letter template.
+- Sources checked 2026-10-28: SBI Customer Grievance Redressal Policy 2026-27 (PDF), SBI escalation Level 2, Level 3, Level 4 and Nodal Officer PDFs and slides on sbi.bank.in, SBI contact and customer care pages, RB-IOS 2026.
+- Gaps noted on the page: the policy lists @sbi.bank.in emails while SBI's contact pages list @sbi.co.in (both shown); old sbi.co.in grievance pages return 404.
+- Added page: AirSewa complaint: how to complain against an airline (`/airline-complaint-airsewa/`). Ladder: airline complaint (reference number), airline Nodal Officer and Appellate Authority, AirSewa, CPGRAMS, then NCH 1915 or consumer commission. DGCA cancellation compensation table (Rs 5,000 / 7,500 / 10,000), delay facilities, denied boarding and downgrade refunds, the 14-day refund rule.
+- Sources checked 2026-10-28: DGCA CAR Section 3 Series M Part IV Rev 4 (25 Jan 2023), airsewa.gov.in, PIB release of 2 Feb 2023, Lok Sabha unstarred question 6226 (2 Apr 2026).
+- Left out: the PIB "30 working days" refund figure (replaced by the 14-day rule in the revised CAR M Part II), AirSewa's passenger charter (link dead), any newer CAR Part IV revision (DGCA list page did not load).
+- Linked both pages from RBI CMS, calculator, NCH, CPGRAMS and e-Jagriti related lists, the home page and the Banks / Regulators hubs. EPFO (PF1) not started: epfindia.gov.in blocks the box (403).
+
 ## 2026-10-27
 - Added page: CPGRAMS grievance: how to register, file, track status and appeal (`/cpgrams-grievance-complaint/`). Covers sign-up and login (incl. OTP), Lodge Public Grievance, the app (Android, iPhone) and UMANG, filing by post or Common Service Centre, no fee, no grievances by email, routing to the Ministry/State, View Status and Send Reminder, the 21-day maximum redress time (3 days for priority, 48 hours to forward a misrouted grievance), the Poor rating that opens the appeal, appeal within 30 days and decided within 30 days, no reopening of closed grievances, and matters CPGRAMS does not take up. Two templates: grievance text and appeal text.
 - Sources checked 2026-10-27: pgportal.gov.in home, FAQ, Registration, Signin, Lodge Grievance, Status, Appeal Status, Reminder, Nodal Authority for Appeal, Nodal PG Officers, Contact Us; DARPG OM "Comprehensive guidelines for handling the Public Grievances" (23 Aug 2024, PDF on pgportal); CPGRAMS app store listings linked from pgportal.
