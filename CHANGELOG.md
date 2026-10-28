@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-10-29
+- Added page: Care Health complaint: escalation steps (India) (`/care-health-complaint-escalation/`). Ladder: customer care (1800 102 4488, senior citizens press 5, customerfirst@, WhatsApp 8860402452), Grievance Redressal Team (resolve1@, raise-a-complaint form, within 14 days), GRO (GRO@careinsurance.com), optional Internal Insurance Ombudsman (iio@), IRDAI Bima Bharosa, Insurance Ombudsman. Time-limits table, cashless (24h emergency / 48h planned intimation), rejection, deductions, no reply, slow reimbursement, GRO question H2, letter template.
+- Sources checked 2026-10-29: Care customer-grievance-redressal, service-parameters and claim centre pages; IRDAI and CIO GRO lists; IRDAI master circulars (5 Sep 2024, 29 May 2024); Bima Bharosa call centre and process pages; CIO FAQs.
+- Gaps noted on the page: GRO name (Mr. Anoop Singh) and chilegal@careinsurance.com only on the CIO list; 1800 102 6655 only on IRDAI's list; nodal officer PDF did not open (406), linked not copied; Care states 1 hour and 6 hours for cashless (both shown).
+- Added page: HDFC Bank complaint escalation: levels, nodal officer, RBI (`/hdfc-bank-complaint-escalation/`). Level 1 channels and product emails, Level 2 Grievance Redressal Officers by product (banking, digital lending, credit cards), Level 3 nodal officers and Principal Nodal Officer, Level 4 RBI Ombudsman (30 days, then 90 days). Time-limits table, how-long and nodal-officer H2s, unauthorised transactions, card mis-selling, loans, letter template.
+- Sources checked 2026-10-29: hdfc.bank.in grievance redressal, write to us, nodal officer emails, call us, unauthorised transactions and Ombudsman details pages; HDFC Customer Grievance Redressal Policy v1.14 (28 Nov 2025); RBI RB-IOS 2026 FAQs (1 Jul 2026).
+- Gaps noted: hdfcbank.com timed out (bank moved to hdfc.bank.in); card mis-selling phone link differs from printed number (printed shown); RBI CMS portal timed out today (cited from 2026-10-28 check and RBI FAQ).
+- Linked Care from the claim-rejected, Ombudsman offices, Star Health (in body) and calculator pages; HDFC from RBI CMS, SBI (in body), CPGRAMS and calculator pages; both on home and hubs.
+
 ## 2026-10-28
 - Added page: SBI complaint escalation: levels, nodal officer, RBI (`/sbi-complaint-escalation/`). Covers Level 1 (branch, CRCF online form, customercare email, toll-free numbers, SMS UNHAPPY), Level 2 (AGM Customer Service at the Local Head Office), Level 3 (DGM Customer Service), the Principal Nodal Officer in Mumbai, and Level 4 RBI Ombudsman after 30 days (within 90 days of SBI's reply). Table of SBI's own time limits, unauthorised transaction numbers, a letter template.
 - Sources checked 2026-10-28: SBI Customer Grievance Redressal Policy 2026-27 (PDF), SBI escalation Level 2, Level 3, Level 4 and Nodal Officer PDFs and slides on sbi.bank.in, SBI contact and customer care pages, RB-IOS 2026.
