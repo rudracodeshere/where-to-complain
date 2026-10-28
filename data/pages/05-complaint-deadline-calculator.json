@@ -48,6 +48,6 @@
     {"q": "What is the last date to file with the RBI Ombudsman?", "a": "Within 90 days from the date the waiting period ends or from the entity's last communication, whichever is later."},
     {"q": "Is anything I enter in the calculator saved or sent?", "a": "No. It runs only on your phone or computer. Nothing you enter is sent anywhere or saved."}
   ],
-  "related": ["health-insurance-claim-rejected", "consumer-court-complaint-e-jagriti", "star-health-complaint-escalation", "insurance-ombudsman-offices-by-state", "how-to-file-complaint-rbi-cms-portal", "sbi-complaint-escalation", "airline-complaint-airsewa", "insurance", "banks"],
+  "related": ["health-insurance-claim-rejected", "consumer-court-complaint-e-jagriti", "star-health-complaint-escalation", "insurance-ombudsman-offices-by-state", "how-to-file-complaint-rbi-cms-portal", "sbi-complaint-escalation", "airline-complaint-airsewa", "care-health-complaint-escalation", "hdfc-bank-complaint-escalation", "insurance", "banks"],
   "resources_html": ""
 }

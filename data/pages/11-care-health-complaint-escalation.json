@@ -1,0 +1,243 @@
+{
+ "slug": "care-health-complaint-escalation",
+ "order": 11,
+ "sector": "insurance",
+ "also_in": [],
+ "title": "Care Health complaint: escalation steps (India)",
+ "h1": "Care Health Insurance complaint escalation: step-by-step",
+ "description": "Care Health claim rejected or cashless denied? The official order: customer care, resolve1, the GRO, IRDAI Bima Bharosa, and the Ombudsman, with a free letter.",
+ "direct_answer": "Complain to Care Health on 1800 102 4488 or customerfirst@careinsurance.com, then escalate to resolve1@careinsurance.com, where Care says complaints are resolved within 14 days, and to its GRO at GRO@careinsurance.com. Still unresolved? Go to IRDAI's Bima Bharosa (155255), then the Insurance Ombudsman: free, claims up to ₹50 lakh, within one year.",
+ "question": {
+  "q": "Where do I complain if Care Health rejects my claim?",
+  "a": "Start with Care Health customer care on 1800 102 4488 or customerfirst@careinsurance.com. Then escalate to resolve1@careinsurance.com, which Care says resolves complaints within 14 days, and to the GRO at GRO@careinsurance.com. Still unresolved? Go to IRDAI's Bima Bharosa (155255), then the free Insurance Ombudsman within one year."
+ },
+ "audience": "For Care Health Insurance (formerly Religare Health Insurance) policyholders in India with a rejected, part-paid or delayed claim, a cashless denial, or a complaint with no reply",
+ "verified": "2026-10-29",
+ "primary_source": "https://www.careinsurance.com/customer-grievance-redressal.html",
+ "verified_emails": [
+  "customerfirst@careinsurance.com",
+  "resolve1@careinsurance.com",
+  "GRO@careinsurance.com",
+  "gro@careinsurance.com",
+  "chilegal@careinsurance.com",
+  "iio@careinsurance.com",
+  "complaints@irdai.gov.in"
+ ],
+ "sources": [
+  {
+   "label": "Care Health: Customer Grievance Redressal page (Escalation Levels 1 to 3, Internal Insurance Ombudsman, IRDAI, Ombudsman, senior citizens note)",
+   "url": "https://www.careinsurance.com/customer-grievance-redressal.html",
+   "checked": "2026-10-29"
+  },
+  {
+   "label": "Care Health: Service Parameters (claim and complaint turnaround times, 30-day Ombudsman note)",
+   "url": "https://www.careinsurance.com/service-parameters.html",
+   "checked": "2026-10-29"
+  },
+  {
+   "label": "Care Health: Claim Centre (cashless and reimbursement process, 24 and 48 hour intimation, 6 hours and 7 days response)",
+   "url": "https://www.careinsurance.com/health-insurance-claim-center.html",
+   "checked": "2026-10-29"
+  },
+  {
+   "label": "Care Health: List of Nodal Officers (PDF linked from the grievance page; it did not open from our checker)",
+   "url": "https://cms.careinsurance.com/cms/public/uploads/NodalOfficer/Nodal%20Officer%20-%201780650832.pdf",
+   "checked": "2026-10-29"
+  },
+  {
+   "label": "IRDAI: List of Grievance Redressal Officers (GROs) of insurers",
+   "url": "https://irdai.gov.in/list-of-gros",
+   "checked": "2026-10-29"
+  },
+  {
+   "label": "Council for Insurance Ombudsmen: GROs of general and health insurers",
+   "url": "https://cioins.co.in/GRONonLife",
+   "checked": "2026-10-29"
+  },
+  {
+   "label": "IRDAI, Master Circular on Protection of Policyholders' Interests, 5 September 2024 (14-day complaint resolution; no rejection for want of documents)",
+   "url": "https://irdai.gov.in/en/document-detail?documentId=5625747",
+   "checked": "2026-10-29"
+  },
+  {
+   "label": "IRDAI, Master Circular on Health Insurance Business, 29 May 2024 (cashless 1 hour, discharge 3 hours, repudiation details, 60-month moratorium)",
+   "url": "https://irdai.gov.in/en/document-detail?documentId=4942918",
+   "checked": "2026-10-29"
+  },
+  {
+   "label": "IRDAI Bima Bharosa: IRDAI Grievance Call Centre and postal address",
+   "url": "https://bimabharosa.irdai.gov.in/Home/CallCenter",
+   "checked": "2026-10-29"
+  },
+  {
+   "label": "IRDAI Bima Bharosa: Our Process (when to approach the Ombudsman)",
+   "url": "https://bimabharosa.irdai.gov.in/Home/OurProcess",
+   "checked": "2026-10-29"
+  },
+  {
+   "label": "Council for Insurance Ombudsmen: FAQs (one month, one year, Rs 50 lakh, award timelines)",
+   "url": "https://cioins.co.in/Faqs",
+   "checked": "2026-10-29"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "answer",
+   "items": [
+    "<strong>Level 1, Care Health customer care:</strong> call toll-free 1800 102 4488 (senior citizens: same number, press 5), email <a href=\"mailto:customerfirst@careinsurance.com\">customerfirst@careinsurance.com</a>, or message WhatsApp 8860402452. Quote your policy or claim number and note the complaint number you get.",
+    "<strong>Level 2, Grievance Redressal Team:</strong> use Care's <a href=\"https://www.careinsurance.com/rhicl/raise_complaint.html\" rel=\"noopener\">raise-a-complaint form</a> or email <a href=\"mailto:resolve1@careinsurance.com\">resolve1@careinsurance.com</a>. Care's grievance page gives an expected resolution time of <strong>within 14 days</strong>.",
+    "<strong>Level 3, Grievance Redressal Officer (GRO):</strong> email <a href=\"mailto:GRO@careinsurance.com\">GRO@careinsurance.com</a> or write to the GRO at the Gurugram corporate office. The CIO list names Mr. Anoop Singh as GRO.",
+    "<strong>Still unresolved:</strong> complain to IRDAI on <a href=\"https://bimabharosa.irdai.gov.in/\" rel=\"noopener\">Bima Bharosa</a> (toll-free 155255), then the <a href=\"https://cioins.co.in/Ombudsman\" rel=\"noopener\">Insurance Ombudsman</a> for your area: free, claims up to ₹50 lakh, file within <strong>one year</strong> of Care's final reply or of one month passing without a reply.",
+    "<strong>Optional internal review:</strong> Care also lists an Internal Insurance Ombudsman at iio@careinsurance.com for answers you find unsatisfactory. It is not a step you must take before IRDAI or the Ombudsman."
+   ]
+  },
+  {
+   "type": "steps",
+   "title": "Care Health escalation ladder: who to contact and by when",
+   "rows": [
+    {
+     "who": "<strong>Care Health customer care</strong> (Care calls this Escalation Level 1)",
+     "contact": "Toll-free 1800 102 4488. Senior citizens: call the same number and press 5. Email <a href=\"mailto:customerfirst@careinsurance.com\">customerfirst@careinsurance.com</a>. WhatsApp 8860402452. Care's mobile app, or any <a href=\"https://www.careinsurance.com/health-insurance-branch-locator.html\" rel=\"noopener\">Care Health branch</a>. Customer service address: Care Health Insurance Limited, Vipul Tech Square, Tower C, 3rd Floor, Golf Course Road, Sector-43, Gurugram - 122009. (Source: <a href=\"https://www.careinsurance.com/customer-grievance-redressal.html\" rel=\"noopener\">Care Health grievance page</a>.)",
+     "deadline": "Care's Service Parameters: complaints acknowledged immediately; decision within 14 days (IRDAI circular: resolution within 14 days)."
+    },
+    {
+     "who": "<strong>Care Health Grievance Redressal Team</strong> (Escalation Level 2)",
+     "contact": "Online: <a href=\"https://www.careinsurance.com/rhicl/raise_complaint.html\" rel=\"noopener\">Care raise-a-complaint form</a>. Email <a href=\"mailto:resolve1@careinsurance.com\">resolve1@careinsurance.com</a>. Letter to Care Health Insurance Limited, Vipul Tech Square, Tower C, 3rd Floor, Golf Course Road, Sector-43, Gurugram - 122009. Quote the complaint number from Level 1.",
+     "deadline": "Care's grievance page: \"Expected Resolution Time: Within 14 days\"."
+    },
+    {
+     "who": "<strong>Care Health Grievance Redressal Officer (GRO)</strong> (Escalation Level 3): send the letter template below",
+     "contact": "Email on Care's page: <a href=\"mailto:GRO@careinsurance.com\">GRO@careinsurance.com</a>. Letter to the Grievance Redressal Officer, Care Health Insurance Limited, Vipul Tech Square, Tower C, 3rd Floor, Golf Course Road, Sector-43, Gurugram - 122009. The <a href=\"https://cioins.co.in/GRONonLife\" rel=\"noopener\">CIO list of GROs</a> names Mr. Anoop Singh as GRO and lists both gro@careinsurance.com and chilegal@careinsurance.com. <a href=\"https://irdai.gov.in/list-of-gros\" rel=\"noopener\">IRDAI GRO list</a>: gro@careinsurance.com, phone 18001024488 / 18001026655.",
+     "deadline": "Care's Service Parameters: if your complaint is not resolved, Care must tell you your options, including the Insurance Ombudsman or consumer court, within 14 days of first receiving it."
+    },
+    {
+     "who": "<strong>IRDAI Grievance Cell</strong> through Bima Bharosa",
+     "contact": "Online: <a href=\"https://bimabharosa.irdai.gov.in/\" rel=\"noopener\">https://bimabharosa.irdai.gov.in/</a>. Toll-free 155255 or 1800 4254 732. Email: <a href=\"mailto:complaints@irdai.gov.in\">complaints@irdai.gov.in</a>. By post: Insurance Regulatory and Development Authority of India, Consumer Affairs Department - Grievance Redressal Cell, Sy.No.115/1, Financial District, Nanakramguda, Gachibowli, Hyderabad - 500 032.",
+     "deadline": "Bima Bharosa's process page says that if the complaint is not attended to within 15 days of registration, or the insurer's resolution is not satisfactory, you may approach the Insurance Ombudsman."
+    },
+    {
+     "who": "<strong>Insurance Ombudsman</strong> for your area",
+     "contact": "Online: <a href=\"https://cioins.co.in/Complaint/Online\" rel=\"noopener\">https://cioins.co.in/Complaint/Online</a>. Or by email or signed letter to the office covering your area: see our <a href=\"../insurance-ombudsman-offices-by-state/\">Ombudsman offices by state</a> page or <a href=\"https://cioins.co.in/Ombudsman\" rel=\"noopener\">the official list</a>.",
+     "deadline": "File within one year of Care's rejection or reply you are unhappy with, or of one month passing after your written complaint with no reply (CIO FAQ). Care's Service Parameters say you may go to the Ombudsman if your complaint is not resolved within 30 days. Claims up to ₹50 lakh. Award within three months of the Ombudsman receiving all your requirements."
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Care Health time limits at a glance",
+   "id": "time-limits",
+   "headers": [
+    "What",
+    "Time limit",
+    "Official source"
+   ],
+   "rows": [
+    [
+     "Care acknowledges your complaint",
+     "Immediately",
+     "<a href=\"https://www.careinsurance.com/service-parameters.html\" rel=\"noopener\">Care Service Parameters</a>"
+    ],
+    [
+     "Care decides your complaint",
+     "14 days",
+     "<a href=\"https://www.careinsurance.com/service-parameters.html\" rel=\"noopener\">Care Service Parameters</a>; <a href=\"https://www.careinsurance.com/customer-grievance-redressal.html\" rel=\"noopener\">grievance page</a>"
+    ],
+    [
+     "Care accepts a cashless request",
+     "1 hour (Care's claim centre says it will contact you within 6 hours of intimation)",
+     "<a href=\"https://www.careinsurance.com/service-parameters.html\" rel=\"noopener\">Care Service Parameters</a>; <a href=\"https://www.careinsurance.com/health-insurance-claim-center.html\" rel=\"noopener\">Care claim centre</a>"
+    ],
+    [
+     "TPA offer of settlement after documents",
+     "3 hours",
+     "<a href=\"https://www.careinsurance.com/service-parameters.html\" rel=\"noopener\">Care Service Parameters</a>"
+    ],
+    [
+     "Care settles a claim other than cashless",
+     "15 days (claim centre: you hear from Care within 7 days of registering)",
+     "<a href=\"https://www.careinsurance.com/service-parameters.html\" rel=\"noopener\">Care Service Parameters</a>; <a href=\"https://www.careinsurance.com/health-insurance-claim-center.html\" rel=\"noopener\">Care claim centre</a>"
+    ],
+    [
+     "Go to the Insurance Ombudsman",
+     "Not resolved in 30 days (Care); one month with no reply, then file within one year (CIO)",
+     "<a href=\"https://www.careinsurance.com/service-parameters.html\" rel=\"noopener\">Care Service Parameters</a>; <a href=\"https://cioins.co.in/Faqs\" rel=\"noopener\">CIO FAQ</a>"
+    ]
+   ]
+  },
+  {
+   "type": "problems",
+   "items": [
+    {
+     "title": "Cashless denied or delayed at the hospital",
+     "html": "<p>Care's <a href=\"https://www.careinsurance.com/health-insurance-claim-center.html\" rel=\"noopener\">claim centre</a> says you show your e-card, pre-authorisation form and a government ID at the hospital's insurance desk, which sends them to Care. For an emergency admission, intimate Care <strong>within 24 hours</strong>. For a planned admission, seek cashless authorisation <strong>at least 48 hours before</strong>. Cashless works only at Care network hospitals.</p><p>Time limits: IRDAI's health circular says the insurer must decide a cashless request immediately, and within <strong>one hour</strong> at most. Final discharge authorisation is due within <strong>three hours</strong> of the hospital's request. Care's Service Parameters list 1 hour for acceptance of cashless claims. Care's claim centre also says it will contact you within 6 hours of a cashless intimation. Care itself says a cashless refusal is not a denial of treatment: you can get treated, pay, and claim reimbursement. Get the refusal in writing from the hospital desk, with its time stamp.</p>"
+    },
+    {
+     "title": "Claim rejected",
+     "html": "<p>IRDAI's health circular says no claim can be repudiated without the approval of the insurer's Product Management Committee or its Claims Review Committee. The rejection letter must give full details, with reference to the specific policy terms. IRDAI's Protection of Policyholders' Interests circular says no claim can be rejected or closed for want of documents or for late intimation. After 60 months of continuous coverage, a claim cannot be contested for non-disclosure or misrepresentation, except for established fraud. If Care rejected your claim only for a missing document or late intimation, quote this in your letter to the GRO.</p>"
+    },
+    {
+     "title": "Claim part-paid (deductions)",
+     "html": "<p>Care's <a href=\"https://www.careinsurance.com/health-insurance-claim-center.html\" rel=\"noopener\">claim centre</a> lists common reasons for deductions: non-medical items, missing bills or prescriptions, sum insured used up, sub-limits, co-payment, caps on a treatment, and missing original reports. IRDAI's circular says that where a claim is partly disallowed, the insurer must give details with reference to the specific policy terms. Ask Care in writing for the clause behind each deduction and compare it with your policy schedule.</p>"
+    },
+    {
+     "title": "No reply from Care Health",
+     "html": "<p>Care's Service Parameters promise an immediate acknowledgement and a decision within 14 days. If 14 days pass, escalate to the GRO and to IRDAI's Bima Bharosa. Once one month has passed since your written complaint with no reply, you can go to the Insurance Ombudsman (CIO FAQ). Keep every complaint number and email.</p>"
+    },
+    {
+     "title": "Reimbursement claim is slow",
+     "html": "<p>Care's <a href=\"https://www.careinsurance.com/health-insurance-claim-center.html\" rel=\"noopener\">claim centre</a> says you will hear from Care within 7 days of registering a reimbursement claim, and its Service Parameters list 15 days to settle claims other than cashless. Register online on Care's self-help portal or app with the discharge summary, final bill with break-up, paid receipt and a cancelled cheque. Interest on late payment is covered on our <a href=\"../health-insurance-claim-rejected/\">health insurance claim rejected</a> page.</p>"
+    }
+   ]
+  },
+  {
+   "type": "section",
+   "title": "Who is the Care Health Grievance Redressal Officer?",
+   "id": "gro",
+   "html": "<p>Care's own grievance page does not name its GRO. It gives the email <a href=\"mailto:GRO@careinsurance.com\">GRO@careinsurance.com</a> and the Gurugram corporate office address. The <a href=\"https://cioins.co.in/GRONonLife\" rel=\"noopener\">Council for Insurance Ombudsmen list</a> names Mr. Anoop Singh as GRO of Care Health Insurance Co. Ltd. That list gives gro@careinsurance.com and also chilegal@careinsurance.com. <a href=\"https://irdai.gov.in/list-of-gros\" rel=\"noopener\">IRDAI GRO list</a> gives gro@careinsurance.com with phone numbers 18001024488 and 18001026655. Care also links a <a href=\"https://cms.careinsurance.com/cms/public/uploads/NodalOfficer/Nodal%20Officer%20-%201780650832.pdf\" rel=\"noopener\">list of nodal officers (PDF)</a> from its grievance page. That PDF did not open from our checker, so we have not copied any name from it.</p>"
+  },
+  {
+   "type": "section",
+   "title": "The regulator step: IRDAI and the Ombudsman",
+   "html": "<p>IRDAI does not decide individual claims. It records your complaint against Care Health on Bima Bharosa and follows it up with the insurer. The <strong>Insurance Ombudsman</strong> can pass a binding award on Care Health. It is free and you do not need a lawyer. You must have complained to Care in writing first, so attach your GRO letter and Care's reply. The full Ombudsman rules and how to choose between the Ombudsman and a consumer commission are on our <a href=\"../health-insurance-claim-rejected/\">health insurance claim rejected</a> page. For the same steps with another insurer, see our <a href=\"../star-health-complaint-escalation/\">Star Health complaint escalation</a> guide. To file in a consumer commission instead, see our <a href=\"../consumer-court-complaint-e-jagriti/\">consumer court complaint on e-Jagriti</a> guide.</p>"
+  },
+  {
+   "type": "notice",
+   "html": "<strong>What we could not confirm.</strong> Care's grievance page gives GRO@careinsurance.com but no GRO name. The name Mr. Anoop Singh and the second address chilegal@careinsurance.com come only from the CIO list. The number 1800 102 6655 appears only on IRDAI's GRO list; Care's page shows 1800 102 4488. Care's nodal officer PDF returned an error to our checker, so we link it without copying it. Care states two cashless response times (1 hour in its Service Parameters, 6 hours on its claim centre); IRDAI's limit is one hour."
+  }
+ ],
+ "templates": [
+  {
+   "title": "Letter to Care Health's Grievance Redressal Officer",
+   "intro_html": "Free to copy. Send it by email to GRO@careinsurance.com from your registered email ID, copying resolve1@careinsurance.com, or by post to the Gurugram address above. Keep the complaint number Care sends back.",
+   "text": "To: GRO@careinsurance.com; cc: resolve1@careinsurance.com\n\nTo,\nThe Grievance Redressal Officer\nCare Health Insurance Limited\nVipul Tech Square, Tower C, 3rd Floor, Golf Course Road, Sector-43, Gurugram - 122009\n\nDate: [DD-MM-YYYY]\n\nSubject: Grievance against [rejection / partial settlement / cashless denial / delay] of claim no. [____] under policy no. [____]\n\nSir or Madam,\n\n1. Policyholder: [name], [mobile], [registered email]. Insured patient: [name], customer ID [____].\n2. Policy: [product name], policy no. [____], period [from] to [to], sum insured Rs. [____].\n3. Claim: claim no. [____], hospital [name, city], admitted [date], discharged [date], amount claimed Rs. [____].\n4. Earlier complaint: I complained to Care Health customer care on [date] (complaint no. [____]) [and to resolve1@careinsurance.com on [date]]. [No resolution has been received / The reply dated [date] is not acceptable because ____.]\n5. Care Health's decision: [rejected on [date] citing clause ____ / paid Rs. ____ of Rs. ____ / cashless request sent at [time] on [date] was denied or not answered].\n6. Why the decision is wrong: [explain in 3 to 6 lines with facts and the policy clause].\n   [If rejected for documents or late intimation:] IRDAI's Master Circular on Protection of Policyholders' Interests, 2024 says no claim shall be rejected or closed for want of documents or for delayed intimation.\n   [If part-paid:] Please give the policy clause for each deduction, as IRDAI's Master Circular on Health Insurance Business, 2024 requires.\n7. Relief sought: [settle the claim for Rs. ____ / pay the balance Rs. ____ / reconsider the claim on merits], with interest as admissible.\n\nPlease acknowledge this grievance and resolve it within 14 days, as stated on Care Health's grievance page. If it is not resolved, I will approach IRDAI (Bima Bharosa) and the Insurance Ombudsman.\n\nEnclosures: policy copy; claim form; rejection or settlement letter; discharge summary and bills; earlier complaint and complaint number; KYC.\n\n[Signature]\n[Name]\n"
+  }
+ ],
+ "related": [
+  "complaint-deadline-calculator",
+  "health-insurance-claim-rejected",
+  "star-health-complaint-escalation",
+  "insurance-ombudsman-offices-by-state",
+  "consumer-court-complaint-e-jagriti",
+  "national-consumer-helpline-complaint",
+  "insurance"
+ ],
+ "resources_html": "",
+ "faq": [
+  {
+   "q": "What is the Care Health grievance email?",
+   "a": "Care's grievance page lists resolve1@careinsurance.com for its Grievance Redressal Team and GRO@careinsurance.com for the Grievance Redressal Officer. Start with customerfirst@careinsurance.com."
+  },
+  {
+   "q": "How long does Care Health have to resolve a complaint?",
+   "a": "Care's grievance page and Service Parameters say complaints are acknowledged immediately and resolved within 14 days, the same as IRDAI's circular."
+  },
+  {
+   "q": "What is the Care Health customer care number?",
+   "a": "Toll-free 1800 102 4488. Senior citizens call the same number and press 5. Care also lists WhatsApp 8860402452."
+  },
+  {
+   "q": "When can I go to the Insurance Ombudsman against Care Health?",
+   "a": "Within one year of Care's final reply, or of one month passing without a reply. The Ombudsman is free and covers claims up to ₹50 lakh."
+  }
+ ]
+}

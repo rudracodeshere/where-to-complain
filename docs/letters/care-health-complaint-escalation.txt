@@ -1,0 +1,30 @@
+To: GRO@careinsurance.com; cc: resolve1@careinsurance.com
+
+To,
+The Grievance Redressal Officer
+Care Health Insurance Limited
+Vipul Tech Square, Tower C, 3rd Floor, Golf Course Road, Sector-43, Gurugram - 122009
+
+Date: [DD-MM-YYYY]
+
+Subject: Grievance against [rejection / partial settlement / cashless denial / delay] of claim no. [____] under policy no. [____]
+
+Sir or Madam,
+
+1. Policyholder: [name], [mobile], [registered email]. Insured patient: [name], customer ID [____].
+2. Policy: [product name], policy no. [____], period [from] to [to], sum insured Rs. [____].
+3. Claim: claim no. [____], hospital [name, city], admitted [date], discharged [date], amount claimed Rs. [____].
+4. Earlier complaint: I complained to Care Health customer care on [date] (complaint no. [____]) [and to resolve1@careinsurance.com on [date]]. [No resolution has been received / The reply dated [date] is not acceptable because ____.]
+5. Care Health's decision: [rejected on [date] citing clause ____ / paid Rs. ____ of Rs. ____ / cashless request sent at [time] on [date] was denied or not answered].
+6. Why the decision is wrong: [explain in 3 to 6 lines with facts and the policy clause].
+   [If rejected for documents or late intimation:] IRDAI's Master Circular on Protection of Policyholders' Interests, 2024 says no claim shall be rejected or closed for want of documents or for delayed intimation.
+   [If part-paid:] Please give the policy clause for each deduction, as IRDAI's Master Circular on Health Insurance Business, 2024 requires.
+7. Relief sought: [settle the claim for Rs. ____ / pay the balance Rs. ____ / reconsider the claim on merits], with interest as admissible.
+
+Please acknowledge this grievance and resolve it within 14 days, as stated on Care Health's grievance page. If it is not resolved, I will approach IRDAI (Bima Bharosa) and the Insurance Ombudsman.
+
+Enclosures: policy copy; claim form; rejection or settlement letter; discharge summary and bills; earlier complaint and complaint number; KYC.
+
+[Signature]
+[Name]
+

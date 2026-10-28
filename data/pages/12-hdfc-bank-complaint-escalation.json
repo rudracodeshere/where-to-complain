@@ -1,0 +1,224 @@
+{
+ "slug": "hdfc-bank-complaint-escalation",
+ "order": 12,
+ "sector": "banks",
+ "also_in": [],
+ "title": "HDFC Bank complaint escalation: levels, nodal officer, RBI",
+ "h1": "HDFC Bank complaint escalation: the four levels",
+ "description": "How to escalate an HDFC Bank complaint: branch or PhoneBanking, then the Grievance Redressal Officer, the Principal Nodal Officer and RBI at 30 days.",
+ "direct_answer": "Complain to HDFC Bank first at a branch, on PhoneBanking 1800 1600 or 1800 2600, by email or the online form, and allow up to 10 working days. Then go to the Grievance Redressal Officer (1800 266 4060), then the Principal Nodal Officer. No reply in 30 days? File free with the RBI Ombudsman on cms.rbi.org.in.",
+ "question": {
+  "q": "How do I escalate a complaint against HDFC Bank?",
+  "a": "HDFC Bank has three internal levels: customer-facing channels, then the Grievance Redressal Cell, then the Principal Nodal Officer, and it asks for up to 10 working days at each. If the issue is still unresolved after these, or you have had no response within 30 days of lodging the complaint, file free with the RBI Ombudsman on cms.rbi.org.in."
+ },
+ "audience": "For HDFC Bank account, card and loan customers in India whose complaint was not resolved, was closed without a fix, or got no reply",
+ "verified": "2026-10-29",
+ "primary_source": "https://www.hdfc.bank.in/need-help/grievance-redressal",
+ "verified_emails": [
+  "support@hdfc.bank.in",
+  "loansupport@hdfc.bank.in",
+  "customerservices.cards@hdfc.bank.in",
+  "nodal.officer@hdfc.bank.in",
+  "Pnohdfcbank@hdfc.bank.in",
+  "cardsales.complaint@hdfc.bank.in",
+  "crpc@rbi.org.in"
+ ],
+ "sources": [
+  {
+   "label": "HDFC Bank: Grievance Redressal page (Levels 1 to 4, Grievance Redressal Officers, Principal Nodal Officer, 10 working days, 30 days)",
+   "url": "https://www.hdfc.bank.in/need-help/grievance-redressal",
+   "checked": "2026-10-29"
+  },
+  {
+   "label": "HDFC Bank: Write to us (addresses and email IDs by product)",
+   "url": "https://www.hdfc.bank.in/contact-us/write-to-us",
+   "checked": "2026-10-29"
+  },
+  {
+   "label": "HDFC Bank: Email IDs for Nodal Officers",
+   "url": "https://www.hdfc.bank.in/contact-us/email-id-for-nodal-officers",
+   "checked": "2026-10-29"
+  },
+  {
+   "label": "HDFC Bank: Call us (PhoneBanking and nodal officer phone numbers)",
+   "url": "https://www.hdfc.bank.in/contact-us/call-us",
+   "checked": "2026-10-29"
+  },
+  {
+   "label": "HDFC Bank: Blocking or reporting unauthorised transactions",
+   "url": "https://www.hdfc.bank.in/contact-us/unauthorized-electronic-banking",
+   "checked": "2026-10-29"
+  },
+  {
+   "label": "HDFC Bank: Nodal officers for RBI Ombudsman cases",
+   "url": "https://www.hdfc.bank.in/contact-us/banking-ombudsman-details",
+   "checked": "2026-10-29"
+  },
+  {
+   "label": "HDFC Bank: Customer Grievance Redressal Policy, Version 1.14, updated 28 November 2025 (three tiers, reference number, Internal Ombudsman)",
+   "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/our-corporate-commitment/grievance-redressal-policy.pdf",
+   "checked": "2026-10-29"
+  },
+  {
+   "label": "RBI: FAQs on the Reserve Bank - Integrated Ombudsman Scheme, 2026 (updated 1 July 2026; 30 days, 90 days, no fee, compensation limits)",
+   "url": "https://www.rbi.org.in/commonperson/english/scripts/FAQs.aspx?Id=3407",
+   "checked": "2026-10-29"
+  },
+  {
+   "label": "RBI Complaint Management System",
+   "url": "https://cms.rbi.org.in/",
+   "checked": "2026-10-28"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "answer",
+   "items": [
+    "<strong>Level 1, customer-facing channels.</strong> Visit your branch, use the <a href=\"https://connect.hdfc.bank.in/applications/webforms/apply/HDFC_CustomerCenter/Customer_Center.aspx\" rel=\"noopener\">online complaint form</a>, email (for example <a href=\"mailto:support@hdfc.bank.in\">support@hdfc.bank.in</a> for accounts and debit cards), write a letter, or call PhoneBanking on 1800 1600 or 1800 2600. HDFC Bank asks for up to 10 working days.",
+    "<strong>Level 2, Grievance Redressal Cell.</strong> Not happy with Level 1? Contact the Grievance Redressal Officer for your product with your previous complaint number. For banking products, call 1800 266 4060; for credit cards, 044-61084900.",
+    "<strong>Level 3, Principal Nodal Officer.</strong> Not happy with Level 2? Email the nodal officer at <a href=\"mailto:nodal.officer@hdfc.bank.in\">nodal.officer@hdfc.bank.in</a>, or the Principal Nodal Officer at <a href=\"mailto:Pnohdfcbank@hdfc.bank.in\">Pnohdfcbank@hdfc.bank.in</a> (022 - 62841505).",
+    "<strong>Level 4, RBI Ombudsman.</strong> Still unresolved after Levels 1 to 3, or no response within 30 days of lodging? File free on <a href=\"../how-to-file-complaint-rbi-cms-portal/\">the RBI CMS portal</a> at cms.rbi.org.in, within 90 days."
+   ]
+  },
+  {
+   "type": "steps",
+   "title": "HDFC Bank escalation levels: who to contact and when",
+   "rows": [
+    {
+     "who": "<strong>Level 1: branch, PhoneBanking, email, letter or online form</strong>",
+     "contact": "Your branch manager, the <a href=\"https://connect.hdfc.bank.in/applications/webforms/apply/HDFC_CustomerCenter/Customer_Center.aspx\" rel=\"noopener\">online complaint form</a>, or PhoneBanking 1800 1600 / 1800 2600 (or your Relationship Manager). Emails from HDFC Bank's <a href=\"https://www.hdfc.bank.in/contact-us/write-to-us\" rel=\"noopener\">Write to us page</a>: <a href=\"mailto:support@hdfc.bank.in\">support@hdfc.bank.in</a> (accounts, ATM, debit and prepaid cards), <a href=\"mailto:loansupport@hdfc.bank.in\">loansupport@hdfc.bank.in</a> (loans), <a href=\"mailto:customerservices.cards@hdfc.bank.in\">customerservices.cards@hdfc.bank.in</a> (credit cards). Letters: Empire Plaza I, 1st Floor, LBS Marg, Chandan Nagar, Vikhroli West, Mumbai 400 083; credit cards: P.O. Box 8654, Ambattur Industrial Estate, Chennai 600058.",
+     "deadline": "HDFC Bank: \"Please give us up to 10 working days to resolve your complaint or query.\" Its policy says you get a reference number and are told the expected date of closure."
+    },
+    {
+     "who": "<strong>Level 2: Grievance Redressal Cell (Grievance Redressal Officer)</strong>",
+     "contact": "Banking products and depository services: Mr. Mehernosh Dhamodiwala, 1800 266 4060, <a href=\"https://www.hdfc.bank.in/need-help/banking-products-and-depository-services\" rel=\"noopener\">online form</a>. Digital lending: Mr. Shamik Bhattacharjee, 1800 266 4060, <a href=\"https://www.hdfc.bank.in/need-help/grievance-redressal-digital\" rel=\"noopener\">online form</a>. Letters for both: Grievance Redressal Cell, HDFC Bank Limited, 1st Floor, Empire Plaza - 1, Lal Bahadur Shastri Marg, Chandan Nagar, Vikroli West, Mumbai - 400083. Credit cards: Mr. Shanmugasundar R, 044-61084900, <a href=\"https://www.hdfc.bank.in/need-help/credit-card-specific-complaints\" rel=\"noopener\">online form</a>, Grievance Redressal Cell, HDFC Bank Cards Division, Door No. 94 SP. Estate Bus Stand, Wavin Main Road, Mogappair West, Chennai - 600058. Phone lines: Monday to Saturday, 9:30am to 5:30pm, closed 2nd and 4th Saturdays, Sundays and bank holidays.",
+     "deadline": "If Level 1 does not meet your expectations. HDFC Bank asks for up to 10 working days. Keep your previous complaint number and CRN ready."
+    },
+    {
+     "who": "<strong>Level 3: Nodal Officer / Principal Nodal Officer</strong>",
+     "contact": "Nodal officers: every region on HDFC Bank's <a href=\"https://www.hdfc.bank.in/contact-us/email-id-for-nodal-officers\" rel=\"noopener\">nodal officer email page</a> uses <a href=\"mailto:nodal.officer@hdfc.bank.in\">nodal.officer@hdfc.bank.in</a>; phone numbers by state are on its <a href=\"https://www.hdfc.bank.in/contact-us/call-us\" rel=\"noopener\">Call us page</a>. Principal Nodal Officer: Mr. Ripal Kirtikumar Sheth, HDFC Bank Ltd, 5th Floor, Tower B, Peninsula Business Park, Lower Parel West, Mumbai 400013. Phone 022 - 62841505. Email <a href=\"mailto:Pnohdfcbank@hdfc.bank.in\">Pnohdfcbank@hdfc.bank.in</a>.",
+     "deadline": "If the resolution at Level 2 does not meet your expectations. HDFC Bank asks for up to 10 working days."
+    },
+    {
+     "who": "<strong>Level 4: RBI Ombudsman</strong>",
+     "contact": "File online on <a href=\"https://cms.rbi.org.in/\" rel=\"noopener\">cms.rbi.org.in</a>, email <a href=\"mailto:crpc@rbi.org.in\">crpc@rbi.org.in</a>, or post a signed complaint to the Centralised Receipt and Processing Centre, Reserve Bank of India, Central Vista, Sector 17, Chandigarh 160017. RBI contact centre 14448 helps with the process but cannot take complaints. Our <a href=\"../how-to-file-complaint-rbi-cms-portal/\">RBI Ombudsman on the CMS portal</a> guide has the full steps.",
+     "deadline": "HDFC Bank: after Levels 1, 2 and 3, or if you have not received a response within 30 days of lodging. RBI: file within 90 days of the 30 days ending or of the bank's last reply, whichever is later."
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "HDFC Bank complaint time limits at a glance",
+   "id": "time-limits",
+   "headers": [
+    "What",
+    "Time limit",
+    "Official source"
+   ],
+   "rows": [
+    [
+     "HDFC Bank resolves at Level 1",
+     "Up to 10 working days",
+     "<a href=\"https://www.hdfc.bank.in/need-help/grievance-redressal\" rel=\"noopener\">HDFC Bank grievance page</a>"
+    ],
+    [
+     "Grievance Redressal Officer (Level 2)",
+     "Up to 10 working days",
+     "<a href=\"https://www.hdfc.bank.in/need-help/grievance-redressal\" rel=\"noopener\">HDFC Bank grievance page</a>"
+    ],
+    [
+     "Principal Nodal Officer (Level 3)",
+     "Up to 10 working days",
+     "<a href=\"https://www.hdfc.bank.in/need-help/grievance-redressal\" rel=\"noopener\">HDFC Bank grievance page</a>"
+    ],
+    [
+     "Go to the RBI Ombudsman",
+     "No response within 30 days of lodging, or unresolved after Levels 1 to 3",
+     "<a href=\"https://www.hdfc.bank.in/need-help/grievance-redressal\" rel=\"noopener\">HDFC Bank grievance page</a>; <a href=\"https://www.rbi.org.in/commonperson/english/scripts/FAQs.aspx?Id=3407\" rel=\"noopener\">RBI FAQ 17</a>"
+    ],
+    [
+     "Last day to file with the RBI Ombudsman",
+     "90 days after the 30 days end, or after the bank's last reply, whichever is later",
+     "<a href=\"https://www.rbi.org.in/commonperson/english/scripts/FAQs.aspx?Id=3407\" rel=\"noopener\">RBI FAQ 17</a>"
+    ]
+   ]
+  },
+  {
+   "type": "section",
+   "title": "How long does HDFC Bank take to resolve a complaint?",
+   "id": "how-long",
+   "html": "<p>HDFC Bank's <a href=\"https://www.hdfc.bank.in/need-help/grievance-redressal\" rel=\"noopener\">grievance page</a> says \"Please give us up to 10 working days to resolve your complaint or query\" at Level 1, and repeats it for the Grievance Redressal Officer and the Principal Nodal Officer. Its <a href=\"https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/our-corporate-commitment/grievance-redressal-policy.pdf\" rel=\"noopener\">Customer Grievance Redressal Policy</a> (Version 1.14, updated 28 November 2025) says every complaint gets a reference number and you are told the expected date of closure. The policy also says complaints that are partly or wholly rejected go to HDFC Bank's Internal Ombudsman, whose decision binds the bank. RBI's rule runs alongside: if HDFC Bank has not replied within 30 days of receiving your complaint, you can go to the RBI Ombudsman.</p>"
+  },
+  {
+   "type": "section",
+   "title": "Who is the HDFC Bank nodal officer?",
+   "id": "nodal-officer",
+   "html": "<p>HDFC Bank's Principal Nodal Officer is Mr. Ripal Kirtikumar Sheth, Lower Parel West, Mumbai, on 022 - 62841505 or Pnohdfcbank@hdfc.bank.in, per its <a href=\"https://www.hdfc.bank.in/need-help/grievance-redressal\" rel=\"noopener\">grievance page</a>. For state nodal officers, its <a href=\"https://www.hdfc.bank.in/contact-us/email-id-for-nodal-officers\" rel=\"noopener\">nodal officer email page</a> lists nodal.officer@hdfc.bank.in for every region, and its <a href=\"https://www.hdfc.bank.in/contact-us/call-us\" rel=\"noopener\">Call us page</a> lists state phone numbers. HDFC Bank also names the nodal officer for each RBI Ombudsman office on its <a href=\"https://www.hdfc.bank.in/contact-us/banking-ombudsman-details\" rel=\"noopener\">Ombudsman details page</a>. We link those lists instead of copying names, because banks update them.</p>"
+  },
+  {
+   "type": "section",
+   "title": "What if money was taken from my HDFC Bank account without my consent?",
+   "id": "fraud",
+   "html": "<p>HDFC Bank's <a href=\"https://www.hdfc.bank.in/contact-us/unauthorized-electronic-banking\" rel=\"noopener\">unauthorised transactions page</a> says to report credit card, debit card, NetBanking or UPI transactions not done by you on 18002586161. For prepaid cards, call PhoneBanking on 1800 1600 or 1800 2600; from overseas, 022-61606160. You can block a debit or credit card at once through NetBanking. HDFC Bank's grievance page also points to the National Cyber Crime Helpline, 1930. If the bank does not resolve it within 30 days, take it to the <a href=\"../how-to-file-complaint-rbi-cms-portal/\">RBI Ombudsman on the CMS portal</a>.</p>"
+  },
+  {
+   "type": "problems",
+   "items": [
+    {
+     "title": "HDFC Bank closed my complaint without fixing it",
+     "html": "<p>Do not start again at Level 1. Contact the Grievance Redressal Officer for your product with the complaint number and the bank's reply, then the Principal Nodal Officer. Three rounds of 10 working days can run past 30 days, and RBI does not make you wait for every level. RBI accepts a complaint once 30 days have passed with no reply, or once you are unhappy with the bank's reply.</p>"
+    },
+    {
+     "title": "Credit card complaint or mis-selling",
+     "html": "<p>Write to <a href=\"mailto:customerservices.cards@hdfc.bank.in\">customerservices.cards@hdfc.bank.in</a> first. For the Level 2 credit card Grievance Redressal Officer, call 044-61084900 or use the <a href=\"https://www.hdfc.bank.in/need-help/credit-card-specific-complaints\" rel=\"noopener\">credit card complaint form</a>. For mis-selling or harassment by a card sales representative, HDFC Bank lists <a href=\"mailto:cardsales.complaint@hdfc.bank.in\">cardsales.complaint@hdfc.bank.in</a> and 044 - 61084900.</p>"
+    },
+    {
+     "title": "Loan or EMI complaint",
+     "html": "<p>Email <a href=\"mailto:loansupport@hdfc.bank.in\">loansupport@hdfc.bank.in</a> at Level 1. For loans taken through a digital lending app, the Level 2 contact is the Digital Lending Grievance Redressal Officer on 1800 266 4060 or the <a href=\"https://www.hdfc.bank.in/need-help/grievance-redressal-digital\" rel=\"noopener\">digital lending form</a>.</p>"
+    }
+   ]
+  },
+  {
+   "type": "notice",
+   "html": "<strong>What we could not confirm.</strong> HDFC Bank's old site, hdfcbank.com, did not open from our checker; the same pages now sit on hdfc.bank.in, which is what we cite. The grievance page gives 044 - 61084900 for card mis-selling, but its phone link points to a different number; we show only the number printed. The Principal Nodal Officer has no published time limit beyond the bank's \"up to 10 working days\". RBI's CMS portal timed out on our checker today; its address and rules are from RBI's FAQ, checked today."
+  }
+ ],
+ "templates": [
+  {
+   "title": "Escalation letter to HDFC Bank (Level 2 or 3)",
+   "intro_html": "Free to copy. Replace everything in [square brackets]. Send it through the Grievance Redressal Officer's online form or to Pnohdfcbank@hdfc.bank.in, and keep a copy.",
+   "text": "To: The [Grievance Redressal Officer / Principal Nodal Officer]\nHDFC Bank Limited\n[address from HDFC Bank's grievance page]\n\nSubject: Escalation of complaint no. [______], customer ID ending [last 4 digits only]\n\nI lodged the complaint above on [DD-MM-YYYY] through [branch / PhoneBanking / email / online form].\n[I have had no response in [__] working days. / HDFC Bank replied on [date] saying ____, which does not resolve it because ____.]\n\nWhat happened:\n[2 to 5 short lines, in date order, with amounts and transaction dates]\n\nWhat I am asking for:\n[refund of Rs. ____ / reversal of charge ____ / correction of ____ / written reason]\n\nIf this is not resolved within 30 days of my first complaint, I will approach the RBI Ombudsman under the Reserve Bank - Integrated Ombudsman Scheme, 2026.\n\nAttached: [copy of first complaint and acknowledgement, statement extract, HDFC Bank's reply]\n\nName: [your name]\nBranch: [branch name]\nRegistered mobile: [number]\nDate: [DD-MM-YYYY]\n\nDo not send your full account number, card number, CVV, PIN, OTP or password."
+  }
+ ],
+ "related": [
+  "how-to-file-complaint-rbi-cms-portal",
+  "sbi-complaint-escalation",
+  "complaint-deadline-calculator",
+  "national-consumer-helpline-complaint",
+  "consumer-court-complaint-e-jagriti",
+  "banks"
+ ],
+ "resources_html": "",
+ "faq": [
+  {
+   "q": "How many days does HDFC Bank take to resolve a complaint?",
+   "a": "HDFC Bank's grievance page asks for up to 10 working days at each level. If you have no response within 30 days of lodging the complaint, you can go to the RBI Ombudsman."
+  },
+  {
+   "q": "Who is the HDFC Bank Principal Nodal Officer?",
+   "a": "Mr. Ripal Kirtikumar Sheth, HDFC Bank Ltd, 5th Floor, Tower B, Peninsula Business Park, Lower Parel West, Mumbai 400013. Phone 022 - 62841505, email Pnohdfcbank@hdfc.bank.in."
+  },
+  {
+   "q": "What is the HDFC Bank Grievance Redressal Officer number?",
+   "a": "1800 266 4060 for banking products and digital lending, and 044-61084900 for credit cards, Monday to Saturday, 9:30am to 5:30pm, except 2nd and 4th Saturdays, Sundays and bank holidays."
+  },
+  {
+   "q": "What is the HDFC Bank nodal officer email?",
+   "a": "HDFC Bank's nodal officer page lists nodal.officer@hdfc.bank.in for every region. The Principal Nodal Officer's email is Pnohdfcbank@hdfc.bank.in."
+  },
+  {
+   "q": "Where do I report an unauthorised HDFC Bank transaction?",
+   "a": "HDFC Bank lists 18002586161 for credit card, debit card, NetBanking or UPI transactions not done by you. You can also call the National Cyber Crime Helpline on 1930."
+  }
+ ]
+}

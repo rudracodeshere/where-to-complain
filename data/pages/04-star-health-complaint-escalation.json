@@ -157,7 +157,7 @@
   {
    "type": "section",
    "title": "The regulator step: IRDAI and the Ombudsman",
-   "html": "<p>IRDAI does not decide individual claims. It records your complaint against Star Health on Bima Bharosa and follows it up with the insurer. The <strong>Insurance Ombudsman</strong> can pass a binding award on Star Health. It is free and you do not need a lawyer. You must have complained to Star Health in writing first, so attach your GRO letter and Star Health's reply. Bima Bharosa's FAQ also lists the IRDAI complaints email, <a href=\"mailto:complaints@irdai.gov.in\">complaints@irdai.gov.in</a>. The full Ombudsman rules, what to attach and how to choose between the Ombudsman and a consumer commission are on our <a href=\"../health-insurance-claim-rejected/\">health insurance claim rejected</a> page. To file in a consumer commission instead, see our <a href=\"../consumer-court-complaint-e-jagriti/\">consumer court complaint on e-Jagriti</a> guide.</p>"
+   "html": "<p>IRDAI does not decide individual claims. It records your complaint against Star Health on Bima Bharosa and follows it up with the insurer. The <strong>Insurance Ombudsman</strong> can pass a binding award on Star Health. It is free and you do not need a lawyer. You must have complained to Star Health in writing first, so attach your GRO letter and Star Health's reply. Bima Bharosa's FAQ also lists the IRDAI complaints email, <a href=\"mailto:complaints@irdai.gov.in\">complaints@irdai.gov.in</a>. The full Ombudsman rules, what to attach and how to choose between the Ombudsman and a consumer commission are on our <a href=\"../health-insurance-claim-rejected/\">health insurance claim rejected</a> page. To file in a consumer commission instead, see our <a href=\"../consumer-court-complaint-e-jagriti/\">consumer court complaint on e-Jagriti</a> guide. Insured with Care Health instead? See our <a href=\"../care-health-complaint-escalation/\">Care Health complaint escalation</a> guide.</p>"
   },
   {
    "type": "notice",
@@ -177,6 +177,7 @@
   "national-consumer-helpline-complaint",
   "health-insurance-claim-rejected",
   "insurance-ombudsman-offices-by-state",
+  "care-health-complaint-escalation",
   "insurance"
  ],
  "resources_html": "",

@@ -1,0 +1,25 @@
+To: The [Grievance Redressal Officer / Principal Nodal Officer]
+HDFC Bank Limited
+[address from HDFC Bank's grievance page]
+
+Subject: Escalation of complaint no. [______], customer ID ending [last 4 digits only]
+
+I lodged the complaint above on [DD-MM-YYYY] through [branch / PhoneBanking / email / online form].
+[I have had no response in [__] working days. / HDFC Bank replied on [date] saying ____, which does not resolve it because ____.]
+
+What happened:
+[2 to 5 short lines, in date order, with amounts and transaction dates]
+
+What I am asking for:
+[refund of Rs. ____ / reversal of charge ____ / correction of ____ / written reason]
+
+If this is not resolved within 30 days of my first complaint, I will approach the RBI Ombudsman under the Reserve Bank - Integrated Ombudsman Scheme, 2026.
+
+Attached: [copy of first complaint and acknowledgement, statement extract, HDFC Bank's reply]
+
+Name: [your name]
+Branch: [branch name]
+Registered mobile: [number]
+Date: [DD-MM-YYYY]
+
+Do not send your full account number, card number, CVV, PIN, OTP or password.

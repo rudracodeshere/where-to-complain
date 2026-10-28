@@ -168,7 +168,7 @@
    "type": "section",
    "title": "Who is the SBI nodal officer?",
    "id": "nodal-officer",
-   "html": "<p>SBI's Principal Nodal Officer is the General Manager (Customer Experience) at State Bank Bhavan, Mumbai, reachable on 022 22741216 or pno@sbi.co.in, per SBI's <a href=\"https://sbi.bank.in/web/customer-care/contact-us\" rel=\"noopener\">Contact Us page</a>. The policy also names a Network Nodal Officer at each Local Head Office, who is the General Manager (Network). SBI publishes those names in its <a href=\"https://sbi.bank.in/documents/53471/91871/260724-Network+Grievance+Redressal+Nodal+Officer_English.pdf/10e93527-d0e5-15fb-14be-1c79da777a13?t=1722015239053\" rel=\"noopener\">Network Grievance Redressal Nodal Officer list</a>. For cases already with the RBI Ombudsman, SBI lists the officials who handle them at each circle in the <a href=\"https://sbi.bank.in/documents/53471/57869312/Level+4+AGM+BO+and+Support+Officials+BO+at+CirclesV2.pdf/da55f3e0-3f4b-cef2-bab0-d28f3daa093f?t=1774593842494\" rel=\"noopener\">Level 4 contact list</a>. We link these lists instead of copying names, because SBI updates them.</p>"
+   "html": "<p>SBI's Principal Nodal Officer is the General Manager (Customer Experience) at State Bank Bhavan, Mumbai, reachable on 022 22741216 or pno@sbi.co.in, per SBI's <a href=\"https://sbi.bank.in/web/customer-care/contact-us\" rel=\"noopener\">Contact Us page</a>. The policy also names a Network Nodal Officer at each Local Head Office, who is the General Manager (Network). SBI publishes those names in its <a href=\"https://sbi.bank.in/documents/53471/91871/260724-Network+Grievance+Redressal+Nodal+Officer_English.pdf/10e93527-d0e5-15fb-14be-1c79da777a13?t=1722015239053\" rel=\"noopener\">Network Grievance Redressal Nodal Officer list</a>. For cases already with the RBI Ombudsman, SBI lists the officials who handle them at each circle in the <a href=\"https://sbi.bank.in/documents/53471/57869312/Level+4+AGM+BO+and+Support+Officials+BO+at+CirclesV2.pdf/da55f3e0-3f4b-cef2-bab0-d28f3daa093f?t=1774593842494\" rel=\"noopener\">Level 4 contact list</a>. We link these lists instead of copying names, because SBI updates them. For the same ladder at another bank, see our <a href=\"../hdfc-bank-complaint-escalation/\">HDFC Bank complaint escalation</a> guide.</p>"
   },
   {
    "type": "section",
@@ -211,6 +211,7 @@
   "national-consumer-helpline-complaint",
   "cpgrams-grievance-complaint",
   "consumer-court-complaint-e-jagriti",
+  "hdfc-bank-complaint-escalation",
   "banks"
  ],
  "resources_html": "",
